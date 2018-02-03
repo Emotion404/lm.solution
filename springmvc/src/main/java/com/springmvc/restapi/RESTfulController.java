@@ -20,6 +20,7 @@ public class RESTfulController {
     @Qualifier("userService")
     private UserService userService;
 
+    //-------------------Retrieve All Users--------------------------------------------------------
     @RequestMapping(value = "/user",method = RequestMethod.GET)
     public ResponseEntity<List<User>> listAllUsers(){
 

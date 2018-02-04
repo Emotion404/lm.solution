@@ -9,7 +9,7 @@
     <description>配置Spring配置文件路径</description>
     <param-name>contextConfigLocation</param-name>
     <!-- 如果是监听多个文件，可用‘，’隔开 -->
-    <param-value>classpath:spring-*.xml</param-value>
+    <param-value>classpath:spring-context.xml</param-value>
   </context-param>
 
 

@@ -8,4 +8,10 @@ public interface UserService {
 
     List<User> findAllUsers();
 
+    User findById(long id);
+
+    boolean isUserExist(User user);
+
+    void saveUser(User user);
+
 }

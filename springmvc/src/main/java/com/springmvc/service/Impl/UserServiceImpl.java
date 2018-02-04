@@ -25,4 +25,29 @@ public class UserServiceImpl implements UserService {
         return userMapper.findAllUsers();
         //return null;
     }
+
+    @Override
+    public User findById(long id) {
+        //return null;
+
+        return userMapper.findById(id);
+    }
+
+    @Override
+    public boolean isUserExist(User user) {
+
+        User userDB=userMapper.findByName(user.getName());
+        if(userDB==null){
+            return  false;
+        }else {
+            return true;
+        }
+    }
+
+    @Override
+    public void saveUser(User user) {
+        userMapper.saveUser(user);
+    }
+
+
 }

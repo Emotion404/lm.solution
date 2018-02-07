@@ -1,4 +1,4 @@
-package com.springmvc.controller;
+package com.springmvc.controller.excel;
 
 import com.springmvc.common.ImportExcelUtil;
 import com.springmvc.model.InfoVo;

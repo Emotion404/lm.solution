@@ -1,4 +1,4 @@
-package com.springmvc.restapi;
+package com.springmvc.controller.restapi;
 
 import com.springmvc.entity.User;
 import com.springmvc.service.UserService;

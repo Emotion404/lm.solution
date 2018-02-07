@@ -1,4 +1,4 @@
-package com.springmvc.controller;
+package com.springmvc.controller.fileupload;
 
 import com.springmvc.common.Files_Utils_DG;
 import org.springframework.stereotype.Controller;

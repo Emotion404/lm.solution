@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<a href="/main"> Excel </a><br>
+<a href="/excel"> Excel </a><br>
 <a href="/upload">文件上传下载</a>
 <br>
 <a href="/ImageValidateCodeLogin">登录--图片验证码</a>

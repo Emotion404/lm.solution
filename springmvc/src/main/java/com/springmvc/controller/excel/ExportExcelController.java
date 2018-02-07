@@ -1,4 +1,4 @@
-package com.springmvc.controller;
+package com.springmvc.controller.excel;
 
 import com.springmvc.common.ExportExcelUtils;
 import net.sf.json.JSONObject;

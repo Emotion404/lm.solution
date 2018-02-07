@@ -1,4 +1,4 @@
-package com.springmvc.controller;
+package com.springmvc.controller.login;
 
 import com.springmvc.common.ColorHelper;
 import org.springframework.stereotype.Controller;

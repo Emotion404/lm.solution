@@ -3,6 +3,8 @@ package com.springmvc.dao.provider;
 import com.springmvc.entity.User;
 import org.apache.ibatis.jdbc.SQL;
 
+import java.util.Set;
+
 public class UserDynaSqlProvider {
 
     public String saveUser(final User user) {
@@ -22,5 +24,22 @@ public class UserDynaSqlProvider {
         }.toString();
     }
 
+    public String updateUser(final User user){
+        return  new SQL(){
+            {
+                UPDATE("user");
+                if(user.getName()!=null && !"".equals(user.getName())){
+                    SET(" name=#{name} ");
+                }
+                if(user.getAge()!=null && !"".equals(user.getAge())){
+                    SET(" age=#{age} ");
+                }
+                if(user.getSalary()!=null){
+                    SET(" salary=#{salary} ");
+                }
+                WHERE(" id=#{id} ");
+            }
+        }.toString();
+    }
 
 }

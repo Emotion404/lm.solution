@@ -2,10 +2,7 @@ package com.springmvc.dao;
 
 import com.springmvc.dao.provider.UserDynaSqlProvider;
 import com.springmvc.entity.User;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.InsertProvider;
-import org.apache.ibatis.annotations.Options;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
@@ -28,4 +25,7 @@ public interface UserMapper {
     @InsertProvider(type= UserDynaSqlProvider.class,method = "saveUser")
     @Options(useGeneratedKeys = true,keyColumn = "id")
     Integer saveUser(User user);
+
+    @UpdateProvider(type = UserDynaSqlProvider.class,method = "updateUser")
+    Integer updateUser(User user);
 }

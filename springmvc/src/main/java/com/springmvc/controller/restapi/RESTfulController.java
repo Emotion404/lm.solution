@@ -78,4 +78,28 @@ public class RESTfulController {
 
     }
 
+    //------------------- Update a User --------------------------------------------------------
+    @RequestMapping(value = "/user/{id}",method = RequestMethod.PUT)
+    public ResponseEntity<User> updateUser(
+            @PathVariable("id") long id,
+            @RequestBody User user){
+
+        System.out.println("Updating User " + id);
+
+        User currentUser=userService.findById(id);
+
+        if(currentUser==null){
+            System.out.println("User with id " + id + " not found");
+            return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
+        }
+
+        currentUser.setName(user.getName());
+        currentUser.setAge(user.getAge());
+        currentUser.setSalary(user.getSalary());
+
+        userService.updateUser(user);
+        return new ResponseEntity<User>(currentUser, HttpStatus.OK);
+
+    }
+
 }

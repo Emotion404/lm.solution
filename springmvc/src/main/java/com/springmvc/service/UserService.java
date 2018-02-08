@@ -2,6 +2,7 @@ package com.springmvc.service;
 
 import com.springmvc.entity.User;
 
+import javax.jws.soap.SOAPBinding;
 import java.util.List;
 
 public interface UserService {
@@ -13,5 +14,7 @@ public interface UserService {
     boolean isUserExist(User user);
 
     void saveUser(User user);
+
+    void updateUser(User user);
 
 }

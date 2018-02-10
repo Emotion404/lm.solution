@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/solution/common/common.iml" filepath="$PROJECT_DIR$/solution/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution/mapper/mapper.iml" filepath="$PROJECT_DIR$/solution/mapper/mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution/pojo/pojo.iml" filepath="$PROJECT_DIR$/solution/pojo/pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution/service/service.iml" filepath="$PROJECT_DIR$/solution/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution/solution.iml" filepath="$PROJECT_DIR$/solution/solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution/web/web.iml" filepath="$PROJECT_DIR$/solution/web/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution/webapi/webapi.iml" filepath="$PROJECT_DIR$/solution/webapi/webapi.iml" />
+    </modules>
+  </component>
+</project>

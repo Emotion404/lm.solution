@@ -28,11 +28,18 @@
         </dependency>
 
         <!--Libary-->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+        <dependency><!-- mybatis核心包 -->
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+        </dependency>
+        <dependency><!-- Mysql数据库驱动包 -->
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency><!-- connection pool -->
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 </project>

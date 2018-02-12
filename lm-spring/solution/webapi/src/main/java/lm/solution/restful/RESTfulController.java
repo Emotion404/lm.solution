@@ -15,8 +15,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import javax.jws.soap.SOAPBinding;
 import java.util.List;
-
+/**
+ * @RestController 相当于 @Controller 与 @ResponseBody 的结合体
+ * */
 @RestController
 @RequestMapping(value = "/api")
 public class RESTfulController {
@@ -103,6 +106,34 @@ public class RESTfulController {
 
         userService.updateUser(user);
         return new ResponseEntity<User>(currentUser, HttpStatus.OK);
+
+    }
+
+    //------------------- Delete a User --------------------------------------------------------
+    @RequestMapping(value = "/user/{id}",method = RequestMethod.DELETE)
+    public ResponseEntity<User> deleteUser(@PathVariable("id") long id){
+
+        System.out.println("Fetching & Deleting User with id " + id);
+
+        User user=userService.findById(id);
+        if(user==null){
+            System.out.println("Unable to delete. User with id " + id + " not found");
+            return new ResponseEntity<User>(HttpStatus.NOT_FOUND);
+        }
+
+        userService.deleteUser(id);
+        return new ResponseEntity<User>(HttpStatus.NO_CONTENT);
+
+    }
+
+    //------------------- Delete All Users --------------------------------------------------------
+    @RequestMapping(value="/user",method = RequestMethod.DELETE)
+    public ResponseEntity<User> deleteAllUsers() {
+
+        System.out.println("Deleting All Users");
+
+        userService.deleteAllUsers();
+        return new ResponseEntity<User>(HttpStatus.NO_CONTENT);
 
     }
 

@@ -31,7 +31,8 @@ public class RESTfulController {
     //-------------------Retrieve All Users--------------------------------------------------------
     @RequestMapping(
             value = "/user",
-            method = RequestMethod.GET)
+            method = RequestMethod.GET,
+            produces={"application/json;;charset=UTF-8"})
     public ResponseEntity<List<User>> listAllUsers() {
 
         List<User> users = userService.findAllUsers();

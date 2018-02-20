@@ -27,6 +27,8 @@
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.9" />
           <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" />
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.8" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.4" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.7.4" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.4" />
           <element id="library" level="project" name="Maven: cglib:cglib:3.1" />

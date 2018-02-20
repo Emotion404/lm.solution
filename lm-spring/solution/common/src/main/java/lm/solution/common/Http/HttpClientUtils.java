@@ -1,6 +1,5 @@
-package lm.solution.web.config.beans;
+package lm.solution.common.Http;
 
-import org.apache.commons.collections.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpEntity;
@@ -12,6 +11,8 @@ import org.springframework.util.MultiValueMap;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.commons.collections.MapUtils;
 
 public class HttpClientUtils {
 
@@ -67,13 +68,13 @@ public class HttpClientUtils {
         return responseEntity.getBody();
     }
 
-    public static void doDelete(String url){
+    public static void doDelete(String url) {
 
         RestClient.getClient().delete(url);
 
     }
 
-    public static <M> void doPut(String url,M model) {
+    public static <M> void doPut(String url, M model) {
 
         RestClient.getClient().put(url, model);
 
@@ -92,7 +93,8 @@ public class HttpClientUtils {
             headers.add("Accept", "application/json");
 
             HttpEntity<String> entity = new HttpEntity<String>(null, headers);
-            ResponseEntity<String> response = RestClient.getClient().exchange(url, HttpMethod.GET, entity, String.class, new HashMap() {});
+            ResponseEntity<String> response = RestClient.getClient().exchange(url, HttpMethod.GET, entity, String.class, new HashMap() {
+            });
 
             return response.getBody();
             //return RestClient.getClient().getForObject(url,String.class);
@@ -105,3 +107,4 @@ public class HttpClientUtils {
     }
 
 }
+

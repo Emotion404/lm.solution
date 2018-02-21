@@ -1,6 +1,6 @@
 package lm.solution.web.excel;
 
-import lm.solution.common.ExportExcelUtils;
+import lm.solution.common.excel.ExportExcelUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;

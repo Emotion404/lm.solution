@@ -1,6 +1,6 @@
 package lm.solution.web.excel;
 
-import lm.solution.common.ImportExcelUtil;
+import lm.solution.common.excel.ImportExcelUtil;
 import lm.solution.dto.ExcelDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

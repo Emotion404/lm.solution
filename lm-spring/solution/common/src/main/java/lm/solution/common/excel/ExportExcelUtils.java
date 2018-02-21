@@ -1,4 +1,4 @@
-package lm.solution.common;
+package lm.solution.common.excel;
 
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;

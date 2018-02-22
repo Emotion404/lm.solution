@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <!-- Servlet 3.0或者以上不需要配置 -->
+    <!--<listener>-->
+        <!--<listener-class>-->
+            <!--com.sun.xml.ws.transport.http.servlet.WSServletContextListener-->
+        <!--</listener-class>-->
+    <!--</listener>-->
+    <!--<servlet>-->
+        <!--<servlet-name>Service</servlet-name>-->
+        <!--<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>-->
+        <!--<load-on-startup>1</load-on-startup>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>Service</servlet-name>-->
+        <!--<url-pattern>/ri/SquareRootServer</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <welcome-file-list>
+        <welcome-file>/WEB-INF/index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>

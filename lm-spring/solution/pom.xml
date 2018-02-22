@@ -13,6 +13,7 @@
         <module>mapper</module>
         <module>pojo</module>
         <module>console</module>
+        <module>webservice</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -76,6 +77,8 @@
         <!--org.apache.httpcomponents-->
         <httpcore.version>4.4.8</httpcore.version>
         <httpclient.version>4.5.4</httpclient.version>
+        <!-- jaxws-rt -->
+        <jaxwsRt.version>2.3.0</jaxwsRt.version>
     </properties>
 
     <dependencies>
@@ -345,7 +348,12 @@
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
             </dependency>
-
+            <!-- com.sun.xml.ws/jaxws-rt -->
+            <dependency>
+                <groupId>com.sun.xml.ws</groupId>
+                <artifactId>jaxws-rt</artifactId>
+                <version>${jaxwsRt.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

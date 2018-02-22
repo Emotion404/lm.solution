@@ -12,6 +12,7 @@
         <module>service</module>
         <module>mapper</module>
         <module>pojo</module>
+        <module>console</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -29,7 +30,7 @@
         <!-- jackson -->
         <jackson.version>2.9.4</jackson.version>
         <!-- junit -->
-        <junit.version>4.11</junit.version>
+        <junit.version>4.12</junit.version>
         <!-- aspectj -->
         <aspectj.version>1.7.4</aspectj.version>
         <!-- cglib -->
@@ -50,6 +51,8 @@
         <jstl.version>1.2</jstl.version>
         <!--json-lib-->
         <jsonLib.version>2.1</jsonLib.version>
+        <!--jackson old-->
+        <jacksonOld.version>1.9.13</jacksonOld.version>
         <!--dom4j-->
         <dom4j.version>1.6.1</dom4j.version>
         <!--ehcache core-->
@@ -133,6 +136,27 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
+        </dependency>
+        <!-- 映入JSON jackson -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
     </dependencies>
 
@@ -220,32 +244,23 @@
                 <artifactId>jstl</artifactId>
                 <version>${jstl.version}</version>
             </dependency>
-            <!-- 映入JSON jackson -->
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-annotations</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-databind</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.fasterxml.jackson.dataformat</groupId>
-                <artifactId>jackson-dataformat-xml</artifactId>
-                <version>${jackson.version}</version>
-            </dependency>
+            <!-- 映入JSON lib -->
             <dependency>
                 <groupId>net.sf.json-lib</groupId>
                 <artifactId>json-lib</artifactId>
                 <version>${jsonLib.version}</version>
                 <classifier>jdk15</classifier>
+            </dependency>
+            <!-- jackson old -->
+            <dependency>
+                <groupId>org.codehaus.jackson</groupId>
+                <artifactId>jackson-core-asl</artifactId>
+                <version>${jacksonOld.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.jackson</groupId>
+                <artifactId>jackson-mapper-asl</artifactId>
+                <version>${jacksonOld.version}</version>
             </dependency>
             <!-- 用dom4j解析xml文件 -->
             <dependency>
@@ -333,6 +348,26 @@
 
         </dependencies>
     </dependencyManagement>
+
+    <!-- tomcat8-maven-plugin 中央仓没有，所以配置 plugin 仓地址 -->
+    <pluginRepositories>
+        <pluginRepository>
+            <id>alfresco-public</id>
+            <url>https://artifacts.alfresco.com/nexus/content/groups/public</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>alfresco-public-snapshots</id>
+            <url>https://artifacts.alfresco.com/nexus/content/groups/public-snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
+            <id>beardedgeeks-releases</id>
+            <url>http://beardedgeeks.googlecode.com/svn/repository/releases</url>
+        </pluginRepository>
+    </pluginRepositories>
 
     <build>
         <plugins>

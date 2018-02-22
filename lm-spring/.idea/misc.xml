@@ -13,6 +13,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/solution/unittest/pom.xml" />
         <option value="$PROJECT_DIR$/webapi/pom.xml" />
       </set>
     </option>

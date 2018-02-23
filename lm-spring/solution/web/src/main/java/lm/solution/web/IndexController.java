@@ -76,4 +76,7 @@ public class IndexController {
         return "restful/user";
     }
 
+    @RequestMapping("/jaxwsri")
+    public String jaxWsRi(){ return "jaxwsri/wsri"; }
+
 }

@@ -79,4 +79,7 @@ public class IndexController {
     @RequestMapping("/jaxwsri")
     public String jaxWsRi(){ return "jaxwsri/wsri"; }
 
+    @RequestMapping("/redis")
+    public String redis(){return "redis/jedis";}
+
 }

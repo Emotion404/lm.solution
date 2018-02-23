@@ -79,6 +79,8 @@
         <httpclient.version>4.5.4</httpclient.version>
         <!-- jaxws-rt -->
         <jaxwsRt.version>2.3.0</jaxwsRt.version>
+        <!-- jedis -->
+        <jedis.version>2.9.0</jedis.version>
     </properties>
 
     <dependencies>
@@ -353,6 +355,12 @@
                 <groupId>com.sun.xml.ws</groupId>
                 <artifactId>jaxws-rt</artifactId>
                 <version>${jaxwsRt.version}</version>
+            </dependency>
+            <!-- redis.clients/jedis -->
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

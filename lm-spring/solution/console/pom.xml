@@ -26,6 +26,11 @@
             <artifactId>pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>lm.solution</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
         <!-- Libary -->
         <!-- jackson old -->

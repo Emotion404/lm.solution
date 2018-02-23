@@ -18,7 +18,10 @@
     <description>Spring Configuration</description>
 
     <!--引入属性文件 -->
-    <context:property-placeholder location="classpath:dbconfig.properties" />
+    <context:property-placeholder
+            location="classpath:dbconfig.properties,
+                      classpath:redis.properties"
+            ignore-unresolvable="true"/>
 
     <!-- dataSource 配置数据源 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">

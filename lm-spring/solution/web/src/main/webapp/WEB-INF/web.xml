@@ -13,7 +13,10 @@
     <context-param>
         <description>配置Spring配置文件路径</description>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring-context.xml</param-value><!-- 如果是监听多个文件，可用‘，’隔开 -->
+        <param-value>
+            classpath:spring-context.xml,
+            classpath:spring-jedis.xml
+        </param-value><!-- 如果是监听多个文件，可用‘，’隔开 -->
     </context-param>
 
     <listener>

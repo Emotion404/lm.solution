@@ -1,6 +1,7 @@
 package lm.solution.console;
 
-import lm.solution.jaxws.JaxWsTest;
+import lm.solution.console.rabbitmq.Customer;
+import lm.solution.console.rabbitmq.Producer;
 
 public class MainEntry {
 
@@ -16,7 +17,20 @@ public class MainEntry {
         /**
          * jax-ws test
          * */
-        new JaxWsTest().publishAndClient();
+//        new JaxWsTest().publishAndClient();
+
+        /**
+         * rabbitmq
+         * */
+//        new Producer().publishMsg001();
+//        new Customer().consume001();
+        /*-------------------------------------*/
+        new Producer().pulishTask002();
+        new Customer().consumeTask002(false);
+        //new Customer().consumeTask002(true);
+        /*-------------------------------------*/
+
+
     }
 
 }

@@ -1,5 +1,6 @@
 
 本机MQ环境：
+端口：5672
 user: lm 2018
 管理后台：http://localhost:15672
 virtual host：lmQueue

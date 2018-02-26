@@ -81,6 +81,8 @@
         <jaxwsRt.version>2.3.0</jaxwsRt.version>
         <!-- jedis -->
         <jedis.version>2.9.0</jedis.version>
+        <!-- rabbitmq -->
+        <amqpClient.version>5.1.2</amqpClient.version>
     </properties>
 
     <dependencies>
@@ -361,6 +363,12 @@
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
+            </dependency>
+            <!-- com.rabbitmq/amqp-client -->
+            <dependency>
+                <groupId>com.rabbitmq</groupId>
+                <artifactId>amqp-client</artifactId>
+                <version>${amqpClient.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

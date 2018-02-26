@@ -9,31 +9,6 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
-//public class WebInitializer
-//        extends AbstractAnnotationConfigDispatcherServletInitializer {
-//
-//    //
-//    @Override
-//    protected Class<?>[] getRootConfigClasses() {
-////        return new Class<?>[]{ContextConfig.class};
-//        return new Class[0];
-//    }
-//
-//    // Spring mvc 容器
-//    @Override
-//    protected Class<?>[] getServletConfigClasses() {
-//        return new Class<?>[]{WebConfig.class};
-//    }
-//
-//    // DispatcherServlet映射,从"/"开始
-//    @Override
-//    protected String[] getServletMappings() {
-//        return new String[] {"/"};
-//    }
-//
-//}
-
-
 public class WebInitializer implements WebApplicationInitializer {
 
     @Override
@@ -42,7 +17,8 @@ public class WebInitializer implements WebApplicationInitializer {
         context.register(WebConfig.class);
         context.setConfigLocation("classpath:spring-mvc.xml");
         context.setServletContext(servletContext);
-        ServletRegistration.Dynamic servlet = servletContext.addServlet("dispatcher",
+        ServletRegistration.Dynamic servlet = servletContext.addServlet(
+                "dispatcher",
                 new DispatcherServlet(context));
         servlet.addMapping("/");
         servlet.setLoadOnStartup(1);

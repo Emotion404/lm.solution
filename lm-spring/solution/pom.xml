@@ -83,6 +83,8 @@
         <jedis.version>2.9.0</jedis.version>
         <!-- rabbitmq -->
         <amqpClient.version>5.1.2</amqpClient.version>
+        <!--fastjson-->
+        <fastjson.version>1.2.46</fastjson.version>
     </properties>
 
     <dependencies>
@@ -370,6 +372,13 @@
                 <artifactId>amqp-client</artifactId>
                 <version>${amqpClient.version}</version>
             </dependency>
+            <!-- com.alibaba/fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 

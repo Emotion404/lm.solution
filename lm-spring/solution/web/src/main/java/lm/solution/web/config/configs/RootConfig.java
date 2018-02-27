@@ -1,9 +1,11 @@
 package lm.solution.web.config.configs;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 @Configuration
 //@ComponentScan(basePackages = "")
-public class ContextConfig {
+@Import({RedisConfig.class})
+public class RootConfig {
 
 }

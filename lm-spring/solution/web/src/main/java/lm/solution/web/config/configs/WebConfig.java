@@ -45,7 +45,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     // 配置静态文件处理
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+
         configurer.enable();
+
     }
 
 }

@@ -1,28 +1,31 @@
 package lm.solution.web.config;
 
 import lm.solution.web.config.configs.WebConfig;
-import org.springframework.web.WebApplicationInitializer;
-import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
-import org.springframework.web.servlet.DispatcherServlet;
+import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
+public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
-public class WebInitializer implements WebApplicationInitializer {
 
+    // root配置类初始化
+    // 指定 Root WebApplicationContext 类，这个类必须@Configuration来注解，从而代替XML配置文件
     @Override
-    public void onStartup(ServletContext servletContext) throws ServletException {
-        AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-        context.register(WebConfig.class);
-        context.setConfigLocation("classpath:spring-mvc.xml");
-        context.setServletContext(servletContext);
-        ServletRegistration.Dynamic servlet = servletContext.addServlet(
-                "dispatcher",
-                new DispatcherServlet(context));
-        servlet.addMapping("/");
-        servlet.setLoadOnStartup(1);
+    protected Class<?>[] getRootConfigClasses() {
+        //return new Class<?>[]{RootConfig.class};
+        return new Class[0];
+    }
+
+    // web配置类初始化
+    // 指定 Servlet WebApplicationContext 类，这个类必须@Configuration来注解，从而代替XML配置文件
+    @Override
+    protected Class<?>[] getServletConfigClasses() {
+        return new Class<?>[]{WebConfig.class};
+    }
+
+    // 映射根路径初始化
+    // 指定 Servlet mappings
+    @Override
+    protected String[] getServletMappings() {
+        return new String[]{"/"};
     }
 }
-
 

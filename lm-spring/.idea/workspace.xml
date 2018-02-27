@@ -6,7 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="" />
+    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/dto/properties/TestInfoSettings.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RedisConfig.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/solution/pojo/pojo.iml" afterPath="$PROJECT_DIR$/solution/pojo/pojo.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" afterPath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" />
+      <change beforePath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/ContextConfig.java" afterPath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java" />
+      <change beforePath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" afterPath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" />
+      <change beforePath="$PROJECT_DIR$/solution/web/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/solution/web/src/main/resources/redis.properties" />
+      <change beforePath="$PROJECT_DIR$/../文档.txt" afterPath="$PROJECT_DIR$/../文档.txt" />
+    </list>
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
     <ignored path="$PROJECT_DIR$/solution/webapi/target/" />
@@ -45,59 +55,125 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Producer.java">
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#publishMsg001#0;class#Producer#0" expanded="false" />
-                <element signature="method#pulishTask002#0;class#Producer#0" expanded="false" />
-                <element signature="method#publishFanout003#0;class#Producer#0" expanded="false" />
-                <element signature="method#publishDirect004#0;class#Producer#0" expanded="false" />
-                <element signature="method#publishTopic005#0;class#Producer#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="984">
-              <caret line="412" column="45" lean-forward="false" selection-start-line="412" selection-start-column="45" selection-end-line="412" selection-end-column="45" />
-              <folding>
-                <element signature="method#consume001#0;class#Customer#0" expanded="false" />
-                <element signature="method#consumeTask002#0;class#Customer#0" expanded="false" />
-                <element signature="method#doWork#0;class#Customer#0" expanded="false" />
-                <element signature="method#consumeFanout003#0;class#Customer#0" expanded="false" />
-                <element signature="method#consumeDirect004#0;class#Customer#0" expanded="false" />
-                <element signature="method#consumeDirect004_2#0;class#Customer#0" expanded="false" />
-                <element signature="method#consumeTopic005_1#0;class#Customer#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainEntry.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/MainEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MqConst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/rabbitmq/MqConst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="94">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="24" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-jedis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-jedis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#458#483#1" expanded="true" />
+                <element signature="e#527#550#1" expanded="true" />
+                <element signature="e#593#621#1" expanded="true" />
+                <element signature="e#669#697#1" expanded="true" />
+                <element signature="e#1083#1098#1" expanded="true" />
+                <element signature="e#1137#1152#1" expanded="true" />
+                <element signature="e#1192#1210#1" expanded="true" />
+                <element signature="e#1253#1272#1" expanded="true" />
+                <element signature="e#1315#1334#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisOpRedisController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/redis/JedisOpRedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="method#viewResolver#0;class#WebConfig#0" expanded="false" />
+                <element signature="method#multipartResolver#0;class#WebConfig#0" expanded="false" />
+                <element signature="method#configureDefaultServletHandling#0;class#WebConfig#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,9 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution/unittest/src/main/java/lm/solution/test/SimpleTest.java" />
-        <option value="$PROJECT_DIR$/solution/unittest/pom.xml" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/json/Jackson2xTest.java" />
         <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/model/jaxws/SquareRootServerImpl.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/jaxws/JaxWsTest.java" />
         <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/model/jaxwsri/SquareRootServerImpl.java" />
@@ -172,14 +245,11 @@
         <option value="$PROJECT_DIR$/solution/web/src/main/resources/spring-jedis.xml" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/redis/JedisOpRedisController.java" />
         <option value="$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/views/redis/jedis.jsp" />
-        <option value="$PROJECT_DIR$/solution/web/src/main/resources/redis.properties" />
         <option value="$PROJECT_DIR$/solution/console/src/main/resources/redis.properties" />
         <option value="$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/redis/RedisPoolFactory.java" />
         <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/model/jaxwsri/SquareRootServer.java" />
         <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/model/jaxws/SquareRootServer.java" />
         <option value="$PROJECT_DIR$/solution/Docs/mapper.txt" />
-        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/ContextConfig.java" />
-        <option value="$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/rabbitmq/Producer.java" />
         <option value="$PROJECT_DIR$/solution/console/pom.xml" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/MqEnum.java" />
@@ -190,13 +260,19 @@
         <option value="$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/rabbitmq/ConfigRabbitMQ.java" />
         <option value="$PROJECT_DIR$/solution/pom.xml" />
         <option value="$PROJECT_DIR$/solution/web/pom.xml" />
-        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" />
-        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" />
-        <option value="$PROJECT_DIR$/solution/web/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Customer.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/MainEntry.java" />
         <option value="$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/rabbitmq/MqConst.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Producer.java" />
+        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/dto/properties/TestInfoSettings.java" />
+        <option value="$PROJECT_DIR$/solution/web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" />
+        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/ContextConfig.java" />
+        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java" />
+        <option value="$PROJECT_DIR$/solution/web/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" />
       </list>
     </option>
   </component>
@@ -236,15 +312,17 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="849" />
-    <option name="y" value="329" />
-    <option name="width" value="1069" />
-    <option name="height" value="710" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="750" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -257,7 +335,132 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -271,10 +474,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\易果\Java\lm-spring\solution\web\src\main\resources" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\webservice\src\main\webapp\WEB-INF" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="lm.solution.common.rabbitmq" />
       <recent name="lm.solution.console" />
@@ -286,6 +485,12 @@
       <recent name="F:\易果\Java\lm-spring\solution\Libs\.m2\repository\org\apache\tomcat\maven\tomcat8-maven-plugin\3.0-r1756463" />
       <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\java\lm\solution\web\jaxwsri" />
       <recent name="F:\易果\Java\lm-spring\solution\web\src\main\webapp\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources\old" />
+      <recent name="F:\易果\Java\lm-spring\solution\web\src\main\resources" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\webservice\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +505,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.java-console">
+  <component name="RunManager" selected="Tomcat Server.tomcat-web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -360,6 +565,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="solution" />
+      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -624,18 +841,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="solution" />
-      <envs />
-    </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.java-console" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat-webservice" />
@@ -685,11 +890,12 @@
       <workItem from="1519693527293" duration="3763000" />
       <workItem from="1519714689868" duration="6081000" />
       <workItem from="1519723499208" duration="2506000" />
+      <workItem from="1519736311905" duration="7688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187524000" />
+    <option name="totallyTimeSpent" value="195212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,12 +907,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="849" y="329" width="1069" height="710" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="750" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39655173" sideWeight="0.5037554" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31609195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41427156" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.413767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -721,10 +927,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38235295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3808752" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44499505" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836612" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5120773" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5056361" order="2" side_tool="true" content_ui="tabs" />
@@ -759,33 +965,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Producer.java</url>
-          <line>20</line>
+          <line>22</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Customer.java</url>
-          <line>17</line>
+          <line>18</line>
           <properties />
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Customer.java</url>
-          <line>196</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Customer.java</url>
-          <line>306</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Producer.java</url>
-          <line>179</line>
-          <properties />
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -800,20 +988,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/views/restful/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/Docs/项目启动顺序.txt" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -851,27 +1025,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/views/redis/jedis.jsp" />
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/redis/JedisOpRedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPoolConfig.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/Pool.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class" />
     <entry file="file://$PROJECT_DIR$/solution/console/src/main/resources/redis.properties" />
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/Docs/redis.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -943,13 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-jedis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/redis/RedisPoolFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -958,21 +1108,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/rabbitmq/Producer.java" />
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/console/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -1001,13 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/ContextConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1106,31 +1234,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/excel/UploadExcelControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-929">
           <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="8" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1141,52 +1248,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="412" column="45" lean-forward="false" selection-start-line="412" selection-start-column="45" selection-end-line="412" selection-end-column="45" />
-          <folding>
-            <element signature="method#consume001#0;class#Customer#0" expanded="false" />
-            <element signature="method#consumeTask002#0;class#Customer#0" expanded="false" />
-            <element signature="method#doWork#0;class#Customer#0" expanded="false" />
-            <element signature="method#consumeFanout003#0;class#Customer#0" expanded="false" />
-            <element signature="method#consumeDirect004#0;class#Customer#0" expanded="false" />
-            <element signature="method#consumeDirect004_2#0;class#Customer#0" expanded="false" />
-            <element signature="method#consumeTopic005_1#0;class#Customer#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/rabbitmq/MqConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="244" column="1" lean-forward="false" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#publishMsg001#0;class#Producer#0" expanded="false" />
             <element signature="method#pulishTask002#0;class#Producer#0" expanded="false" />
             <element signature="method#publishFanout003#0;class#Producer#0" expanded="false" />
             <element signature="method#publishDirect004#0;class#Producer#0" expanded="false" />
+            <element signature="e#4408#4416#0" expanded="false" />
+            <element signature="docComment;method#publishTopic005#0;class#Producer#0" expanded="false" />
             <element signature="method#publishTopic005#0;class#Producer#0" expanded="false" />
+            <element signature="method#fib#0;class#Producer#0" expanded="false" />
+            <element signature="method#publishRpc006#0;class#Producer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/rabbitmq/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="428" column="1" lean-forward="false" selection-start-line="428" selection-start-column="1" selection-end-line="428" selection-end-column="1" />
+          <folding>
+            <element signature="method#consume001#0;class#Customer#0" expanded="false" />
+            <element signature="e#1014#1056#0" expanded="false" />
+            <element signature="class#1157:1634" expanded="false" />
+            <element signature="method#handleDelivery#0;class#1157:1634" expanded="false" />
+            <element signature="method#consumeTask002#0;class#Customer#0" expanded="false" />
+            <element signature="class#2632:3637" expanded="false" />
+            <element signature="method#handleDelivery#0;class#2632:3637" expanded="false" />
+            <element signature="method#doWork#0;class#Customer#0" expanded="false" />
+            <element signature="method#consumeFanout003#0;class#Customer#0" expanded="false" />
+            <element signature="class#5045:5729" expanded="false" />
+            <element signature="method#handleDelivery#0;class#5045:5729" expanded="false" />
+            <element signature="method#consumeDirect004#0;class#Customer#0" expanded="false" />
+            <element signature="class#7095:7630" expanded="false" />
+            <element signature="method#handleDelivery#0;class#7095:7630" expanded="false" />
+            <element signature="method#consumeDirect004_2#0;class#Customer#0" expanded="false" />
+            <element signature="class#8964:9515" expanded="false" />
+            <element signature="method#handleDelivery#0;class#8964:9515" expanded="false" />
+            <element signature="method#consumeTopic005_1#0;class#Customer#0" expanded="false" />
+            <element signature="class#10896:11589" expanded="false" />
+            <element signature="method#handleDelivery#0;class#10896:11589" expanded="false" />
+            <element signature="method#consumeTopic005_2#0;class#Customer#0" expanded="false" />
+            <element signature="class#12974:13709" expanded="false" />
+            <element signature="method#handleDelivery#0;class#12974:13709" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/MainEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        <state relative-caret-position="459">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/rabbitmq/MqConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/dto/properties/TestInfoSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#210#211#0" expanded="false" />
+            <element signature="e#242#243#0" expanded="false" />
+            <element signature="e#280#281#0" expanded="false" />
+            <element signature="e#310#311#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
+            <element signature="e#394#395#0" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+            <element signature="e#458#459#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/redis/JedisOpRedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="method#viewResolver#0;class#WebConfig#0" expanded="false" />
+            <element signature="method#multipartResolver#0;class#WebConfig#0" expanded="false" />
+            <element signature="method#configureDefaultServletHandling#0;class#WebConfig#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-jedis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#458#483#1" expanded="true" />
+            <element signature="e#527#550#1" expanded="true" />
+            <element signature="e#593#621#1" expanded="true" />
+            <element signature="e#669#697#1" expanded="true" />
+            <element signature="e#1083#1098#1" expanded="true" />
+            <element signature="e#1137#1152#1" expanded="true" />
+            <element signature="e#1192#1210#1" expanded="true" />
+            <element signature="e#1253#1272#1" expanded="true" />
+            <element signature="e#1315#1334#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -5,6 +5,7 @@ import lm.solution.common.rabbitmq.ConfigRabbitMQ;
 import lm.solution.common.rabbitmq.MqConst;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.util.concurrent.TimeoutException;
 
 public class Customer {
@@ -158,10 +159,266 @@ public class Customer {
             System.out.println("ReceiveLogs1 Waiting for messages");
             Consumer consumer=new DefaultConsumer(channel){
 
-//                @Override
-//                public
+                @Override
+                public void handleDelivery(
+                        String consumerTag,
+                        Envelope envelope,
+                        AMQP.BasicProperties properties,
+                        byte[] body
+                ) throws IOException{
+
+                    String message=new String(body,"UTF-8");
+                    try{
+                        Thread.sleep(1000);
+                    }catch (InterruptedException ie){
+                        ie.printStackTrace();
+                    }
+                    System.out.println("ReceiveLogs1 Received '" + message + "'");
+
+                }
 
             };
+
+            // 队列会自动删除
+            channel.basicConsume(queueName,true,consumer);
+
+        }catch (IOException | TimeoutException e){
+            e.printStackTrace();
+        }
+
+    }
+
+    // 路由关键字
+    private static final String[] routingKeys004 =new String[]{"info" ,"warning"};
+    public void consumeDirect004(){
+
+        try {
+
+            ConnectionFactory factory = new ConnectionFactory();
+            ConfigRabbitMQ.configConnectionFactory(factory);
+
+            Connection connection = factory.newConnection();
+            Channel channel=connection.createChannel();
+
+            // 声明交换器
+            channel.exchangeDeclare(MqConst.EXCHANGE_DIRECT_LOG,"direct");
+
+            // 获取匿名队列名称
+            String queueName=channel.queueDeclare().getQueue();
+
+            // 根据路由关键字进行绑定
+            for(String routingKey : routingKeys004){
+                channel.queueBind(queueName,MqConst.EXCHANGE_DIRECT_LOG,routingKey);
+                System.out.println(
+                        "ReceiveLogsDirect1 exchange:"
+                                +MqConst.EXCHANGE_DIRECT_LOG+","
+                                +" queue:"+queueName+", BindRoutingKey:"
+                                + routingKey
+                );
+            }
+            System.out.println("ReceiveLogsDirect1  Waiting for messages");
+
+            //
+            Consumer consumer =new DefaultConsumer(channel){
+
+                @Override
+                public void handleDelivery(
+                        String  consumerTag,
+                        Envelope envelope,
+                        AMQP.BasicProperties properties,
+                        byte[] body
+                ) throws IOException{
+
+                    String message=new String(body,"UTF-8");
+                    System.out.println("ReceiveLogsDirect1 Received '" + envelope.getRoutingKey() + "':'" + message + "'");
+
+                }
+
+            };
+
+            //
+            channel.basicConsume(queueName,true,consumer);
+
+        }catch (IOException | TimeoutException e){
+            e.printStackTrace();
+        }
+
+    }
+    private static final String[] routingKeys004_2={"error"};
+    public void consumeDirect004_2(){
+
+        try {
+
+            ConnectionFactory factory = new ConnectionFactory();
+            ConfigRabbitMQ.configConnectionFactory(factory);
+
+            Connection connection = factory.newConnection();
+            Channel channel=connection.createChannel();
+
+            // 声明交换器
+            channel.exchangeDeclare(MqConst.EXCHANGE_DIRECT_LOG,"direct");
+
+            // 获取匿名队列名称
+            String queueName=channel.queueDeclare().getQueue();
+
+            // 根据路由关键字进行多重绑定
+            for(String routekey : routingKeys004_2){
+                channel.queueBind(queueName,MqConst.EXCHANGE_DIRECT_LOG,routekey);
+                System.out.println(
+                        "ReceiveLogsDirect2 exchange:"
+                                +MqConst.EXCHANGE_DIRECT_LOG+", queue:"
+                                +queueName
+                                +", BindRoutingKey:"
+                                + routekey);
+            }
+            System.out.println("ReceiveLogsDirect2 Waiting for messages");
+
+            //
+            Consumer consumer=new DefaultConsumer(channel){
+
+                @Override
+                public void handleDelivery(
+                        String consumerTag,
+                        Envelope envelope,
+                        AMQP.BasicProperties properties,
+                        byte[] body
+                ) throws UnsupportedEncodingException{
+
+                    String message=new String(body,"UTF-8");
+                    System.out.println("ReceiveLogsDirect2 Received '" + envelope.getRoutingKey() + "':'" + message + "'");
+
+                }
+
+            };
+
+            //
+            channel.basicConsume(queueName,true,consumer);
+
+        }catch (IOException | TimeoutException e){
+            e.printStackTrace();
+        }
+
+    }
+
+    public void consumeTopic005_1(){
+
+        try {
+
+            ConnectionFactory factory = new ConnectionFactory();
+            ConfigRabbitMQ.configConnectionFactory(factory);
+
+            Connection connection = factory.newConnection();
+            Channel channel=connection.createChannel();
+
+            // 声明一个匹配模式的交换机
+            channel.exchangeDeclare(MqConst.EXCHANGE_TOPIC_LOG,MqConst.EXCHANGE_TYPE_TOPIC);
+
+            String queueName=channel.queueDeclare().getQueue();
+
+            // 路由关键字
+            String[] routingKeys={"*.orange.*"};
+
+            // 绑定路由
+            for (String routeKey : routingKeys){
+                channel.queueBind(queueName,MqConst.EXCHANGE_TOPIC_LOG,routeKey);
+                System.out.println(
+                        "ReceiveLogsTopic1 exchange:"
+                                + MqConst.EXCHANGE_TOPIC_LOG
+                                + ", queue:"
+                                + queueName
+                                + ", BindRoutingKey:"
+                                + routeKey
+                );
+            }
+            System.out.println("ReceiveLogsTopic1 Waiting for messages");
+
+            //
+            Consumer consumer=new DefaultConsumer(channel){
+
+                @Override
+                public  void handleDelivery(
+                        String consumerTag,
+                        Envelope envelope,
+                        AMQP.BasicProperties properties,
+                        byte[] body
+                ) throws IOException{
+
+                    String  message=new String(body,"UTF-8");
+                    System.out.println(
+                            "ReceiveLogsTopic1 Received '"
+                                    + envelope.getRoutingKey()
+                                    + "':'" + message
+                                    + "'"
+                    );
+
+                }
+
+            };
+
+            //
+            channel.basicConsume(queueName,true,consumer);
+
+        }catch (IOException | TimeoutException e){
+            e.printStackTrace();
+        }
+
+    }
+    public void consumeTopic005_2(){
+
+        try {
+
+            ConnectionFactory factory = new ConnectionFactory();
+            ConfigRabbitMQ.configConnectionFactory(factory);
+
+            Connection connection = factory.newConnection();
+            Channel channel=connection.createChannel();
+
+            // 声明一个匹配模式的交换器
+            channel.exchangeDeclare(MqConst.EXCHANGE_TOPIC_LOG,MqConst.EXCHANGE_TYPE_TOPIC);
+
+            String queueName=channel.queueDeclare().getQueue();
+
+            // 路由关键字
+            String[] routingKeys={"*.*.rabbit", "lazy.#"};
+
+            // 绑定路由关键字
+            for(String bindKey : routingKeys){
+                channel.queueBind(queueName,MqConst.EXCHANGE_TOPIC_LOG,bindKey);
+                System.out.println(
+                        "ReceiveLogsTopic2 exchange:"
+                                +MqConst.EXCHANGE_TOPIC_LOG
+                                +", queue:"
+                                +queueName
+                                +", BindRoutingKey:"
+                                + bindKey
+                );
+            }
+            System.out.println("ReceiveLogsTopic2 Waiting for messages");
+
+            //
+            Consumer consumer=new DefaultConsumer(channel){
+
+                @Override
+                public void handleDelivery(
+                      String consumerTag,
+                      Envelope envelope,
+                      AMQP.BasicProperties properties,
+                      byte[] body
+                ) throws UnsupportedEncodingException{
+                    String message =new String(body,"UTF-8");
+                    System.out.println(
+                            "ReceiveLogsTopic2 Received '"
+                                    + envelope.getRoutingKey()
+                                    + "':'"
+                                    + message
+                                    + "'"
+                    );
+                }
+
+            };
+
+            //
+            channel.basicConsume(queueName,true,consumer);
 
         }catch (IOException | TimeoutException e){
             e.printStackTrace();

@@ -25,11 +25,21 @@ public class MainEntry {
 //        new Producer().publishMsg001();
 //        new Customer().consume001();
         /*-------------------------------------*/
-        new Producer().pulishTask002();
-        new Customer().consumeTask002(false);
-        //new Customer().consumeTask002(true);
+//        new Producer().pulishTask002();
+//        new Customer().consumeTask002(false);
+//        new Customer().consumeTask002(true);
         /*-------------------------------------*/
-
+//        new Customer().consumeFanout003();
+//        new Producer().publishFanout003();
+        /*-------------------------------------*/
+//        new Customer().consumeDirect004();
+//        new Customer().consumeDirect004_2();
+//        new Producer().publishDirect004();
+        /*-------------------------------------*/
+//        new Customer().consumeTopic005_1();
+        new Customer().consumeTopic005_2();
+        new Producer().publishTopic005();
+        /*-------------------------------------*/
 
     }
 

@@ -26,6 +26,7 @@ public class UploadExcelControl {
      * @throws Exception
      */
     @RequestMapping(value = "upload.do",method = {RequestMethod.GET,RequestMethod.POST})
+    @ResponseBody
     public String uploadExcel(HttpServletRequest request)
             throws Exception {
 

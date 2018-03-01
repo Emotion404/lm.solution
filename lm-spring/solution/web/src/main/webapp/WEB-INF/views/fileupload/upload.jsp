@@ -8,7 +8,7 @@
 <html>
 <head>
     <base href="<%=basePath%>">
-    <title>fileUpload</title>
+    <title>File Upload & Download</title>
     <script src="/static/js/jquery-2.1.4.min.js"></script>
     <script src="/static/js/ajaxfileupload.js"></script>
 </head>

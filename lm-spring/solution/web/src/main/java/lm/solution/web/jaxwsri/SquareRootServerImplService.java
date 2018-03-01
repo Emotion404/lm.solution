@@ -16,7 +16,8 @@ import java.net.URL;
 @WebServiceClient(
         name = "SquareRootServerImplService",
         targetNamespace = "http://jaxwsri.model.solution.lm/",
-        wsdlLocation = "http://localhost:8083/ri/SquareRootServer?wsdl")
+        wsdlLocation = "http://localhost:8083/ri/SquareRootServer?wsdl"
+)
 public class SquareRootServerImplService
     extends Service
 {

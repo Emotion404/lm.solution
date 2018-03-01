@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Spring Restful API</title>
     <script src="/static/js/jquery-3.3.1.js"></script>
 </head>
 <body>

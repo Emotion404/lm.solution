@@ -217,7 +217,7 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
-                <scope>runtime</scope>
+                <!--<scope>runtime</scope>-->
             </dependency>
             <!-- 日志文件管理包 -->
             <dependency>

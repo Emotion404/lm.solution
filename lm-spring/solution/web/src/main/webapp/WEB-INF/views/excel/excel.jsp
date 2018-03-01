@@ -8,7 +8,7 @@
     <base href="<%=basePath%>">
     <script type="text/javascript" src="/static/js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="/static/js/jquery-form.js"></script>
-    <title>My JSP 'index.jsp' starting page</title>
+    <title>Excel Import & Export</title>
     <script type="text/javascript">
         //ajax 方式上传文件操作
         $(document).ready(function(){

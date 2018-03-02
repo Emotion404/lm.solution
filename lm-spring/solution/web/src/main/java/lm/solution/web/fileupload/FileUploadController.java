@@ -1,6 +1,6 @@
 package lm.solution.web.fileupload;
 
-import lm.solution.common.Files_Utils_DG;
+import lm.solution.common.file.Files_Utils_DG;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

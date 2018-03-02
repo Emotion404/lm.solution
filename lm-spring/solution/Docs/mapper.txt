@@ -12,6 +12,8 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8
 -->
+
+-->
 jdbc.username=root
 jdbc.password=liumeng
 

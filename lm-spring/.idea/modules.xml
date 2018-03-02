@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/solution/solution.iml" filepath="$PROJECT_DIR$/solution/solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/solution/web/web.iml" filepath="$PROJECT_DIR$/solution/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/solution/webapi/webapi.iml" filepath="$PROJECT_DIR$/solution/webapi/webapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/solution/webboot/webboot.iml" filepath="$PROJECT_DIR$/solution/webboot/webboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/solution/webservice/webservice.iml" filepath="$PROJECT_DIR$/solution/webservice/webservice.iml" />
     </modules>
   </component>

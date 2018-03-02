@@ -5,8 +5,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;
-import org.springframework.http.converter.HttpMessageConverter;
-import org.springframework.http.converter.StringHttpMessageConverter;
+import org.springframework.http.converter.*;
+import org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter;
+import org.springframework.http.converter.xml.SourceHttpMessageConverter;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.ViewResolver;
@@ -58,7 +59,15 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     }
 
-    // 字符串消息转换器
+    // 负责读取二进制格式的数据和写出二进制格式的数据；
+    @Bean
+    public ByteArrayHttpMessageConverter byteArrayHttpMessageConverter(){
+
+        return  new ByteArrayHttpMessageConverter();
+
+    }
+
+    // 负责读取字符串格式的数据和写出字符串格式的数据；
     @Bean
     public StringHttpMessageConverter stringHttpMessageConverter(){
 
@@ -68,6 +77,28 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     }
 
+    // 负责读取资源文件和写出资源文件数据；
+    @Bean
+    public ResourceHttpMessageConverter resourceHttpMessageConverter(){
+
+        return new ResourceHttpMessageConverter();
+
+    }
+
+    /**
+     * 负责读取form提交的数据
+     * 能读取的数据格式为 application/x-www-form-urlencoded，
+     * 不能读取multipart/form-data格式数据；
+     * 负责写入application/x-www-from-urlencoded和multipart/form-data格式的数据；
+     * */
+    @Bean
+    public FormHttpMessageConverter formHttpMessageConverter(){
+
+        return new FormHttpMessageConverter();
+
+    }
+
+    // 负责读取和写入json格式的数据；
     /**
      * 配置 fastjson 中实现 HttpMessageConverter 接口的转换器
      * FastJsonHttpMessageConverter 是 fastjson 中实现了 HttpMessageConverter 接口的类
@@ -92,12 +123,56 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     }
 
+    // 负责读取和写入 xml 中javax.xml.transform.Source定义的数据；
+    @Bean
+    public SourceHttpMessageConverter sourceHttpMessageConverter(){
+
+        return new SourceHttpMessageConverter();
+
+    }
+
+    // 负责读取和写入xml 标签格式的数据；
+    @Bean
+    public Jaxb2RootElementHttpMessageConverter jaxb2RootElementHttpMessageConverter(){
+
+        return new Jaxb2RootElementHttpMessageConverter();
+
+    }
+
+//    // 负责读取和写入Atom格式的数据；
+//    @Bean
+//    public AtomFeedHttpMessageConverter atomFeedHttpMessageConverter(){
+//
+//        return new AtomFeedHttpMessageConverter();
+//
+//    }
+
+//    // 负责读取和写入RSS格式的数据；
+//    @Bean
+//    public RssChannelHttpMessageConverter rssChannelHttpMessageConverter(){
+//
+//        return new RssChannelHttpMessageConverter();
+//
+//    }
+
     // 注册消息转换器
+    /**
+     * Error:
+     * 400：（错误请求） 服务器不理解请求的语法。
+     * 415：（不支持的媒体类型） 请求的格式不受请求页面的支持。
+     * */
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters){
 
+        converters.add(this.byteArrayHttpMessageConverter());
         converters.add(this.stringHttpMessageConverter());
+        converters.add(this.resourceHttpMessageConverter());
+        converters.add(this.formHttpMessageConverter());
         converters.add(this.fastJsonHttpMessageConverter());
+        converters.add(this.sourceHttpMessageConverter());
+        converters.add(this.jaxb2RootElementHttpMessageConverter());
+        //converters.add(this.atomFeedHttpMessageConverter());
+        //converters.add(this.rssChannelHttpMessageConverter());
 
     }
 

@@ -1,4 +1,4 @@
-package lm.solution.common;
+package lm.solution.common.file;
 
 import org.springframework.web.multipart.MultipartFile;
 import javax.servlet.http.HttpServletRequest;

@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/solution/web" />
     <file type="web" url="file://$PROJECT_DIR$/solution/webapi" />
+    <file type="web" url="file://$PROJECT_DIR$/solution/webboot" />
     <file type="web" url="file://$PROJECT_DIR$/solution/webservice" />
     <file type="web" url="file://$PROJECT_DIR$/webapi" />
   </component>

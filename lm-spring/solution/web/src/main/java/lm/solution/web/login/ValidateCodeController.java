@@ -1,6 +1,6 @@
 package lm.solution.web.login;
 
-import lm.solution.common.ColorHelper;
+import lm.solution.common.imagecode.ColorHelper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 

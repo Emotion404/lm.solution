@@ -1,4 +1,4 @@
-package lm.solution.common;
+package lm.solution.common.imagecode;
 
 import java.awt.*;
 import java.util.Random;

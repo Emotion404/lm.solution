@@ -82,4 +82,9 @@ public class IndexController {
     @RequestMapping("/redis")
     public String redis(){return "redis/jedis";}
 
+    @RequestMapping("/mybatis")
+    public String mybatis(){
+        return "db/mybatis";
+    }
+
 }

@@ -14,6 +14,7 @@
         <module>pojo</module>
         <module>console</module>
         <module>webservice</module>
+        <module>webboot</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -85,6 +86,8 @@
         <amqpClient.version>5.1.2</amqpClient.version>
         <!--fastjson-->
         <fastjson.version>1.2.46</fastjson.version>
+        <!--&lt;!&ndash;spring-boot-starter-web&ndash;&gt;-->
+        <!--<starterWeb.version>2.0.0.RELEASE</starterWeb.version>-->
     </properties>
 
     <dependencies>
@@ -379,6 +382,14 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
+            <!--&lt;!&ndash; ********************* Spring Boot ********************** &ndash;&gt;-->
+
+            <!--&lt;!&ndash; org.springframework.boot/spring-boot-starter-web &ndash;&gt;-->
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-starter-web</artifactId>-->
+                <!--<version>${starterWeb.version}</version>-->
+            <!--</dependency>-->
         </dependencies>
     </dependencyManagement>
 
@@ -425,6 +436,12 @@
                     <artifactId>tomcat8-maven-plugin</artifactId>
                     <version>3.0-r1756463</version>
                 </plugin>
+                <!--&lt;!&ndash; org.springframework.boot/spring-boot-maven-plugin &ndash;&gt;-->
+                <!--<plugin>-->
+                    <!--<groupId>org.springframework.boot</groupId>-->
+                    <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+                    <!--<version>1.5.10.RELEASE</version>-->
+                <!--</plugin>-->
             </plugins>
         </pluginManagement>
     </build>

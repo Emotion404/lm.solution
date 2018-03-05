@@ -6,6 +6,6 @@
         -->
     <endpoint
             name="SquareRootServerService"
-            implementation="lm.solution.model.jaxwsri.SquareRootServerImpl"
+            implementation="lm.solution.service.jaxws.ri.SquareRootServerImpl"
             url-pattern="/ri/SquareRootServer" />
 </endpoints>

@@ -2,8 +2,8 @@ package lm.solution.web.db;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lm.solution.entity.User;
-import lm.solution.service.UserService;
+import lm.solution.pojo.entity.User;
+import lm.solution.service.mysql.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

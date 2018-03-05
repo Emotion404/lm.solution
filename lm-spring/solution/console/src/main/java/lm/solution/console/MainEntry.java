@@ -1,7 +1,6 @@
 package lm.solution.console;
 
-import lm.solution.console.rabbitmq.Customer;
-import lm.solution.console.rabbitmq.Producer;
+import lm.solution.console.json.FastjsonTest;
 
 public class MainEntry {
 
@@ -37,10 +36,15 @@ public class MainEntry {
 //        new Producer().publishDirect004();
         /*-------------------------------------*/
 //        new Customer().consumeTopic005_1();
-        new Customer().consumeTopic005_2();
-        new Producer().publishTopic005();
+//        new Customer().consumeTopic005_2();
+//        new Producer().publishTopic005();
         /*-------------------------------------*/
 
+        /**
+         * fastjson test
+         * */
+//        new FastjsonTest().parseListByFastjsonStreamApi();
+        new FastjsonTest().parseComplexObject();
     }
 
 }

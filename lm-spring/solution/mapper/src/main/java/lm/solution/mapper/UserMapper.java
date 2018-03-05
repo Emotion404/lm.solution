@@ -1,6 +1,6 @@
 package lm.solution.mapper;
 
-import lm.solution.entity.User;
+import lm.solution.pojo.entity.User;
 import lm.solution.mapper.provider.UserDynaSqlProvider;
 import org.apache.ibatis.annotations.*;
 

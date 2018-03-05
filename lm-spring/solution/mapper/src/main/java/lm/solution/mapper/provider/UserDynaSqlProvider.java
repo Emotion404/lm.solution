@@ -1,6 +1,6 @@
 package lm.solution.mapper.provider;
 
-import lm.solution.entity.User;
+import lm.solution.pojo.entity.User;
 import org.apache.ibatis.jdbc.SQL;
 
 public class UserDynaSqlProvider {

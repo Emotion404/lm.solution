@@ -1,0 +1,14 @@
+{
+    "key":"value",
+    "anotherKey":[
+                    {"begin_int":"1677721","end_int":"1677747"},
+                    {"begin_int":"1687552","end_int":"1690828"},
+                    {"begin_int":"1690905","end_int":"1690931"},
+                    {"begin_int":"1690931","end_int":"1690956"},
+                    {"begin_int":"1690956","end_int":"1690982"}
+                  ],
+    "thirdKey":{
+                    "subKey":"subVal",
+                    "anotherSubKey":["1","2","3"]
+               }
+}

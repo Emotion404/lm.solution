@@ -7,9 +7,18 @@
           <element id="module-output" name="webservice" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="service" />
+          </element>
+          <element id="archive" name="mapper-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="mapper" />
+          </element>
           <element id="archive" name="pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="pojo" />
           </element>
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.5" />
           <element id="library" level="project" name="Maven: com.sun.xml.ws:jaxws-rt:2.3.0" />
           <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.0" />
           <element id="library" level="project" name="Maven: javax.xml.ws:jaxws-api:2.3.0" />

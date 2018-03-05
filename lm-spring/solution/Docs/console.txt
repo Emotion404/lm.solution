@@ -1,8 +1,8 @@
 
 JAX-WS RI Simple :
-package lm.solution.jaxws;
+package lm.solution.console.jaxws;
 
 Jackson JSON Demo :
-package lm.solution.json;
+package lm.solution.console.json;
 
 

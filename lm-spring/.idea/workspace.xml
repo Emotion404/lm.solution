@@ -6,7 +6,31 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="" />
+    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Docs/博客/文章列表.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webapi_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webapi_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webboot_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webboot_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webservice_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webservice_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/console.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/console.txt" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/mapper.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/mapper.txt" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/rabbitmq.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/rabbitmq.txt" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/redis.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/redis.txt" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/webservice.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/webservice.txt" />
+      <change beforePath="$PROJECT_DIR$/solution/common/common.iml" afterPath="$PROJECT_DIR$/solution/common/common.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/console/console.iml" afterPath="$PROJECT_DIR$/solution/console/console.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/mapper/mapper.iml" afterPath="$PROJECT_DIR$/solution/mapper/mapper.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/pojo/pojo.iml" afterPath="$PROJECT_DIR$/solution/pojo/pojo.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/pom.xml" afterPath="$PROJECT_DIR$/solution/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/solution/service/service.iml" afterPath="$PROJECT_DIR$/solution/service/service.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/solution.iml" afterPath="$PROJECT_DIR$/solution/solution.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/web/web.iml" afterPath="$PROJECT_DIR$/solution/web/web.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/webapi/webapi.iml" afterPath="$PROJECT_DIR$/solution/webapi/webapi.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/webboot/webboot.iml" afterPath="$PROJECT_DIR$/solution/webboot/webboot.iml" />
+      <change beforePath="$PROJECT_DIR$/solution/webservice/webservice.iml" afterPath="$PROJECT_DIR$/solution/webservice/webservice.iml" />
+      <change beforePath="$PROJECT_DIR$/../文档.txt" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
     <ignored path="$PROJECT_DIR$/solution/webapi/target/" />
@@ -45,77 +69,7 @@
     <favorites_list name="lm-spring" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FastjsonUnitTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonUnitTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-              <folding>
-                <element signature="docComment;method#testJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testJSONObjectToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJSONObjectToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testJSONStrToJSONArray#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJSONStrToJSONArray#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testJSONArrayToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJSONArrayToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testComplexJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testComplexJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testJSONObjectToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJSONObjectToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testJSONStrToJavaBeanObj#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJSONStrToJavaBeanObj#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testJavaBeanObjToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJavaBeanObjToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testJSONStrToJavaBeanList#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJSONStrToJavaBeanList#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="docComment;method#testJavaBeanListToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJavaBeanListToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testComplexJSONStrToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
-                <element signature="method#testJavaBeanToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectClassTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectClassTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#printFields#0;class#ReflectClassTest#0" expanded="false" />
-                <element signature="method#printConstructors#0;class#ReflectClassTest#0" expanded="false" />
-                <element signature="method#printMethods#0;class#ReflectClassTest#0" expanded="false" />
-                <element signature="method#printClassMembers#0;class#ReflectClassTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainEntry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/MainEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,7 +140,6 @@
         <option value="$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/boot/Application.java" />
         <option value="$PROJECT_DIR$/solution/webboot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/solution/Docs/项目启动顺序.txt" />
-        <option value="$PROJECT_DIR$/solution/pom.xml" />
         <option value="$PROJECT_DIR$/solution/webservice/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/mysql/impl/UserServiceImpl.java" />
@@ -214,6 +167,7 @@
         <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Teacher.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonUnitTest.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectClassTest.java" />
+        <option value="$PROJECT_DIR$/solution/pom.xml" />
       </list>
     </option>
   </component>
@@ -253,7 +207,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="817" />
     <option name="y" value="399" />
     <option name="width" value="1104" />
@@ -277,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -402,7 +355,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -410,273 +362,12 @@
               <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="reflection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="Libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="fastjsonunittest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -687,7 +378,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36099586" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/solution/webboot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/solution/Docs/solution" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -697,12 +388,6 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources\old" />
-      <recent name="F:\易果\Java\lm-spring\solution\web\src\main\resources" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\webservice\src\main\webapp\WEB-INF" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="lm.solution.pojo" />
       <recent name="lm.solution.console" />
@@ -711,11 +396,18 @@
       <recent name="lm.solution.service.jaxws.ri" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\博客" />
       <recent name="F:\易果\Java\lm-spring\solution\webboot\src\main\java" />
       <recent name="F:\易果\Java\lm-spring\solution\Docs\Excel" />
       <recent name="F:\易果\Java\lm-spring\solution\Libs" />
       <recent name="F:\易果\Java\lm-spring\solution\Libs\.m2\repository\org\apache\tomcat\maven\tomcat8-maven-plugin\3.0-r1756463" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\java\lm\solution\web\jaxwsri" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\solution" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources\old" />
+      <recent name="F:\易果\Java\lm-spring\solution\web\src\main\resources" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\webservice\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -730,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.java-console">
+  <component name="RunManager" selected="Tomcat Server.tomcat-web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -790,6 +482,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="solution" />
+      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -1062,18 +766,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="solution" />
-      <envs />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.java-console" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.springboot-web" />
@@ -1141,6 +833,7 @@
       <workItem from="1520233628033" duration="3204000" />
       <workItem from="1520238534833" duration="11577000" />
       <workItem from="1520306577059" duration="5584000" />
+      <workItem from="1520343785195" duration="3141000" />
     </task>
     <servers />
   </component>
@@ -1177,7 +870,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290604000" />
+    <option name="totallyTimeSpent" value="293745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1189,12 +882,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="817" y="399" width="1104" height="642" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="750" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39384118" sideWeight="0.5037554" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31176472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5249042" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52420574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1209,13 +902,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53137255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47254902" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47163695" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254902" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37452108" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40166414" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5120773" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5056361" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1223,6 +915,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1328,19 +1021,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution/webapi/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1053">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/webapi/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1348,7 +1032,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="80" column="57" lean-forward="false" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1386,55 +1069,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/webservice.txt">
+    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/webservice.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/jaxws/SquareRootServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/jaxws/ri/SquareRootServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/jaxws/ri/SquareRootServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/jaxws/SquareRootServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/jaxwsclient/SquareRootServerImplService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/jaxwsclient/SquareRootServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/jaxws/SquareRootServerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/jaxws/ri/SquareRootServerImpl.java" />
+    <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/jaxws/ri/SquareRootServer.java" />
+    <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/jaxws/SquareRootServer.java" />
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/jaxwsclient/SquareRootServerImplService.java" />
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/jaxwsclient/SquareRootServer.java" />
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/jaxwsri/JaxWsRiController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1464,13 +1111,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/jaxws/JaxWsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/jaxws/JaxWsTest.java" />
     <entry file="file://$PROJECT_DIR$/solution/webservice/src/main/webapp/WEB-INF/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1506,30 +1147,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/webboot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <marker date="1520231542556" expanded="true" signature="1639:1645" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/webapi/src/main/java/lm/solution/webapi/RESTfulController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/webboot/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/webboot/Application.java" />
+    <entry file="file://$PROJECT_DIR$/solution/webapi/src/main/java/lm/solution/webapi/RESTfulController.java" />
+    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/webboot/controller/UserController.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.13.RELEASE/spring-core-4.3.13.RELEASE.jar!/org/springframework/util/LinkedCaseInsensitiveMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1577,45 +1197,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/Json/jsontest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/BeginEndBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#152#153#0" expanded="false" />
-            <element signature="e#184#185#0" expanded="false" />
-            <element signature="e#231#232#0" expanded="false" />
-            <element signature="e#273#274#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-            <element signature="e#334#335#0" expanded="false" />
-            <element signature="e#377#378#0" expanded="false" />
-            <element signature="e#415#416#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/MainEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/Json/jsontest2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/Json/jsontest.txt" />
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/BeginEndBean.java" />
+    <entry file="file://$PROJECT_DIR$/solution/Docs/Json/jsontest2.txt" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1630,34 +1214,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/JsonComplex.java">
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/JsonComplex.java" />
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/ThirdBean.java" />
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonTest.java" />
+    <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Student.java" />
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Course.java" />
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Teacher.java" />
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonUnitTest.java" />
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectClassTest.java" />
+    <entry file="file://$PROJECT_DIR$/solution/Docs/博客/文章列表.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/ThirdBean.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/MainEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="99" selection-end-column="21" />
+        <state relative-caret-position="-1170">
+          <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
           <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
@@ -1669,9 +1270,6 @@
             <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#2;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
@@ -1708,130 +1306,12 @@
             <element signature="n#dependency#31;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#32;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependency#33;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#34;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#pluginRepository#0;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#snapshots#0;n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#pluginRepository#2;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
-            <element signature="e#410#411#0" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-            <element signature="e#527#528#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#613#614#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#147#148#0" expanded="false" />
-            <element signature="e#180#181#0" expanded="false" />
-            <element signature="e#232#233#0" expanded="false" />
-            <element signature="e#276#277#0" expanded="false" />
-            <element signature="e#335#336#0" expanded="false" />
-            <element signature="e#362#363#0" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#208#209#0" expanded="false" />
-            <element signature="e#262#263#0" expanded="false" />
-            <element signature="e#308#309#0" expanded="false" />
-            <element signature="e#379#380#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-            <element signature="e#465#466#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#643#644#0" expanded="false" />
-            <element signature="e#679#680#0" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#789#790#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;method#testJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testJSONObjectToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJSONObjectToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testJSONStrToJSONArray#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJSONStrToJSONArray#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testJSONArrayToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJSONArrayToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testComplexJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testComplexJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testJSONObjectToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJSONObjectToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testJSONStrToJavaBeanObj#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJSONStrToJavaBeanObj#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testJavaBeanObjToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJavaBeanObjToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testJSONStrToJavaBeanList#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJSONStrToJavaBeanList#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="docComment;method#testJavaBeanListToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJavaBeanListToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testComplexJSONStrToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
-            <element signature="method#testJavaBeanToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#printFields#0;class#ReflectClassTest#0" expanded="false" />
-            <element signature="method#printConstructors#0;class#ReflectClassTest#0" expanded="false" />
-            <element signature="method#printMethods#0;class#ReflectClassTest#0" expanded="false" />
-            <element signature="method#printClassMembers#0;class#ReflectClassTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1890,7 +1370,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|webservice</last-edited>
+          <last-edited>Spring|webboot</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

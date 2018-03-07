@@ -1,4 +1,4 @@
-package lm.solution.console.json;
+package lm.solution.console.json.fastjson;
 
 import com.alibaba.fastjson.JSONReader;
 import lm.solution.pojo.model.console.BeginEndBean;

@@ -1,4 +1,4 @@
-package lm.solution.console.json;
+package lm.solution.console.json.fastjson;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
@@ -252,6 +252,45 @@ public class FastjsonUnitTest {
 
     }
 
-    // 2.3.1
+    /**
+     * 简单JavaBean_obj到json对象的转换
+     */
+//    @Test
+    public void testJavaBeanToJSONObject(){
+
+        // 已知简单JavaBean_obj
+        Student student = new Student("lily", 12);
+
+        // 方式一
+        String jsonString=JSONObject.toJSONString(student);
+        JSONObject jsonObject=JSONObject.parseObject(jsonString);
+        System.out.println(jsonObject);
+
+        // 方式二
+        JSONObject jsonObject1=(JSONObject)JSONObject.toJSON(student);
+        System.out.println(jsonObject1);
+
+    }
+
+    /**
+     * 简单json对象到JavaBean_obj的转换
+     */
+//    @Test
+    public void testJSONObjectToJavaBean(){
+
+        // 已知简单json对象
+        JSONObject jsonObject=JSONObject.parseObject(JSON_OBJ_STR);
+
+        // 第一种方式,使用TypeReference<T>类,由于其构造方法使用protected进行修饰,故创建其子类
+        Student student=JSONObject.parseObject(jsonObject.toJSONString(),new TypeReference<Student>(){});
+        System.out.println(JSONObject.toJSONString(student));
+
+        // 第二种方式,使用Gson的思想
+        Student student1=JSONObject.parseObject(jsonObject.toJSONString(),Student.class);
+        System.out.println(JSONObject.toJSONString(student1));
+
+    }
+
+    // 2.3.2
 
 }

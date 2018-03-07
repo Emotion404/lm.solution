@@ -1,4 +1,4 @@
-package lm.solution.console.json;
+package lm.solution.console.json.jackson;
 
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,6 +1,6 @@
 package lm.solution.console;
 
-import lm.solution.console.json.FastjsonTest;
+import lm.solution.console.json.fastjson.FastjsonTest;
 
 public class MainEntry {
 

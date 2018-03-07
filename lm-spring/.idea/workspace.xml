@@ -6,31 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/solution/Docs/博客/文章列表.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webapi_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webapi_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webboot_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webboot_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webservice_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webservice_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/console.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/console.txt" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/mapper.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/mapper.txt" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/rabbitmq.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/rabbitmq.txt" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/redis.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/redis.txt" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/webservice.txt" afterPath="$PROJECT_DIR$/solution/Docs/solution/webservice.txt" />
-      <change beforePath="$PROJECT_DIR$/solution/common/common.iml" afterPath="$PROJECT_DIR$/solution/common/common.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/console/console.iml" afterPath="$PROJECT_DIR$/solution/console/console.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/mapper/mapper.iml" afterPath="$PROJECT_DIR$/solution/mapper/mapper.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/pojo/pojo.iml" afterPath="$PROJECT_DIR$/solution/pojo/pojo.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/pom.xml" afterPath="$PROJECT_DIR$/solution/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/service/service.iml" afterPath="$PROJECT_DIR$/solution/service/service.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/solution.iml" afterPath="$PROJECT_DIR$/solution/solution.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/web/web.iml" afterPath="$PROJECT_DIR$/solution/web/web.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/webapi/webapi.iml" afterPath="$PROJECT_DIR$/solution/webapi/webapi.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/webboot/webboot.iml" afterPath="$PROJECT_DIR$/solution/webboot/webboot.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/webservice/webservice.iml" afterPath="$PROJECT_DIR$/solution/webservice/webservice.iml" />
-      <change beforePath="$PROJECT_DIR$/../文档.txt" afterPath="" />
-    </list>
+    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
     <ignored path="$PROJECT_DIR$/solution/webapi/target/" />
@@ -69,7 +45,47 @@
     <favorites_list name="lm-spring" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="FastjsonUnitTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="293" column="12" lean-forward="false" selection-start-line="293" selection-start-column="12" selection-end-line="293" selection-end-column="12" />
+              <folding>
+                <element signature="docComment;method#testJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJSONObjectToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJSONObjectToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJSONStrToJSONArray#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJSONStrToJSONArray#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJSONArrayToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJSONArrayToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testComplexJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testComplexJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJSONObjectToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJSONObjectToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJSONStrToJavaBeanObj#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJSONStrToJavaBeanObj#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJavaBeanObjToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJavaBeanObjToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJSONStrToJavaBeanList#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJSONStrToJavaBeanList#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJavaBeanListToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJavaBeanListToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testComplexJSONStrToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testComplexJSONStrToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJavaBeanToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJavaBeanToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJavaBeanToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJavaBeanToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="docComment;method#testJSONObjectToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
+                <element signature="method#testJSONObjectToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,9 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution/webapi/src/main/webapp/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/JaxWsRiBean.java" />
-        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/MySqlBean.java" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/FastjsonBean.java" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/excel/UploadExcelControl.java" />
@@ -168,6 +181,9 @@
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonUnitTest.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectClassTest.java" />
         <option value="$PROJECT_DIR$/solution/pom.xml" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectFieldValueTest.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ExtendArrayTest.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonUnitTest.java" />
       </list>
     </option>
   </component>
@@ -207,7 +223,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="817" />
     <option name="y" value="399" />
     <option name="width" value="1104" />
@@ -231,6 +247,144 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="fastjson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -300,73 +454,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="restful" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -388,12 +475,19 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\solution" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources\old" />
+      <recent name="F:\易果\Java\lm-spring\solution\web\src\main\resources" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\webservice\src\main\webapp\WEB-INF" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="lm.solution.console.json.jackson" />
+      <recent name="lm.solution.console.json.fastjson" />
       <recent name="lm.solution.pojo" />
       <recent name="lm.solution.console" />
       <recent name="lm.solution.web.config" />
-      <recent name="lm.solution.web.config.jaxwsclient" />
-      <recent name="lm.solution.service.jaxws.ri" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\博客" />
@@ -401,13 +495,6 @@
       <recent name="F:\易果\Java\lm-spring\solution\Docs\Excel" />
       <recent name="F:\易果\Java\lm-spring\solution\Libs" />
       <recent name="F:\易果\Java\lm-spring\solution\Libs\.m2\repository\org\apache\tomcat\maven\tomcat8-maven-plugin\3.0-r1756463" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\solution" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources\old" />
-      <recent name="F:\易果\Java\lm-spring\solution\web\src\main\resources" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\webservice\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,7 +509,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat-web">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -482,18 +569,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="solution" />
-      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -766,6 +841,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="solution" />
+      <envs />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.java-console" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.springboot-web" />
@@ -834,30 +921,16 @@
       <workItem from="1520238534833" duration="11577000" />
       <workItem from="1520306577059" duration="5584000" />
       <workItem from="1520343785195" duration="3220000" />
+      <workItem from="1520391452406" duration="4054000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FastjsonUnitTest_testComplexJSONStrToJavaBean - 2018.03.06 at 11h 47m 04s.xml">
-      <configuration name="FastjsonUnitTest.testComplexJSONStrToJavaBean" configurationId="JUnit" />
+    <history-entry file="ExtendArrayTest_extendArray - 2018.03.07 at 11h 38m 55s.xml">
+      <configuration name="ExtendArrayTest.extendArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FastjsonUnitTest_testJSONStrToJSONArray - 2018.03.06 at 09h 32m 54s.xml">
-      <configuration name="FastjsonUnitTest.testJSONStrToJSONArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FastjsonUnitTest_testJSONStrToJavaBeanList - 2018.03.06 at 10h 32m 12s.xml">
-      <configuration name="FastjsonUnitTest.testJSONStrToJavaBeanList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FastjsonUnitTest_testJSONStrToJavaBeanList - 2018.03.06 at 11h 34m 14s.xml">
-      <configuration name="FastjsonUnitTest.testJSONStrToJavaBeanList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FastjsonUnitTest_testJSONStrToJavaBeanObj - 2018.03.06 at 10h 05m 03s.xml">
-      <configuration name="FastjsonUnitTest.testJSONStrToJavaBeanObj" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FastjsonUnitTest_testJavaBeanListToJSONStr - 2018.03.06 at 11h 37m 25s.xml">
-      <configuration name="FastjsonUnitTest.testJavaBeanListToJSONStr" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FastjsonUnitTest_testJavaBeanObjToJSONStr - 2018.03.06 at 10h 18m 49s.xml">
-      <configuration name="FastjsonUnitTest.testJavaBeanObjToJSONStr" configurationId="JUnit" />
+    <history-entry file="FastjsonUnitTest_testJSONObjectToJavaBean - 2018.03.07 at 11h 53m 44s.xml">
+      <configuration name="FastjsonUnitTest.testJSONObjectToJavaBean" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FastjsonUnitTest_testJavaBeanObjToJSONStr - 2018.03.06 at 10h 30m 39s.xml">
       <configuration name="FastjsonUnitTest.testJavaBeanObjToJSONStr" configurationId="JUnit" />
@@ -865,12 +938,27 @@
     <history-entry file="FastjsonUnitTest_testJavaBeanToComplexJSONStr - 2018.03.06 at 11h 50m 53s.xml">
       <configuration name="FastjsonUnitTest.testJavaBeanToComplexJSONStr" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FastjsonUnitTest_testJavaBeanToJSONObject - 2018.03.07 at 11h 48m 41s.xml">
+      <configuration name="FastjsonUnitTest.testJavaBeanToJSONObject" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ReflectClassTest_printClassMembers - 2018.03.06 at 14h 16m 03s.xml">
       <configuration name="ReflectClassTest.printClassMembers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReflectFieldValueTest - 2018.03.07 at 11h 26m 12s.xml">
+      <configuration name="ReflectFieldValueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectFieldValueTest - 2018.03.07 at 11h 26m 35s.xml">
+      <configuration name="ReflectFieldValueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectFieldValueTest - 2018.03.07 at 11h 27m 28s.xml">
+      <configuration name="ReflectFieldValueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectFieldValueTest_reflectionFieldsValue - 2018.03.07 at 11h 23m 49s.xml">
+      <configuration name="ReflectFieldValueTest.reflectionFieldsValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="293824000" />
+    <option name="totallyTimeSpent" value="297878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -882,12 +970,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="750" extended-state="6" />
+    <frame x="817" y="399" width="1104" height="642" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39384118" sideWeight="0.5037554" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31176472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52420574" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52394634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -902,10 +991,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53137255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47163695" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47058824" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254902" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40166414" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30747128" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5120773" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1021,20 +1110,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution/webapi/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/webapi/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="80" column="57" lean-forward="false" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/pojo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1216,24 +1291,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/JsonComplex.java" />
     <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/ThirdBean.java" />
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonTest.java" />
-    <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java" />
     <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Student.java" />
     <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Course.java" />
     <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Teacher.java" />
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonUnitTest.java" />
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectClassTest.java" />
     <entry file="file://$PROJECT_DIR$/solution/Docs/博客/文章列表.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,6 +1377,84 @@
             <element signature="n#snapshots#0;n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#pluginRepository#2;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="method#printFields#0;class#ReflectClassTest#0" expanded="false" />
+            <element signature="method#printConstructors#0;class#ReflectClassTest#0" expanded="false" />
+            <element signature="method#printMethods#0;class#ReflectClassTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectFieldValueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="84" column="11" lean-forward="true" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#toString#0;class#ReflectFieldValueTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ExtendArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="293" column="12" lean-forward="false" selection-start-line="293" selection-start-column="12" selection-end-line="293" selection-end-column="12" />
+          <folding>
+            <element signature="docComment;method#testJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJSONObjectToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJSONObjectToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJSONStrToJSONArray#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJSONStrToJSONArray#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJSONArrayToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJSONArrayToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testComplexJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testComplexJSONStrToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJSONObjectToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJSONObjectToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJSONStrToJavaBeanObj#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJSONStrToJavaBeanObj#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJavaBeanObjToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJavaBeanObjToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJSONStrToJavaBeanList#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJSONStrToJavaBeanList#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJavaBeanListToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJavaBeanListToJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testComplexJSONStrToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testComplexJSONStrToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJavaBeanToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJavaBeanToComplexJSONStr#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJavaBeanToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJavaBeanToJSONObject#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="docComment;method#testJSONObjectToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
+            <element signature="method#testJSONObjectToJavaBean#0;class#FastjsonUnitTest#0" expanded="false" />
           </folding>
         </state>
       </provider>

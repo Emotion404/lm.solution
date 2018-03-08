@@ -85,7 +85,7 @@ public class ReflectClassTest {
     /**
      * 利用反射打印出 类：域，方法，构造器
      * */
-//    @Test
+//    @AopTest
     public void printClassMembers(){
 
         try {

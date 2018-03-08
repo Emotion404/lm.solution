@@ -16,7 +16,7 @@ public class FastjsonUnitTest {
     /**
      * json字符串-简单对象型到JSONObject的转换
      * */
-//    @Test
+//    @AopTest
     public void testJSONStrToJSONObject(){
 
         JSONObject jsonObject=JSONObject.parseObject(JSON_OBJ_STR);
@@ -29,7 +29,7 @@ public class FastjsonUnitTest {
     /**
      * JSONObject到json字符串-简单对象型的转换
      */
-//    @Test
+//    @AopTest
     public void testJSONObjectToJSONStr(){
 
         // 已知JSONObject,目标要转换为json字符串
@@ -44,7 +44,7 @@ public class FastjsonUnitTest {
     /**
      * json字符串-数组类型到JSONArray的转换
      */
-//    @Test
+//    @AopTest
     public void testJSONStrToJSONArray(){
 
         JSONArray jsonArray=JSONArray.parseArray(JSON_ARRAY_STR);
@@ -73,7 +73,7 @@ public class FastjsonUnitTest {
     /**
      * JSONArray到json字符串-数组类型的转换
      */
-//    @Test
+//    @AopTest
     public void testJSONArrayToJSONStr(){
 
         // 已知JSONArray,目标要转换为json字符串
@@ -88,7 +88,7 @@ public class FastjsonUnitTest {
     /**
      * 复杂json格式字符串到JSONObject的转换
      */
-//    @Test
+//    @AopTest
     public void testComplexJSONStrToJSONObject(){
 
         JSONObject jsonObject=JSONObject.parseObject(JSON_COMPLEX_STR);
@@ -124,7 +124,7 @@ public class FastjsonUnitTest {
     /**
      * 复杂JSONObject到json格式字符串的转换
      */
-//    @Test
+//    @AopTest
     public void testJSONObjectToComplexJSONStr(){
 
         // 复杂JSONObject,目标要转换为json字符串
@@ -137,7 +137,7 @@ public class FastjsonUnitTest {
     /**
      * json字符串-简单对象到JavaBean之间的转换
      */
-//    @Test
+//    @AopTest
     public void testJSONStrToJavaBeanObj(){
 
         // 第一种方式
@@ -160,7 +160,7 @@ public class FastjsonUnitTest {
     /**
      * JavaBean到json字符串-简单对象的转换
      */
-//    @Test
+//    @AopTest
     public void testJavaBeanObjToJSONStr(){
 
         Student student=new Student("lily",12);
@@ -172,7 +172,7 @@ public class FastjsonUnitTest {
     /**
      * json字符串-数组类型到JavaBean_List的转换
      */
-//    @Test
+//    @AopTest
     public void  testJSONStrToJavaBeanList(){
 
         // 第一种方式
@@ -208,7 +208,7 @@ public class FastjsonUnitTest {
     /**
      * JavaBean_List到json字符串-数组类型的转换
      */
-//    @Test
+//    @AopTest
     public void testJavaBeanListToJSONStr(){
 
         Student student = new Student("lily", 12);
@@ -226,7 +226,7 @@ public class FastjsonUnitTest {
     /**
      * 复杂json格式字符串到JavaBean_obj的转换
      */
-//    @Test
+//    @AopTest
     public void  testComplexJSONStrToJavaBean(){
 
         // 第一种方式,使用TypeReference<T>类,由于其构造方法使用protected进行修饰,故创建其子类
@@ -242,7 +242,7 @@ public class FastjsonUnitTest {
     /**
      * 复杂JavaBean_obj到json格式字符串的转换
      */
-//    @Test
+//    @AopTest
     public void testJavaBeanToComplexJSONStr(){
 
         // 已知复杂JavaBean_obj
@@ -255,7 +255,7 @@ public class FastjsonUnitTest {
     /**
      * 简单JavaBean_obj到json对象的转换
      */
-//    @Test
+//    @AopTest
     public void testJavaBeanToJSONObject(){
 
         // 已知简单JavaBean_obj
@@ -275,7 +275,7 @@ public class FastjsonUnitTest {
     /**
      * 简单json对象到JavaBean_obj的转换
      */
-//    @Test
+//    @AopTest
     public void testJSONObjectToJavaBean(){
 
         // 已知简单json对象

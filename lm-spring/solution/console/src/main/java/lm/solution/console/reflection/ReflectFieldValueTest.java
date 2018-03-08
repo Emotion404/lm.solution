@@ -82,7 +82,7 @@ public class ReflectFieldValueTest {
     /**
      * 利用反射获取字段值
      * */
-//    @Test
+//    @AopTest
     public void reflectionFieldsValue(){
 
         ArrayList<Integer> squares=new ArrayList<>();

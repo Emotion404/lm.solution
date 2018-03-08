@@ -26,7 +26,7 @@ public class ExtendArrayTest {
     /**
      * 利用反射 扩展数组
      * */
-//    @Test
+//    @AopTest
     public void extendArray(){
 
         Integer[] a={1,2,3};

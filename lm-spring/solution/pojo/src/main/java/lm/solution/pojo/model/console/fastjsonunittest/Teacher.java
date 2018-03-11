@@ -4,6 +4,21 @@ import java.util.List;
 
 public class Teacher {
 
+    public Teacher(){
+
+
+
+    }
+
+    public Teacher(String teacherName,Integer teacherAge,Course course,List<Student> students){
+
+        this.teacherName=teacherName;
+        this.teacherAge=teacherAge;
+        this.course=course;
+        this.students=students;
+
+    }
+
     private String teacherName;
 
     public String getTeacherName() {

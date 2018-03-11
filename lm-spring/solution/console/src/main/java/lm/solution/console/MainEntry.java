@@ -1,6 +1,6 @@
 package lm.solution.console;
 
-import lm.solution.console.json.fastjson.FastjsonTest;
+import lm.solution.console.lambda.TimerTest;
 
 public class MainEntry {
 
@@ -44,7 +44,13 @@ public class MainEntry {
          * fastjson test
          * */
 //        new FastjsonTest().parseListByFastjsonStreamApi();
-        new FastjsonTest().parseComplexObject();
+//        new FastjsonTest().parseComplexObject();
+
+        /**
+         * Timer test
+         * */
+        new TimerTest().timePrintTest();
+
     }
 
 }

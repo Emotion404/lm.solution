@@ -2,6 +2,17 @@ package lm.solution.pojo.model.console.fastjsonunittest;
 
 public class Course {
 
+    public Course(){
+
+    }
+
+    public Course(String courseName,Integer code){
+
+        this.courseName=courseName;
+        this.code=code;
+
+    }
+
     private String courseName;
 
     public String getCourseName() {

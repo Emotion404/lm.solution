@@ -1,6 +1,8 @@
 package lm.solution.console.lambda;
 
+import javax.swing.*;
 import java.util.Arrays;
+import java.util.Date;
 
 public class ArraySortTest {
 
@@ -20,6 +22,11 @@ public class ArraySortTest {
 
         });
         System.out.println(Arrays.toString(planets));
+
+        Timer t=new Timer(1000,event->{
+            System.out.println("The time is "+new Date());
+        });
+        t.start();
 
     }
 

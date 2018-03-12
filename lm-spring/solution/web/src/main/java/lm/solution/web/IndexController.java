@@ -55,6 +55,11 @@ public class IndexController {
     public String indexPage() {
         return "index";
     }
+    
+    @RequestMapping("/error")
+    public String errorPage(){
+        return "error/error";
+    }
 
     @RequestMapping("/excel")
     public String mainPage() {

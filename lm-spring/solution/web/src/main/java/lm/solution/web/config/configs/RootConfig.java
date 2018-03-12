@@ -4,13 +4,13 @@ import lm.solution.web.config.beans.MySqlBean;
 import lm.solution.web.config.beans.RedisBean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import lm.solution.web.config.beans.HandlerBean;
 
 @Configuration
 @Import({
         RedisBean.class,
-        MySqlBean.class
-        //,
-        //FastjsonBean.class
+        MySqlBean.class,
+        HandlerBean.class
 })
 public class RootConfig {
     /**

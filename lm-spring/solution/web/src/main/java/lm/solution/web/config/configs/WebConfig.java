@@ -53,7 +53,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 配置静态文件处理
     @Override
-    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+    public void configureDefaultServletHandling(
+            DefaultServletHandlerConfigurer configurer
+    ) {
 
         configurer.enable();
 
@@ -138,22 +140,6 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         return new Jaxb2RootElementHttpMessageConverter();
 
     }
-
-//    // 负责读取和写入Atom格式的数据；
-//    @Bean
-//    public AtomFeedHttpMessageConverter atomFeedHttpMessageConverter(){
-//
-//        return new AtomFeedHttpMessageConverter();
-//
-//    }
-
-//    // 负责读取和写入RSS格式的数据；
-//    @Bean
-//    public RssChannelHttpMessageConverter rssChannelHttpMessageConverter(){
-//
-//        return new RssChannelHttpMessageConverter();
-//
-//    }
 
     // 注册消息转换器
     /**

@@ -86,8 +86,6 @@
         <amqpClient.version>5.1.2</amqpClient.version>
         <!--fastjson-->
         <fastjson.version>1.2.46</fastjson.version>
-        <!--&lt;!&ndash;spring-webboot-starter-web&ndash;&gt;-->
-        <!--<starterWeb.version>2.0.0.RELEASE</starterWeb.version>-->
     </properties>
 
     <dependencies>

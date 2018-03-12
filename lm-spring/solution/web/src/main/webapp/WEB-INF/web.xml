@@ -14,6 +14,12 @@
         <param-value>classpath:log4j.properties</param-value>
     </context-param>
 
+    <init-param>
+        <!-- 如果未发现映射路径，抛出异常，而不是跳转到在web.xml配置的404错误页 -->
+        <param-name>throwExceptionIfNoHandlerFound</param-name>
+        <param-value>true</param-value>
+    </init-param>
+
     <!--启动一个watchdog线程每1800秒扫描一下log4j配置文件的变化-->
     <context-param>
         <param-name>log4jRefreshInterval</param-name>

@@ -6,20 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webboot_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/webboot_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/common/pom.xml" afterPath="$PROJECT_DIR$/solution/common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/console/console.iml" afterPath="$PROJECT_DIR$/solution/console/console.iml" />
-      <change beforePath="$PROJECT_DIR$/solution/console/pom.xml" afterPath="$PROJECT_DIR$/solution/console/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/pom.xml" afterPath="$PROJECT_DIR$/solution/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" afterPath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" afterPath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" />
-      <change beforePath="$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/webapi/pom.xml" afterPath="$PROJECT_DIR$/solution/webapi/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/webboot/pom.xml" afterPath="$PROJECT_DIR$/solution/webboot/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/webboot/webboot.iml" afterPath="$PROJECT_DIR$/solution/webboot/webboot.iml" />
-    </list>
+    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
     <ignored path="$PROJECT_DIR$/solution/webapi/target/" />
@@ -59,147 +46,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution/pom.xml">
+      <file leaf-file-name="ArrayAlg2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/ArrayAlg2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PairTest2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/PairTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="n#modules#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#0;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#1;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#2;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#3;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#4;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#5;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#6;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#7;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#8;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#9;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#10;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#11;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#12;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#13;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#14;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#15;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#16;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#17;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#18;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#19;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#20;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#21;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#22;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#23;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#24;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#25;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#26;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#27;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#28;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#dependency#29;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#pluginRepository#0;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#snapshots#0;n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#pluginRepository#2;n#pluginRepositories#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#plugin#0;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/mapper/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/pojo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-185">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/webapi/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1171">
-              <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/webboot/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/webservice/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -254,11 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/jaxwsri/JaxWsRiController.java" />
-        <option value="$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/Http/RestClient.java" />
-        <option value="$PROJECT_DIR$/solution/Docs/Json/jsontest.txt" />
-        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/BeginEndBean.java" />
-        <option value="$PROJECT_DIR$/solution/Docs/Json/jsontest2.txt" />
         <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/ThirdBean.java" />
         <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/JsonComplex.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/FastjsonTest.java" />
@@ -305,6 +164,11 @@
         <option value="$PROJECT_DIR$/solution/console/pom.xml" />
         <option value="$PROJECT_DIR$/solution/webapi/pom.xml" />
         <option value="$PROJECT_DIR$/solution/pom.xml" />
+        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/generic/Pair.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/ArrayAlg.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/ArrayAlg2.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/PairTest2.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/PairTest1.java" />
       </list>
     </option>
   </component>
@@ -344,8 +208,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="788" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="790" />
+    <option name="y" value="251" />
     <option name="width" value="1130" />
     <option name="height" value="788" />
   </component>
@@ -367,237 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="restful" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="webapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="webboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="webservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -667,7 +301,240 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -722,7 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat-web">
+  <component name="RunManager" selected="JUnit.PairTest2.genericMethodTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -763,6 +630,56 @@
       <module name="console" />
       <envs />
     </configuration>
+    <configuration name="PairTest1.genericClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lm.solution.console.generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="console" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lm.solution.console.generic" />
+      <option name="MAIN_CLASS_NAME" value="lm.solution.console.generic.PairTest1" />
+      <option name="METHOD_NAME" value="genericClassTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PairTest2.genericMethodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="lm.solution.console.generic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="console" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="lm.solution.console.generic" />
+      <option name="MAIN_CLASS_NAME" value="lm.solution.console.generic.PairTest2" />
+      <option name="METHOD_NAME" value="genericMethodTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -782,18 +699,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="solution" />
-      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -1067,13 +972,33 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="5">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="solution" />
+      <envs />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.java-console" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.springboot-web" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.tomcat-webservice" />
       <item index="3" class="java.lang.String" itemvalue="Tomcat Server.tomcat-webapi" />
       <item index="4" class="java.lang.String" itemvalue="Tomcat Server.tomcat-web" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PairTest1.genericClassTest" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.PairTest2.genericMethodTest" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PairTest2.genericMethodTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PairTest1.genericClassTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1140,16 +1065,12 @@
       <workItem from="1520520624149" duration="3392000" />
       <workItem from="1520559081358" duration="32285000" />
       <workItem from="1520859985100" duration="6018000" />
+      <workItem from="1520903202432" duration="1974000" />
+      <workItem from="1520905195618" duration="2053000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnonymousInnerClassTest_anonymousInnerClassTest - 2018.03.12 at 09h 26m 19s.xml">
-      <configuration name="AnonymousInnerClassTest.anonymousInnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySortTest_lambdaSortTest - 2018.03.12 at 09h 10m 06s.xml">
-      <configuration name="ArraySortTest.lambdaSortTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FastjsonUnitTest - 2018.03.09 at 14h 41m 30s.xml">
       <configuration name="FastjsonUnitTest" configurationId="JUnit" />
     </history-entry>
@@ -1165,6 +1086,12 @@
     <history-entry file="FastjsonUnitTest_testJsonArrayToJavaList - 2018.03.09 at 14h 22m 47s.xml">
       <configuration name="FastjsonUnitTest.testJsonArrayToJavaList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PairTest1_genericClassTest - 2018.03.13 at 09h 25m 25s.xml">
+      <configuration name="PairTest1.genericClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PairTest2_genericMethodTest - 2018.03.13 at 09h 41m 39s.xml">
+      <configuration name="PairTest2.genericMethodTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ProxyTest_proxyClassTest - 2018.03.12 at 09h 52m 12s.xml">
       <configuration name="ProxyTest.proxyClassTest" configurationId="JUnit" />
     </history-entry>
@@ -1176,7 +1103,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341620000" />
+    <option name="totallyTimeSpent" value="345647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1188,12 +1115,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="750" extended-state="6" />
+    <frame x="790" y="251" width="1130" height="788" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39384118" sideWeight="0.5037554" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31118315" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52118003" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5130841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1208,10 +1136,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5299838" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3808752" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.535061" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254902" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27458397" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49252337" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5120773" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1337,29 +1265,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution/Docs/博客/文章列表.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ReflectClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/reflection/ExtendArrayTest.java" />
-    <entry file="file://$PROJECT_DIR$/solution/Docs/Maven/本地仓.txt" />
     <entry file="file://$PROJECT_DIR$/solution/mapper/src/main/java/lm/solution/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1505,13 +1410,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/exceptions/BaseSystemException.java" />
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/FastjsonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/FastjsonBean.java" />
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/RedisBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1532,19 +1431,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/views/error/error.jsp" />
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/errors/ErrorTestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/errors/ErrorTestController.java" />
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/exceptions/SpringHandlerExceptionResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="606">
           <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1605,7 +1496,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="799">
           <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding />
         </state>
@@ -1613,7 +1504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/console/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="816">
           <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding />
         </state>
@@ -1621,15 +1512,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/mapper/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/pojo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1637,48 +1527,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/webapi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1171">
-          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="646">
+          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/webboot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="1173">
           <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/webservice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="510">
+          <caret line="40" column="48" lean-forward="false" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
           <folding>
             <element signature="n#modules#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
@@ -1725,6 +1603,56 @@
             <element signature="n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#plugin#0;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/generic/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/ArrayAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/PairTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/PairTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/ArrayAlg2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

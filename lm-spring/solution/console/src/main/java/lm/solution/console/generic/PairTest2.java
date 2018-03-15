@@ -1,13 +1,12 @@
 package lm.solution.console.generic;
 
 import lm.solution.pojo.model.console.generic.Pair;
-import org.junit.Test;
 
 import java.time.LocalDate;
 
 public class PairTest2 {
 
-    @Test
+//    @Test
     public void genericMethodTest() {
 
         LocalDate[] birthdays = {

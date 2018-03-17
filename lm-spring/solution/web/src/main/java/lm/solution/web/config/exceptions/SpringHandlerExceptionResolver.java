@@ -6,7 +6,7 @@ import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonJsonView;
 import lm.solution.common.exceptions.BaseSystemException;
 import lm.solution.pojo.dto.JsonResult;
-import lm.solution.pojo.dto.enums.HttpExceptionEnum;
+import lm.solution.pojo.enums.HttpExceptionEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.ConversionNotSupportedException;

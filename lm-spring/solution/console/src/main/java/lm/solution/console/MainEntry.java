@@ -1,6 +1,6 @@
 package lm.solution.console;
 
-import lm.solution.console.lambda.TimerTest;
+import lm.solution.console.corejava1.lambda.TimerTest;
 
 public class MainEntry {
 

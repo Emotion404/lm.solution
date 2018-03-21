@@ -35,9 +35,11 @@
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
     <expand />
     <select />
   </component>
@@ -46,120 +48,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/DemoListener.java">
+      <file leaf-file-name="AnnotationGroupTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/AnnotationGroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoPublisher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/DemoPublisher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/EventConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/EventTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskExecutorConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/multithread/TaskExecutorConfig.java">
+      <file leaf-file-name="WiselyConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/WiselyConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/multithread/AsyncBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/JobBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskSchedulerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/TaskSchedulerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskSchedulerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/TaskSchedulerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadPoolTaskExecutorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/multithread/ThreadPoolTaskExecutorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -169,11 +75,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
-        <option value="AnnotationType" />
         <option value="Jsp File" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -204,6 +110,7 @@
       <find>extends</find>
       <find>commonsIo.version</find>
       <find>javax.servlet-api</find>
+      <find>@interface</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -217,20 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/PairTest3.java" />
-        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/classX/Animal.java" />
-        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/classX/Dog.java" />
-        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/classX/Cat.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/generic/PairTest4.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/classX/ClassGenericTest.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/classX/ClassGenericTest.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/beanscope/SingletonService.java" />
-        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/enums/ScopeEnum.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/beanscope/PrototypeService.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/beanscope/ScopeConfig.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/beanscope/ScopeTest.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/scope/ScopeTest.java" />
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/collections/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/javaconfig/FunctionService.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/javaconfig/UseFunctionService.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/javaconfig/JavaConfig.java" />
@@ -268,6 +161,20 @@
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/JobBean.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/TaskSchedulerConfig.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/TaskSchedulerTest.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/collections/PriorityQueueTest.java" />
+        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/generic/Employee.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/collections/MapTest.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/WindowsCondition.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/LinuxCondition.java" />
+        <option value="$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/spring/spring/ListService.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/WindowsListService.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/LinuxListService.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/ConditionConifg.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/WiselyConfiguration.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/BeanService.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/DemoConfig.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/ConditionalTest.java" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/AnnotationGroupTest.java" />
       </list>
     </option>
   </component>
@@ -331,129 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="restful" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -524,13 +308,204 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36099586" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -545,19 +520,12 @@
     <property name="SearchEverywhereHistoryKey" value="HttpExceptionEnum&#9;PSI&#9;JAVA://lm.solution.pojo.enums.HttpExceptionEnum" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\易果\Java\lm-spring\solution\console\src\main\resources\spring\springel" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\solution" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources" />
-      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources\old" />
-      <recent name="F:\易果\Java\lm-spring\solution\web\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="lm.solution.pojo" />
+      <recent name="lm.solution.console.spring.spring" />
       <recent name="lm.solution.console.spring" />
+      <recent name="lm.solution.pojo" />
       <recent name="lm.solution.console.corejava1" />
       <recent name="lm.solution.console.json.jackson" />
-      <recent name="lm.solution.console.json.fastjson" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\博客" />
@@ -565,6 +533,13 @@
       <recent name="F:\易果\Java\lm-spring\solution\Docs\Excel" />
       <recent name="F:\易果\Java\lm-spring\solution\Libs" />
       <recent name="F:\易果\Java\lm-spring\solution\Libs\.m2\repository\org\apache\tomcat\maven\tomcat8-maven-plugin\3.0-r1756463" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\易果\Java\lm-spring\solution\console\src\main\resources\spring\springel" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\solution" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources" />
+      <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\web\src\main\resources\old" />
+      <recent name="F:\易果\Java\lm-spring\solution\web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -579,7 +554,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.java-console">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -639,6 +614,18 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="solution" />
+      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -912,18 +899,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="solution" />
-      <envs />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.java-console" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.springboot-web" />
@@ -1009,27 +984,28 @@
       <workItem from="1521300584559" duration="931000" />
       <workItem from="1521421993255" duration="19778000" />
       <workItem from="1521509491194" duration="13724000" />
+      <workItem from="1521594480415" duration="6371000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EventTest_test - 2018.03.20 at 11h 38m 42s.xml">
-      <configuration name="EventTest.test" configurationId="JUnit" />
+    <history-entry file="AnnotationGroupTest_test - 2018.03.21 at 10h 37m 08s.xml">
+      <configuration name="AnnotationGroupTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SetTest_test - 2018.03.20 at 09h 43m 30s.xml">
-      <configuration name="SetTest.test" configurationId="JUnit" />
+    <history-entry file="ConditionalTest_test - 2018.03.21 at 10h 09m 00s.xml">
+      <configuration name="ConditionalTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskSchedulerTest - 2018.03.20 at 16h 18m 11s.xml">
-      <configuration name="TaskSchedulerTest" configurationId="JUnit" />
+    <history-entry file="ConditionalTest_test - 2018.03.21 at 10h 09m 35s.xml">
+      <configuration name="ConditionalTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPoolTaskExecutorTest_test - 2018.03.20 at 15h 45m 41s.xml">
-      <configuration name="ThreadPoolTaskExecutorTest.test" configurationId="JUnit" />
+    <history-entry file="ConditionalTest_test - 2018.03.21 at 10h 10m 04s.xml">
+      <configuration name="ConditionalTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPoolTaskExecutorTest_test - 2018.03.20 at 15h 47m 09s.xml">
-      <configuration name="ThreadPoolTaskExecutorTest.test" configurationId="JUnit" />
+    <history-entry file="MapTest_test - 2018.03.21 at 09h 29m 20s.xml">
+      <configuration name="MapTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreadPoolTaskExecutorTest_test - 2018.03.20 at 15h 48m 37s.xml">
-      <configuration name="ThreadPoolTaskExecutorTest.test" configurationId="JUnit" />
+    <history-entry file="PriorityQueueTest_test - 2018.03.21 at 09h 17m 21s.xml">
+      <configuration name="PriorityQueueTest.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ThreadPoolTaskExecutorTest_test - 2018.03.20 at 15h 48m 54s.xml">
       <configuration name="ThreadPoolTaskExecutorTest.test" configurationId="JUnit" />
@@ -1045,7 +1021,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400920000" />
+    <option name="totallyTimeSpent" value="407291000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1058,7 +1034,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="925" y="386" width="995" height="653" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39384118" sideWeight="0.5037554" order="8" side_tool="true" content_ui="tabs" />
@@ -1066,9 +1041,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36898395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24887691" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24812834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39411765" sideWeight="0.49624464" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1082,8 +1057,9 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254902" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40962568" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5120773" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5700576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5056361" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1091,7 +1067,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3241491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1207,153 +1182,28 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/generic/PairTest4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/generic/PairTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/classX/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/classX/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/excel/ExportExcelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/classX/ClassGenericTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/scope/SingletonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/enums/HttpExceptionEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/enums/ScopeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/scope/PrototypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/scope/ScopeConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/scope/ScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/collections/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/javaconfig/FunctionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/javaconfig/UseFunctionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/javaconfig/JavaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/javaconfig/ConfigTest.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/javaconfig/ConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/di/FunctionService.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/di/FunctionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/di/UseFunctionService.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/di/UseFunctionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/di/DiConfig.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/di/DiConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
@@ -1363,7 +1213,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/di/DiTest.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/di/DiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
@@ -1377,7 +1227,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/springel/DemoService.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/springel/DemoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
@@ -1391,7 +1241,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/springel/ElConfig.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/springel/ElConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -1401,7 +1251,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/springel/ElTest.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/springel/ElTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
@@ -1409,14 +1259,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/beanprepost/JSR250WayService.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/beanprepost/JSR250WayService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/beanprepost/BeanWayService.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/beanprepost/BeanWayService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
@@ -1424,7 +1274,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/beanprepost/PrePostConfig.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/beanprepost/PrePostConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -1434,7 +1284,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/beanprepost/BeanTest.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/beanprepost/BeanTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
@@ -1450,7 +1300,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/profile/WebInit.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/profile/WebInit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
@@ -1460,7 +1310,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/profile/DemoBean.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/profile/DemoBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
@@ -1472,7 +1322,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/profile/ProfileConfig.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/profile/ProfileConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
@@ -1482,7 +1332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/profile/ProfileTest.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/profile/ProfileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -1565,7 +1415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1573,14 +1422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#357#358#0" expanded="false" />
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#437#438#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#998#999#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1588,13 +1429,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/DemoEvent.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/event/DemoEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
@@ -1607,39 +1445,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/DemoListener.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/event/DemoListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/DemoPublisher.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/event/DemoPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/EventConfig.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/event/EventConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/event/EventTest.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/event/EventTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
@@ -1647,60 +1485,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/multithread/TaskExecutorConfig.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/multithread/TaskExecutorConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="612">
           <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1235#1236#0" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/multithread/ThreadPoolTaskExecutorTest.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/multithread/ThreadPoolTaskExecutorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="306">
           <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/multithread/AsyncBean.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/multithread/AsyncBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="170">
           <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/JobBean.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/job/JobBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="374">
           <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/TaskSchedulerConfig.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/job/TaskSchedulerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="26" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/job/TaskSchedulerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/collections/PriorityQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/generic/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/corejava1/collections/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/WindowsCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/LinuxCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/model/console/spring/spring/ListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/WindowsListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/LinuxListService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/annotation/Documented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.13.RELEASE/spring-context-4.3.13.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/BeanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/DemoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/ConditionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/ConditionConifg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/MainEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/WiselyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/job/TaskSchedulerTest.java">
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/AnnotationGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1759,7 +1747,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>webboot</last-edited>
+          <last-edited>Spring|console</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

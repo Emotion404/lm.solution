@@ -14,6 +14,11 @@ public class Employee {
     private LocalDate localDate;
 
     public Employee(){}
+    public Employee(String name){
+
+        this.name=name;
+
+    }
     public Employee(String name,Integer yyyy,Integer mm,Integer dd){
         this.name=name;
         this.localDate=LocalDate.of(yyyy,mm,dd);

@@ -23,7 +23,10 @@ import java.util.List;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("lm.solution")
+@ComponentScan(value = {
+        "lm.solution.web",
+        "lm.solution.service.mysql"
+})
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 配置JSP视图解析器
@@ -63,25 +66,25 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 负责读取二进制格式的数据和写出二进制格式的数据；
     @Bean
-    public ByteArrayHttpMessageConverter byteArrayHttpMessageConverter(){
+    public ByteArrayHttpMessageConverter byteArrayHttpMessageConverter() {
 
-        return  new ByteArrayHttpMessageConverter();
+        return new ByteArrayHttpMessageConverter();
 
     }
 
     // 负责读取字符串格式的数据和写出字符串格式的数据；
     @Bean
-    public StringHttpMessageConverter stringHttpMessageConverter(){
+    public StringHttpMessageConverter stringHttpMessageConverter() {
 
-        StringHttpMessageConverter messageConverter=new StringHttpMessageConverter();
+        StringHttpMessageConverter messageConverter = new StringHttpMessageConverter();
         messageConverter.setDefaultCharset(Charset.forName("UTF-8"));
-        return  messageConverter;
+        return messageConverter;
 
     }
 
     // 负责读取资源文件和写出资源文件数据；
     @Bean
-    public ResourceHttpMessageConverter resourceHttpMessageConverter(){
+    public ResourceHttpMessageConverter resourceHttpMessageConverter() {
 
         return new ResourceHttpMessageConverter();
 
@@ -92,15 +95,16 @@ public class WebConfig extends WebMvcConfigurerAdapter {
      * 能读取的数据格式为 application/x-www-form-urlencoded，
      * 不能读取multipart/form-data格式数据；
      * 负责写入application/x-www-from-urlencoded和multipart/form-data格式的数据；
-     * */
+     */
     @Bean
-    public FormHttpMessageConverter formHttpMessageConverter(){
+    public FormHttpMessageConverter formHttpMessageConverter() {
 
         return new FormHttpMessageConverter();
 
     }
 
     // 负责读取和写入json格式的数据；
+
     /**
      * 配置 fastjson 中实现 HttpMessageConverter 接口的转换器
      * FastJsonHttpMessageConverter 是 fastjson 中实现了 HttpMessageConverter 接口的类
@@ -127,7 +131,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 负责读取和写入 xml 中javax.xml.transform.Source定义的数据；
     @Bean
-    public SourceHttpMessageConverter sourceHttpMessageConverter(){
+    public SourceHttpMessageConverter sourceHttpMessageConverter() {
 
         return new SourceHttpMessageConverter();
 
@@ -135,20 +139,21 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 负责读取和写入xml 标签格式的数据；
     @Bean
-    public Jaxb2RootElementHttpMessageConverter jaxb2RootElementHttpMessageConverter(){
+    public Jaxb2RootElementHttpMessageConverter jaxb2RootElementHttpMessageConverter() {
 
         return new Jaxb2RootElementHttpMessageConverter();
 
     }
 
     // 注册消息转换器
+
     /**
      * Error:
      * 400：（错误请求） 服务器不理解请求的语法。
      * 415：（不支持的媒体类型） 请求的格式不受请求页面的支持。
-     * */
+     */
     @Override
-    public void configureMessageConverters(List<HttpMessageConverter<?>> converters){
+    public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
 
         converters.add(this.byteArrayHttpMessageConverter());
         converters.add(this.stringHttpMessageConverter());

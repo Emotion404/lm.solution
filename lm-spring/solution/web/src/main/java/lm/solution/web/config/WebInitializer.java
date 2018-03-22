@@ -10,6 +10,15 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
+/**
+ * WebInitializer继承关系链：
+ * WebInitializer -->
+ * AbstractAnnotationConfigDispatcherServletInitializer  -->
+ * AbstractDispatcherServletInitializer  -->
+ * AbstractContextLoaderInitializer  -->
+ * WebApplicationInitializer
+ * 实现 WebApplicationInitializer 接口，就等同于 web.xml 配置
+ * */
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override
@@ -54,25 +63,6 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
         return new String[]{"/"};
 
     }
-
-//    // 配置Spring字符编码过滤器
-//    @Bean
-//    public CharacterEncodingFilter characterEncodingFilter() {
-//
-//        CharacterEncodingFilter filter = new CharacterEncodingFilter();
-//        filter.setEncoding("UTF-8");
-//        filter.setForceEncoding(true);
-//        return filter;
-//
-//    }
-
-//    @Override
-//    protected Filter[] getServletFilters(){
-//
-//        return new Filter[] { characterEncodingFilter() };
-//
-//    }
-
 
     @Override
     protected void customizeRegistration(ServletRegistration.Dynamic registration){

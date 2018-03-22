@@ -24,7 +24,12 @@
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.9" />
           <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" />
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: cglib:cglib:3.1" />
           <element id="library" level="project" name="Maven: org.ow2.asm:asm:4.2" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
@@ -55,15 +60,10 @@
           <element id="library" level="project" name="Maven: com.rabbitmq:amqp-client:5.1.2" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.46" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.13.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.13.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.13.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.13.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.13.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.13" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.4" />

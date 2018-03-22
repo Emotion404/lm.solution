@@ -26,11 +26,10 @@
         </dependency>
 
         <!--Libary-->
-        <!--spring单元测试依赖 -->
+        <!--spring mvc-->
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-webmvc</artifactId>
         </dependency>
         <!--cglib-->
         <dependency>

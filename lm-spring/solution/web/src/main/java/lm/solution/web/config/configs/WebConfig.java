@@ -1,6 +1,7 @@
 package lm.solution.web.config.configs;
 
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
+import lm.solution.web.config.beans.TimerInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -10,9 +11,9 @@ import org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConvert
 import org.springframework.http.converter.xml.SourceHttpMessageConverter;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
-import org.springframework.web.servlet.ViewResolver;
-import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
@@ -22,26 +23,36 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
+/**
+ * @EnableWebMvc 注解会开启一些默认配置，如：ViewResolver MessageConverter 等,
+ * 若无此注解，重写 WebMvcConfigurerAdapter 方法无效
+ * */
 @EnableWebMvc
 @ComponentScan(value = {
         "lm.solution.web",
         "lm.solution.service.mysql"
 })
+/**
+ * 继承 WebMvcConfigurerAdapter 类，重写其方法可对 spring mvc 进行配置
+ * */
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 配置JSP视图解析器
     @Bean
-    public ViewResolver viewResolver() {
-        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setViewClass(JstlView.class);
-        resolver.setContentType("text/html");
+    public InternalResourceViewResolver viewResolver() {
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        /**
+         * views 在 /resources/ 下
+         * */
         // 前缀
-        resolver.setPrefix("/WEB-INF/views/");
+        viewResolver.setPrefix("/WEB-INF/classes/views/");
         // 后缀
-        resolver.setSuffix(".jsp");
+        viewResolver.setSuffix(".jsp");
+        viewResolver.setViewClass(JstlView.class);
+        viewResolver.setContentType("text/html");
         // 可以在JSP页面中通过${}访问beans
-        resolver.setExposeContextBeansAsAttributes(true);
-        return resolver;
+        viewResolver.setExposeContextBeansAsAttributes(true);
+        return viewResolver;
     }
 
     // 配置springMVC处理上传文件的信息
@@ -56,11 +67,14 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 配置静态文件处理
     @Override
-    public void configureDefaultServletHandling(
-            DefaultServletHandlerConfigurer configurer
-    ) {
+    public void addResourceHandlers(ResourceHandlerRegistry registry){
 
-        configurer.enable();
+        /**
+         * addResourceHandler 指的是对外暴露的访问路径
+         * addResourceLocations 指的是文件放置的目录
+         * */
+        registry.addResourceHandler("/assets/**")
+                .addResourceLocations("classpath:/assets/");
 
     }
 
@@ -104,7 +118,6 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     }
 
     // 负责读取和写入json格式的数据；
-
     /**
      * 配置 fastjson 中实现 HttpMessageConverter 接口的转换器
      * FastJsonHttpMessageConverter 是 fastjson 中实现了 HttpMessageConverter 接口的类
@@ -146,7 +159,6 @@ public class WebConfig extends WebMvcConfigurerAdapter {
     }
 
     // 注册消息转换器
-
     /**
      * Error:
      * 400：（错误请求） 服务器不理解请求的语法。
@@ -162,8 +174,22 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         converters.add(this.fastJsonHttpMessageConverter());
         converters.add(this.sourceHttpMessageConverter());
         converters.add(this.jaxb2RootElementHttpMessageConverter());
-        //converters.add(this.atomFeedHttpMessageConverter());
-        //converters.add(this.rssChannelHttpMessageConverter());
+
+    }
+
+    // 拦截器 bean
+    @Bean
+    public TimerInterceptor timerInterceptor(){
+
+        return new TimerInterceptor();
+
+    }
+
+    // 重写 addInterceptors 注册拦截器
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+
+        registry.addInterceptor(timerInterceptor());
 
     }
 

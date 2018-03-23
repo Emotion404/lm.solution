@@ -5,10 +5,7 @@ import lm.solution.web.config.configs.WebConfig;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.FilterRegistration;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
+import javax.servlet.*;
 
 /**
  * WebInitializer继承关系链：
@@ -26,7 +23,17 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
             ServletContext servletContext
     ) throws ServletException{
 
+        /**
+         * super 中已设置 servlet.setLoadOnStartup(1)
+         * */
         super.onStartup(servletContext);
+
+//        // ApplicationContext
+//        AnnotationConfigWebApplicationContext ctx=new AnnotationConfigWebApplicationContext();
+//        ctx.setServletContext(servletContext);
+
+        //
+        ServletRegistration servletRegistration =servletContext.getServletRegistration("dispatcher");
 
         // spring 字符过滤
         FilterRegistration.Dynamic encodingFilter=servletContext.addFilter("encoding-filter",CharacterEncodingFilter.class);
@@ -65,11 +72,23 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
     }
 
     @Override
+    protected Filter[] getServletFilters() {
+        return null;
+    }
+
+    @Override
     protected void customizeRegistration(ServletRegistration.Dynamic registration){
 
         // 让404作为异常抛出 不使用tomcat默认的
         registration.setInitParameter("throwExceptionIfNoHandlerFound","true");
 
     }
+
+//    @Override
+//    public void onStartup(ServletContext context){
+//
+//
+//
+//    }
 }
 

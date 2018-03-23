@@ -17,6 +17,8 @@
 
 智能提示 - 导入  ---  Alt Enter
 
+查找类&方法在哪被使用  ---  Alt F7
+
 全部折叠  ---  Ctrl Shift -
 全部展开  ---  Ctrl Shift +
 

@@ -17,7 +17,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.List;
 /**
- * @RestController 相当于 @Controller 与 @ResponseBody 的结合体
+ * @RestController 是一个组合注解，相当于 @Controller 与 @ResponseBody 的结合体
  * */
 @RestController
 @RequestMapping(value = "/api")

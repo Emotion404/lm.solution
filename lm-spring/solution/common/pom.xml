@@ -19,6 +19,11 @@
         <!--Module-->
 
         <!--Libary-->
+        <!--spring web-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
         <!-- poi -->
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -43,19 +48,6 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-        </dependency>
-        <!-- 日志文件管理包 -->
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
         </dependency>
         <!--Commons-->
         <dependency>

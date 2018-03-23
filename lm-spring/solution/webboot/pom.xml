@@ -46,7 +46,7 @@
         </dependency>
 
         <!-- Libary -->
-        <!-- spring-boot -->
+        <!-- spring-webboot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -84,12 +84,6 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
-        </dependency>
-        <!-- 日志文件管理包 -->
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>${log4j.version}</version>
         </dependency>
     </dependencies>
 

@@ -1,7 +1,7 @@
 package lm.solution.web.config.beans;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import lm.solution.web.config.configs.properties.DbConfig;
+import lm.solution.web.config.properties.DbConfig;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.context.annotation.Bean;

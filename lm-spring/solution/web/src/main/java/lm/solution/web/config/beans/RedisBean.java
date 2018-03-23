@@ -1,6 +1,6 @@
 package lm.solution.web.config.beans;
 
-import lm.solution.web.config.configs.properties.CacheConfig;
+import lm.solution.web.config.properties.CacheConfig;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import redis.clients.jedis.JedisPool;

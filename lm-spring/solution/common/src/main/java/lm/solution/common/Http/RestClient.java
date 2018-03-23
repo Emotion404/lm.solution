@@ -1,5 +1,15 @@
 package lm.solution.common.Http;
 
+import org.apache.http.Header;
+import org.apache.http.client.HttpClient;
+import org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy;
+import org.apache.http.impl.client.DefaultHttpRequestRetryHandler;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import org.apache.http.message.BasicHeader;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.http.converter.FormHttpMessageConverter;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -13,18 +23,6 @@ import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
-
-import org.apache.http.Header;
-import org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy;
-import org.apache.http.impl.client.DefaultHttpRequestRetryHandler;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.client.HttpClient;
-import org.apache.http.message.BasicHeader;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 
 /**
  * 使用Httpclient连接池的方式
@@ -74,6 +72,7 @@ public class RestClient {
 
         // 添加内容转换器
         List<HttpMessageConverter<?>> messageConverters = new ArrayList<>();
+        /* HttpMessageConverter 顺序很重要 否则会无法解析远端请求返回的数据 */
         messageConverters.add(new StringHttpMessageConverter(Charset.forName("UTF-8")));
         messageConverters.add(new FormHttpMessageConverter());
         messageConverters.add(new MappingJackson2XmlHttpMessageConverter());

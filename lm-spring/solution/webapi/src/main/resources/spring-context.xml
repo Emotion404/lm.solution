@@ -90,7 +90,7 @@
 
     <!-- 事务 aop 配置 -->
     <aop:config>
-        <aop:pointcut id="serviceMethods" expression="execution(public * lm.solution.service.impl..*(..))" />
+        <aop:pointcut id="serviceMethods" expression="execution(public * lm.solution.service.mysql.impl..*(..))" />
         <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceMethods" />
     </aop:config>
 

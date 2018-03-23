@@ -6,20 +6,20 @@
          version="3.0">
 
     <!-- Servlet 3.0或者以上不需要配置 -->
-    <!--<listener>-->
-        <!--<listener-class>-->
-            <!--com.sun.xml.ws.transport.http.servlet.WSServletContextListener-->
-        <!--</listener-class>-->
-    <!--</listener>-->
-    <!--<servlet>-->
-        <!--<servlet-name>Service</servlet-name>-->
-        <!--<servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>-->
-        <!--<load-on-startup>1</load-on-startup>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>Service</servlet-name>-->
-        <!--<url-pattern>/ri/SquareRootServer</url-pattern>-->
-    <!--</servlet-mapping>-->
+    <listener>
+        <listener-class>
+            com.sun.xml.ws.transport.http.servlet.WSServletContextListener
+        </listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>Service</servlet-name>
+        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Service</servlet-name>
+        <url-pattern>/ri/SquareRootServer</url-pattern>
+    </servlet-mapping>
 
     <welcome-file-list>
         <welcome-file>/WEB-INF/index.html</welcome-file>

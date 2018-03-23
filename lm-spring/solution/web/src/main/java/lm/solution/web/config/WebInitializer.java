@@ -2,13 +2,47 @@ package lm.solution.web.config;
 
 import lm.solution.web.config.configs.RootConfig;
 import lm.solution.web.config.configs.WebConfig;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.Filter;
+import javax.servlet.*;
 
+/**
+ * WebInitializer继承关系链：
+ * WebInitializer -->
+ * AbstractAnnotationConfigDispatcherServletInitializer  -->
+ * AbstractDispatcherServletInitializer  -->
+ * AbstractContextLoaderInitializer  -->
+ * WebApplicationInitializer
+ * 实现 WebApplicationInitializer 接口，就等同于 web.xml 配置
+ * */
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+
+    @Override
+    public void onStartup(
+            ServletContext servletContext
+    ) throws ServletException{
+
+        /**
+         * super 中已设置 servlet.setLoadOnStartup(1)
+         * */
+        super.onStartup(servletContext);
+
+//        // ApplicationContext
+//        AnnotationConfigWebApplicationContext ctx=new AnnotationConfigWebApplicationContext();
+//        ctx.setServletContext(servletContext);
+
+        //
+        ServletRegistration servletRegistration =servletContext.getServletRegistration("dispatcher");
+
+        // spring 字符过滤
+        FilterRegistration.Dynamic encodingFilter=servletContext.addFilter("encoding-filter",CharacterEncodingFilter.class);
+        encodingFilter.setInitParameter("encoding","UTF-8");
+        encodingFilter.setInitParameter("forceEncoding","true");
+        encodingFilter.setAsyncSupported(true);
+        encodingFilter.addMappingForUrlPatterns(null,true,"/*");
+
+    }
 
     // root配置类初始化
     // 指定 Root WebApplicationContext 类，这个类必须@Configuration来注解，从而代替XML配置文件
@@ -37,23 +71,24 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
     }
 
-    // 配置Spring字符编码过滤器
-    @Bean
-    public CharacterEncodingFilter characterEncodingFilter() {
-
-        CharacterEncodingFilter filter = new CharacterEncodingFilter();
-        filter.setEncoding("UTF-8");
-        filter.setForceEncoding(true);
-        return filter;
-
+    @Override
+    protected Filter[] getServletFilters() {
+        return null;
     }
 
     @Override
-    protected Filter[] getServletFilters(){
+    protected void customizeRegistration(ServletRegistration.Dynamic registration){
 
-        return new Filter[] { characterEncodingFilter() };
+        // 让404作为异常抛出 不使用tomcat默认的
+        registration.setInitParameter("throwExceptionIfNoHandlerFound","true");
 
     }
 
+//    @Override
+//    public void onStartup(ServletContext context){
+//
+//
+//
+//    }
 }
 

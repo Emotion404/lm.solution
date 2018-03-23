@@ -1,4 +1,9 @@
 
+文件搜索  ---  Shift Shift
+当前文件搜索  ---  Ctrl F - F3(下一个)
+
+更多提示  ---  Ctrl F1
+
 格式化代码  ---  Ctrl Alt L
 
 断点、删除断点  ---  Ctrl F8
@@ -12,11 +17,13 @@
 
 智能提示 - 导入  ---  Alt Enter
 
+查找类&方法在哪被使用  ---  Alt F7
+
 全部折叠  ---  Ctrl Shift -
 全部展开  ---  Ctrl Shift +
 
 导航 - 代码上一处  ---  Ctrl Alt ←
 导航 - 代码下一处  ---  Ctrl Alt →
 
-
+单元测试  ---  Ctrl Shift F10
 

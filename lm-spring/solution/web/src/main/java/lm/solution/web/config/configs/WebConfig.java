@@ -1,6 +1,7 @@
 package lm.solution.web.config.configs;
 
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
+import lm.solution.web.config.beans.TimerInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -10,9 +11,9 @@ import org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConvert
 import org.springframework.http.converter.xml.SourceHttpMessageConverter;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
-import org.springframework.web.servlet.ViewResolver;
-import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
@@ -22,23 +23,36 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Configuration
+/**
+ * @EnableWebMvc 注解会开启一些默认配置，如：ViewResolver MessageConverter 等,
+ * 若无此注解，重写 WebMvcConfigurerAdapter 方法无效
+ * */
 @EnableWebMvc
-@ComponentScan("lm.solution")
+@ComponentScan(value = {
+        "lm.solution.web",
+        "lm.solution.service.mysql"
+})
+/**
+ * 继承 WebMvcConfigurerAdapter 类，重写其方法可对 spring mvc 进行配置
+ * */
 public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 配置JSP视图解析器
     @Bean
-    public ViewResolver viewResolver() {
-        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setViewClass(JstlView.class);
-        resolver.setContentType("text/html");
+    public InternalResourceViewResolver viewResolver() {
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        /**
+         * views 在 /resources/ 下
+         * */
         // 前缀
-        resolver.setPrefix("/WEB-INF/views/");
+        viewResolver.setPrefix("/WEB-INF/classes/views/");
         // 后缀
-        resolver.setSuffix(".jsp");
+        viewResolver.setSuffix(".jsp");
+        viewResolver.setViewClass(JstlView.class);
+        viewResolver.setContentType("text/html");
         // 可以在JSP页面中通过${}访问beans
-        resolver.setExposeContextBeansAsAttributes(true);
-        return resolver;
+        viewResolver.setExposeContextBeansAsAttributes(true);
+        return viewResolver;
     }
 
     // 配置springMVC处理上传文件的信息
@@ -53,33 +67,38 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 配置静态文件处理
     @Override
-    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+    public void addResourceHandlers(ResourceHandlerRegistry registry){
 
-        configurer.enable();
+        /**
+         * addResourceHandler 指的是对外暴露的访问路径
+         * addResourceLocations 指的是文件放置的目录
+         * */
+        registry.addResourceHandler("/assets/**")
+                .addResourceLocations("classpath:/assets/");
 
     }
 
     // 负责读取二进制格式的数据和写出二进制格式的数据；
     @Bean
-    public ByteArrayHttpMessageConverter byteArrayHttpMessageConverter(){
+    public ByteArrayHttpMessageConverter byteArrayHttpMessageConverter() {
 
-        return  new ByteArrayHttpMessageConverter();
+        return new ByteArrayHttpMessageConverter();
 
     }
 
     // 负责读取字符串格式的数据和写出字符串格式的数据；
     @Bean
-    public StringHttpMessageConverter stringHttpMessageConverter(){
+    public StringHttpMessageConverter stringHttpMessageConverter() {
 
-        StringHttpMessageConverter messageConverter=new StringHttpMessageConverter();
+        StringHttpMessageConverter messageConverter = new StringHttpMessageConverter();
         messageConverter.setDefaultCharset(Charset.forName("UTF-8"));
-        return  messageConverter;
+        return messageConverter;
 
     }
 
     // 负责读取资源文件和写出资源文件数据；
     @Bean
-    public ResourceHttpMessageConverter resourceHttpMessageConverter(){
+    public ResourceHttpMessageConverter resourceHttpMessageConverter() {
 
         return new ResourceHttpMessageConverter();
 
@@ -90,9 +109,9 @@ public class WebConfig extends WebMvcConfigurerAdapter {
      * 能读取的数据格式为 application/x-www-form-urlencoded，
      * 不能读取multipart/form-data格式数据；
      * 负责写入application/x-www-from-urlencoded和multipart/form-data格式的数据；
-     * */
+     */
     @Bean
-    public FormHttpMessageConverter formHttpMessageConverter(){
+    public FormHttpMessageConverter formHttpMessageConverter() {
 
         return new FormHttpMessageConverter();
 
@@ -125,7 +144,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 负责读取和写入 xml 中javax.xml.transform.Source定义的数据；
     @Bean
-    public SourceHttpMessageConverter sourceHttpMessageConverter(){
+    public SourceHttpMessageConverter sourceHttpMessageConverter() {
 
         return new SourceHttpMessageConverter();
 
@@ -133,36 +152,20 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 
     // 负责读取和写入xml 标签格式的数据；
     @Bean
-    public Jaxb2RootElementHttpMessageConverter jaxb2RootElementHttpMessageConverter(){
+    public Jaxb2RootElementHttpMessageConverter jaxb2RootElementHttpMessageConverter() {
 
         return new Jaxb2RootElementHttpMessageConverter();
 
     }
-
-//    // 负责读取和写入Atom格式的数据；
-//    @Bean
-//    public AtomFeedHttpMessageConverter atomFeedHttpMessageConverter(){
-//
-//        return new AtomFeedHttpMessageConverter();
-//
-//    }
-
-//    // 负责读取和写入RSS格式的数据；
-//    @Bean
-//    public RssChannelHttpMessageConverter rssChannelHttpMessageConverter(){
-//
-//        return new RssChannelHttpMessageConverter();
-//
-//    }
 
     // 注册消息转换器
     /**
      * Error:
      * 400：（错误请求） 服务器不理解请求的语法。
      * 415：（不支持的媒体类型） 请求的格式不受请求页面的支持。
-     * */
+     */
     @Override
-    public void configureMessageConverters(List<HttpMessageConverter<?>> converters){
+    public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
 
         converters.add(this.byteArrayHttpMessageConverter());
         converters.add(this.stringHttpMessageConverter());
@@ -171,8 +174,22 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         converters.add(this.fastJsonHttpMessageConverter());
         converters.add(this.sourceHttpMessageConverter());
         converters.add(this.jaxb2RootElementHttpMessageConverter());
-        //converters.add(this.atomFeedHttpMessageConverter());
-        //converters.add(this.rssChannelHttpMessageConverter());
+
+    }
+
+    // 拦截器 bean
+    @Bean
+    public TimerInterceptor timerInterceptor(){
+
+        return new TimerInterceptor();
+
+    }
+
+    // 重写 addInterceptors 注册拦截器
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+
+        registry.addInterceptor(timerInterceptor());
 
     }
 

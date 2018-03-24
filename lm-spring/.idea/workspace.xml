@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/solution/web/web.iml" afterPath="$PROJECT_DIR$/solution/web/web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
@@ -54,7 +53,7 @@
       <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="2820">
               <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,21 +113,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySqlBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/MySqlBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-              <folding>
-                <element signature="e#531#645#0" expanded="false" />
-                <element signature="method#druidDataSource#0;class#MySqlBean#0" expanded="false" />
-                <element signature="method#sqlSessionFactoryBean#0;class#MySqlBean#0" expanded="false" />
-                <element signature="method#dataSourceTransactionManager#0;class#MySqlBean#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HandlerBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/HandlerBean.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -142,7 +126,7 @@
       <file leaf-file-name="GlobalExceptionHandlerAdvice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/GlobalExceptionHandlerAdvice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="60">
               <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -161,10 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="6060">
               <caret line="378" column="0" lean-forward="false" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
               <folding>
                 <element signature="n#modules#0;n#project#0;n#!!top" expanded="false" />
@@ -211,6 +195,16 @@
                 <element signature="n#dependency#31;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
                 <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/webboot/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="96" column="12" lean-forward="false" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -540,6 +534,11 @@
               <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="webboot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1035,7 +1034,8 @@
       <workItem from="1521771817245" duration="6071000" />
       <workItem from="1521791864861" duration="6412000" />
       <workItem from="1521890933388" duration="935000" />
-      <workItem from="1521891929551" duration="3146000" />
+      <workItem from="1521891929551" duration="4371000" />
+      <workItem from="1521898132841" duration="110000" />
     </task>
     <servers />
   </component>
@@ -1072,7 +1072,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431843000" />
+    <option name="totallyTimeSpent" value="433178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1085,7 +1085,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.393736" sideWeight="0.5037554" order="8" side_tool="true" content_ui="tabs" x="-10" y="341" width="1920" height="352" />
@@ -1103,13 +1102,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5315534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5299838" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5315534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254902" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39470842" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5120773" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56935126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26701966" sideWeight="0.5056361" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1117,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32053742" sideWeight="0.4969743" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56935126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1234,7 +1233,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/support/AbstractAnnotationConfigDispatcherServletInitializer.class" />
     <entry file="file://$PROJECT_DIR$/solution/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -1470,7 +1468,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java" />
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="2820">
           <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1534,13 +1532,14 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="373.0" y="23.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/GlobalExceptionHandlerAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="60">
           <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1558,7 +1557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="6060">
           <caret line="378" column="0" lean-forward="false" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
           <folding>
             <element signature="n#modules#0;n#project#0;n#!!top" expanded="false" />
@@ -1605,6 +1604,14 @@
             <element signature="n#dependency#31;n#dependencies#0;n#dependencyManagement#0;n#project#0;n#!!top" expanded="false" />
             <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/webboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="96" column="12" lean-forward="false" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

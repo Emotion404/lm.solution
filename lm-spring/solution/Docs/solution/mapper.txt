@@ -14,9 +14,11 @@ CREATE TABLE `user` (
 -->
 
 -->
+mysql:
 jdbc.username=root
 jdbc.password=liumeng
-
+sql server:
+sa liumeng
 
 
 

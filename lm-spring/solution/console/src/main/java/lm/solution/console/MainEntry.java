@@ -1,6 +1,7 @@
 package lm.solution.console;
 
-import lm.solution.console.corejava1.lambda.TimerTest;
+import lm.solution.console.rabbitmq.Customer;
+import lm.solution.console.rabbitmq.Producer;
 
 public class MainEntry {
 
@@ -35,9 +36,9 @@ public class MainEntry {
 //        new Customer().consumeDirect004_2();
 //        new Producer().publishDirect004();
         /*-------------------------------------*/
-//        new Customer().consumeTopic005_1();
-//        new Customer().consumeTopic005_2();
-//        new Producer().publishTopic005();
+        new Customer().consumeTopic005_1();
+        new Customer().consumeTopic005_2();
+        new Producer().publishTopic005();
         /*-------------------------------------*/
 
         /**
@@ -49,7 +50,7 @@ public class MainEntry {
         /**
          * Timer test
          * */
-        new TimerTest().timePrintTest();
+//        new TimerTest().timePrintTest();
 
     }
 

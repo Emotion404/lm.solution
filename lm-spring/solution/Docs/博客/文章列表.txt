@@ -1,7 +1,7 @@
 
 
-GIT:
-git tag -l -n 
+mysql 安装:
+https://jingyan.baidu.com/article/363872ec2e27076e4ba16fc3.html
 
 
 

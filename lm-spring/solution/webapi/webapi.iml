@@ -27,11 +27,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="service" />
     <orderEntry type="module" module-name="mapper" />
-    <orderEntry type="module" module-name="pojo" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.5" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.34" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.alibaba:druid:1.0.5" level="project" />
     <orderEntry type="module" module-name="common" />
+    <orderEntry type="module" module-name="pojo" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.13.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.9" level="project" />

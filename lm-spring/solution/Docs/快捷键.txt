@@ -1,6 +1,4 @@
 
-文件搜索  ---  Shift Shift
-当前文件搜索  ---  Ctrl F - F3(下一个)
 
 更多提示  ---  Ctrl F1
 
@@ -17,6 +15,11 @@
 
 智能提示 - 导入  ---  Alt Enter
 
+文件搜索  ---  Shift Shift
+
+当前文件关键字搜索  ---  Ctrl F
+当前文件关键字搜索 下一个  ---   F3
+全文关键字搜索  ---  Ctrl Alt Shift n
 查找类&方法在哪被使用  ---  Alt F7
 
 全部折叠  ---  Ctrl Shift -

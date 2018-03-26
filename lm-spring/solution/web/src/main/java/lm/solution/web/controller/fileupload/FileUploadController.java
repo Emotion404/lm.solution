@@ -14,6 +14,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Iterator;
 
+
+/**
+ * 使用 MultipartFile 接收上传文件
+ * */
 @Controller
 @RequestMapping(value = "/FileUpload/*")
 public class FileUploadController {
@@ -26,7 +30,7 @@ public class FileUploadController {
     @RequestMapping(value = "fileUpload_multipartFile")
     public String fileUpload_multipartFile(
             HttpServletRequest request,
-            @RequestParam("file_upload")MultipartFile multipartFile){
+            @RequestParam("file_upload") MultipartFile multipartFile){
 
         // 调用保存文件的帮助类进行保存文件，并返回文件的相对路径
         String filePath= Files_Utils_DG.FileUpload_transferTo_spring(request,multipartFile,"/files/upload");

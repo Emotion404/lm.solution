@@ -13,6 +13,8 @@
 <a href="/jaxwsri">Jax-Ws RI</a><br>
 <a href="/redis">redis option by jedis</a><br>
 <a href="/mybatisPage">MyBatis</a><br>
-<a href="/advice/globalHandlerAdvice"> GlobalHandlerAdvice --> GlobalExceptionHandle --> ErrorPage </a>
+<a href="/advice/globalHandlerAdvice"> GlobalHandlerAdvice --> GlobalExceptionHandle --> ErrorPage </a><br>
+<a href="/messageconverter"> 自定义 HttpMessageConverter </a><br>
+<a href="/sse">Server Sent Event</a>
 </body>
 </html>

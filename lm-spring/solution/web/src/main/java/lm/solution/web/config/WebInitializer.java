@@ -42,6 +42,7 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
         encodingFilter.setAsyncSupported(true);
         encodingFilter.addMappingForUrlPatterns(null,true,"/*");
 
+
     }
 
     // root配置类初始化

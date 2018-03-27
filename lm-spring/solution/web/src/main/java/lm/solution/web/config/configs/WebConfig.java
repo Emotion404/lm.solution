@@ -45,7 +45,8 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         registry.addViewController("/jaxwsri").setViewName("jaxwsri/wsri");
         registry.addViewController("/redis").setViewName("redis/jedis");
         registry.addViewController("/mybatisPage").setViewName("db/mybatis");
-        registry.addViewController("/messageconverter").setViewName("");
+        registry.addViewController("/messageconverter").setViewName("httpmessageconverter/customconverter");
+        registry.addViewController("/sse").setViewName("serverpushmessage/sse");
 
     }
 

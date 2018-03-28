@@ -1,0 +1,8 @@
+
+
+prod:
+server.port=8085
+dev:
+server.port=8086
+
+

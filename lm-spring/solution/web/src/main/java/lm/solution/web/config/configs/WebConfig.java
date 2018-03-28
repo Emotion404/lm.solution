@@ -25,7 +25,8 @@ import java.util.List;
 @EnableWebMvc
 @ComponentScan(value = {
         "lm.solution.web",
-        "lm.solution.service.mysql"
+        "lm.solution.service.mysql",
+        "lm.solution.service.webtest"
 })
 /**
  * 继承 WebMvcConfigurerAdapter 类，重写其方法可对 spring mvc 进行配置

@@ -96,7 +96,8 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>RELEASE</version>
-            <scope>test</scope><!-- 表示开发的时候引入，发布的时候不会加载此包 -->
+            <!--test 说明这个包的存活是在test周期，也就是发布时将不包含这个jar包-->
+            <scope>test</scope>
         </dependency>
         <!--spring单元测试依赖 -->
         <dependency>

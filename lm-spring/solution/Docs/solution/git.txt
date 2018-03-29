@@ -1,3 +1,0 @@
-GIT:
-查看 tag
-git tag -l -n    列表&说明

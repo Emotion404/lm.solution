@@ -1,0 +1,16 @@
+
+
+GIT:
+
+--------------------------------------------------------
+查看 tag  // tag是对历史一个提交id的引用
+$ git tag
+git tag -l -n      // 列表&说明
+$ git tag -l(L) 'v1.4.2.*'
+$ git tag -a 'v1.4' -m 'my version 1.4'  // 添加一个 tag
+$ git show v1.4
+$ git push origin v1.5
+$ git push origin --tags
+$ git checkout -b tset v0.1.0  // 从特定tag签出一个分支
+
+

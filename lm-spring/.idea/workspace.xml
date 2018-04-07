@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/solution/Docs/GIT.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -541,6 +541,16 @@
       </option>
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="solution" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration name="springboot-web" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="webboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lm.solution.webboot.Application" />
@@ -788,18 +798,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="solution" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -915,6 +913,7 @@
       <workItem from="1522201658449" duration="6765000" />
       <workItem from="1522218639700" duration="638000" />
       <workItem from="1522305160438" duration="920000" />
+      <workItem from="1522388744628" duration="59000" />
     </task>
     <servers />
   </component>
@@ -951,7 +950,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="464006000" />
+    <option name="totallyTimeSpent" value="464065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -964,13 +963,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="925" y="386" width="995" height="653" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" auto_hide="true" x="-10" y="341" width="1920" height="352" id="Event Log" order="8" sideWeight="0.5037554" side_tool="true" weight="0.393736" />
       <window_info anchor="bottom" auto_hide="true" id="Application Servers" order="2" weight="0.30902112" />
       <window_info anchor="right" auto_hide="true" id="Maven Projects" order="7" weight="0.3368984" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" auto_hide="true" id="Database" order="1" weight="0.32834226" />
@@ -983,8 +981,8 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32850242" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.5278311" />
       <window_info anchor="bottom" auto_hide="true" id="Version Control" order="11" weight="0.5299838" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5278311" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3254902" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3273906" />
       <window_info auto_hide="true" content_ui="combo" id="Project" order="0" sideWeight="0.4879227" weight="0.41497326" />
@@ -994,12 +992,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5056361" side_tool="true" weight="0.26701966" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" auto_hide="true" id="Coverage" order="8" side_tool="true" weight="0.32991362" />
-      <window_info anchor="bottom" auto_hide="true" id="Find" order="1" weight="0.5681382" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" auto_hide="true" id="Messages" order="9" sideWeight="0.4969743" weight="0.31861803" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" auto_hide="true" id="Find" order="1" weight="0.5681382" />
+      <window_info anchor="right" auto_hide="true" id="Coverage" order="8" side_tool="true" weight="0.32991362" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1132,6 +1130,13 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/solution/Docs/GIT.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/fileupload/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1485,41 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="168" selection-start-line="168" selection-end-line="168" />
-          <folding>
-            <element signature="n#parent#0;n#project#0;n#!!top" />
-            <element signature="e#655#821#0" />
-            <element signature="e#830#995#0" />
-            <element signature="e#1053#1189#0" />
-            <element signature="e#1219#1333#0" />
-            <element signature="e#1370#1492#0" />
-            <element signature="e#1535#1664#0" />
-            <element signature="e#1702#1831#0" />
-            <element signature="e#1873#2035#0" />
-            <element signature="e#2067#2237#0" />
-            <element signature="e#2246#2410#0" />
-            <element signature="e#2419#2540#0" />
-            <element signature="e#2577#2747#0" />
-            <element signature="e#2787#2901#0" />
-            <element signature="e#2935#3065#0" />
-            <element signature="e#3074#3203#0" />
-            <element signature="e#3235#3375#0" />
-            <element signature="e#3384#3508#0" />
-            <element signature="e#3548#3678#0" />
-            <element signature="e#3687#3829#0" />
-            <element signature="e#3838#3973#0" />
-            <element signature="e#4017#4379#0" />
-            <element signature="e#4146#4357#0" />
-            <element signature="e#4175#4331#0" />
-            <element signature="e#4416#4544#0" />
-            <element signature="e#4596#4733#0" />
-            <element signature="e#4742#4881#0" />
-            <element signature="e#4927#5049#0" />
-            <element signature="e#5100#5227#0" />
-            <element signature="e#5274#5397#0" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1600,13 +1570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/git.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/Docs/GIT.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

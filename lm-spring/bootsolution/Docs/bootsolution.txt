@@ -1,5 +1,9 @@
 
 
+http
+server.port=8080
+
+https
 prod:
 server.port=8085
 dev:

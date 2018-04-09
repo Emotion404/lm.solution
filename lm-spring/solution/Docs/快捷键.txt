@@ -14,6 +14,8 @@
 调试 - 结束  ---  F9
 
 智能提示 - 导入  ---  Alt Enter
+跳转源码  ---  F4
+         ---  Ctrl Q
 
 文件搜索  ---  Shift Shift
 

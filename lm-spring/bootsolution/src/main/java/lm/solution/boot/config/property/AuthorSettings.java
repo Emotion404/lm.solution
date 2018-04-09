@@ -1,4 +1,4 @@
-package lm.solution.boot.config;
+package lm.solution.boot.config.property;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

@@ -1,25 +1,11 @@
 package lm.solution.boot;
 
-import lm.solution.boot.config.AuthorSettings;
-import lm.solution.boot.entity.Person;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * spring boot 入口类
- * */
-@Controller
-/**
+ *
  * @SpringBootApplication 是 Spring Boot 项目的核心注解，
  * 主要目的是开启自动配置
  *
@@ -35,41 +21,17 @@ import java.util.List;
 @SpringBootApplication
 public class Application {
 
-	@Value("${book.author}")
-	private String bookAuthor;
-	@Value("${book.name}")
-	private String bookName;
+//	@Value("${book.author}")
+//	private String bookAuthor;
+//	@Value("${book.name}")
+//	private String bookName;
 
-	@Autowired
-	private AuthorSettings authorSettings;
+//	@Value("${server.port}")
+//	private Integer port;
 
-	@RequestMapping("/")
-	@ResponseBody
-	public String index() {
 
-		return "author name is "+authorSettings.getName()+" and author age is "+authorSettings.getAge();
-		//return "book name is:" + bookName + " and author is:" + bookAuthor;
-		//return "Hello Spring Boot";
 
-	}
 
-	@RequestMapping("/person")
-	public String person(Model model){
-		Person single = new Person("aa",11);
-
-		List<Person> people=new ArrayList<>();
-		Person p1 = new Person("xx",11);
-		Person p2 = new Person("yy",22);
-		Person p3 = new Person("zz",33);
-		people.add(p1);
-		people.add(p2);
-		people.add(p3);
-
-		model.addAttribute("singlePerson",single);
-		model.addAttribute("people",people);
-
-		return "index";
-	}
 
 	/**
 	 * 这是一个标准的 java main 方法，
@@ -82,5 +44,41 @@ public class Application {
 		app.run(args);
 
 	}
+
+//	@Bean
+//	public Connector httpConnector(){
+//
+//		Connector connector=new Connector("org.apache.coyote.httpll.HttpllNioProtocol");
+//		connector.setScheme("http");
+//		connector.setPort(8080);
+//		connector.setSecure(false);
+//		connector.setRedirectPort(port);
+//		return connector;
+//
+//	}
+
+//	@Bean
+//	public EmbeddedServletContainerFactory servletContainerFactory(){
+//
+//		TomcatEmbeddedServletContainerFactory tomcat =new TomcatEmbeddedServletContainerFactory(){
+//
+//			@Override
+//			protected void postProcessContext(Context context){
+//
+//				SecurityConstraint securityConstraint=new SecurityConstraint();
+//				securityConstraint.setUserConstraint("CONFIDENTIAL");
+//				SecurityCollection collection=new SecurityCollection();
+//				collection.addPattern("/*");
+//				securityConstraint.addCollection(collection);
+//				context.addConstraint(securityConstraint);
+//
+//			}
+//
+//		};
+//
+//		tomcat.addAdditionalTomcatConnectors(httpConnector());
+//		return tomcat;
+//
+//	}
 
 }

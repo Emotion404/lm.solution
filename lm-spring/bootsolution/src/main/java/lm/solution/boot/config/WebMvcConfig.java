@@ -10,7 +10,15 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
 
-        //registry.addViewController("/websocket/ws").setViewName("socket/ws");
+        // WebSocket
+        registry.addViewController("/websocket/ws").setViewName("ws");
+        registry.addViewController("/websocket/wsqueue").setViewName("chat");
+
+        // Spring Security
+        registry.addViewController("/login").setViewName("login");
+
+        // Bootstrap
+        registry.addViewController("/template/bootstrap").setViewName("BootstrapStandardTemplate");
 
     }
 

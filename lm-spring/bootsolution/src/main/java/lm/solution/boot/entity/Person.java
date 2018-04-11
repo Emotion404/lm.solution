@@ -3,6 +3,8 @@ package lm.solution.boot.entity;
 public class Person {
 
     private String name;
+    private Integer age;
+//private
 
     public void setName(String name) {
         this.name = name;
@@ -11,8 +13,6 @@ public class Person {
     public String getName() {
         return name;
     }
-
-    private Integer age;
 
     public void setAge(Integer age) {
         this.age = age;

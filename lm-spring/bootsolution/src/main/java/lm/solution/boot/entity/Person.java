@@ -4,7 +4,15 @@ public class Person {
 
     private String name;
     private Integer age;
-//private
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -22,18 +30,25 @@ public class Person {
         return age;
     }
 
-    public Person(){
+    public Person() {
 
         super();
 
     }
 
-    public Person(String name,Integer age){
+    public Person(String name, Integer age) {
 
+        super();
+        this.name = name;
+        this.age = age;
+
+    }
+
+    public Person(String name,Integer age,String address){
         super();
         this.name=name;
         this.age=age;
-
+        this.address=address;
     }
 
 }

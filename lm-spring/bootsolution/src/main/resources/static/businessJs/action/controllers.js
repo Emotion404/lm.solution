@@ -11,8 +11,8 @@ actionApp.controller('View1Controller', ['$rootScope','$scope','$http', function
     $scope.search=function () {
         // 通过 $scope.personName 获取页面定义的 ng-model="personName" 的值
         personName=$scope.personName;
-        // 使用 $http.get 向服务端地址 /search 发送 get 请求
-        $http.get('/search',{
+        // 使用 $http.get 向服务端地址 /action/search 发送 get 请求
+        $http.get('/action/search',{
             // 请求的参数
             params:{
                 personName:personName

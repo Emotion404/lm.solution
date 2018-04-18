@@ -1,0 +1,42 @@
+
+
+Ubuntu 安装 vim ：
+sudo apt-get install vim
+
+
+切换目录：
+cd		是Change Directory的缩写，这是用来变换工作目录的命令。
+cd ~	进入 /root 目录（~）
+cd ..	表示去到目前的上一级目录
+cd ./test  切换到,基于
+cd /tmp
+
+
+查看目录文件：
+ls /      				Linux 系统目录结构
+ls /etc/       			这个目录用来存放所有的系统管理所需要的配置文件和子目录。
+ls /var/	这个目录中存放着在不断扩充着的东西，我们习惯将那些经常被修改的目录放在这个目录下。包括各种日志文件。
+ls -a		全部的文件，连同隐藏档( 开头为 . 的文件) 一起列出来
+ls -l		长数据串列出，包含文件的属性与权限等等数据
+ls -al ~	将根目录下的所有文件列出来
+
+
+创建删除目录：
+mkdir w3cschool.cn		创建w3cschool.cn目录
+mkdir -p test1/test2/test3		建立多级目录
+mkdir -m 711 testP		上面的权限部分，如果没有加上 -m 来强制配置属性，系统会使用默认属性。如果我们使用 -m ，如上例我们给予 -m 711 来给予新的目录 drwx--x--x 的权限。
+rmdir 	(删除空的目录)  这个 rmdir 仅能删除空的目录，你可以使用 rm 命令来删除非空目录。
+rmdir w3cschool.cn/		删除 w3cschool.cn 目录
+pwd		是 Print Working Directory 的缩写，也就是显示目前所在目录的命令。
+
+
+移动复制文件目录：
+mv		(移动文件与目录，或修改名称)
+mv bashrc mvtest  移动文件bashrc到文件夹mvtest中
+mv mvtest mvtest2		将目录mvtest重命名为mvtest2
+cp ~/.bashrc /tmp/bashrc		将家目录下的 .bashrc 复制到 /tmp 下，并更名为 bashr
+cp -i ~/.bashrc /tmp/bashrc   	-i ：若目标档(destination)已经存在时，在覆盖时会先询问动作的进行(常用)
+
+
+
+

@@ -1,9 +1,5 @@
 
 
-Ubuntu 安装 vim ：
-sudo apt-get install vim
-
-
 切换目录：
 cd		是Change Directory的缩写，这是用来变换工作目录的命令。
 cd ~	进入 /root 目录（~）

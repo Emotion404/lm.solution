@@ -77,7 +77,7 @@
       <file leaf-file-name="TestControllerIntegrationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/web/src/test/java/lm/solution/web/test/TestControllerIntegrationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
+            <state relative-caret-position="765">
               <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="MyRestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/mocktest/MyRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="255">
               <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,7 +110,7 @@
       <file leaf-file-name="NormalController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/mocktest/NormalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="272">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,20 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="page.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/views/mocktest/page.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="快捷键.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -282,10 +273,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="387" />
+    <option name="x" value="912" />
+    <option name="y" value="347" />
     <option name="width" value="1007" />
-    <option name="height" value="653" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -295,7 +286,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -365,141 +410,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="restful" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
               <item name="Docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -973,6 +900,8 @@
       <workItem from="1523954247357" duration="1198000" />
       <workItem from="1524042803819" duration="30000" />
       <workItem from="1524043304438" duration="23000" />
+      <workItem from="1524130045867" duration="234000" />
+      <workItem from="1524130374867" duration="615000" />
     </task>
     <servers />
   </component>
@@ -1009,7 +938,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="473378000" />
+    <option name="totallyTimeSpent" value="474227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,7 +950,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="387" width="1007" height="653" extended-state="0" />
+    <frame x="912" y="347" width="1007" height="690" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
@@ -1041,23 +970,23 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32850242" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" auto_hide="true" id="Version Control" order="11" weight="0.5299838" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.5278311" />
+      <window_info anchor="bottom" auto_hide="true" id="Version Control" order="11" weight="0.5299838" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.3254902" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.3273906" />
-      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" sideWeight="0.4879227" weight="0.35058078" />
+      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="0" sideWeight="0.4879227" visible="true" weight="0.35058078" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32941177" />
       <window_info auto_hide="true" id="Web" order="5" sideWeight="0.5120773" side_tool="true" weight="0.26701966" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="6" sideWeight="0.5056361" side_tool="true" weight="0.26701966" />
-      <window_info anchor="bottom" auto_hide="true" id="Messages" order="9" sideWeight="0.4969743" weight="0.31861803" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" auto_hide="true" id="Find" order="1" weight="0.5681382" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" auto_hide="true" id="Coverage" order="8" side_tool="true" weight="0.32991362" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" auto_hide="true" id="Messages" order="9" sideWeight="0.4969743" weight="0.31861803" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" auto_hide="true" id="Find" order="1" weight="0.5681382" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1473,7 +1402,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/mocktest/NormalController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="272">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1504,7 +1433,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/test/java/lm/solution/web/test/TestControllerIntegrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
+        <state relative-caret-position="765">
           <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1533,18 +1462,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/mocktest/MyRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="255">
           <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/views/mocktest/page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1555,10 +1477,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt">
+    <entry file="file://$PROJECT_DIR$/solution/Docs/快捷键.txt" />
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/views/mocktest/page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,7 @@
+
+修改hosts
+sudo gedit /etc/hosts
+
+# intelij idea
+0.0.0.0 account.jetbrains.com
+

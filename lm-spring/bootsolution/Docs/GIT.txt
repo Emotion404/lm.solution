@@ -6,8 +6,18 @@ GIT:
 File Change
 git checkout -- <file>   // 放弃 未提交更改
 
+初始化仓库
+git init
+
+提交：
+git commit -a -m "commit test"
+
+
+
 --------------------------------------------------------
 Log
+git log --pretty=oneline
+
 $ git log --pretty=format:"%H - %an - %cd - %s"
 $ git log --pretty=format:"%h - %an, %ar : %s"
 ca82a6d - Scott Chacon, 11 months ago : changed the version number

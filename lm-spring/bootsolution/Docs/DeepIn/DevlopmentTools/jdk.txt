@@ -1,4 +1,26 @@
 
 JAVA JDK 8 :
+文章
+https://blog.csdn.net/h13140995776/article/details/76652383
+命令
+1.提取文件
+mkdir -p ~/dev/Java
+tar -zxvf jdk-8u112-linux-x64.tar.gz -C ~/dev/Java
+2.配置环境变量
+vim ~/.profile  #在.profile文件最后追加如下内容
+export JAVA_HOME=$HOME/dev/Java/jdk1.8.0_112
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$JAVA_HOME/bin:$PATH
+source ~/.profile
+3.重启
+sudo rm -rf /etc/profile.d/java-awt-font-gasp.sh
+sudo shutdown -r now
+4.版本显示
+$ java -version
+java version "1.8.0_112"
+Java(TM) SE Runtime Environment (build 1.8.0_112-b15)
+Java HotSpot(TM) 64-Bit Server VM (build 25.112-b15, mixed mode)
+
+
 
 

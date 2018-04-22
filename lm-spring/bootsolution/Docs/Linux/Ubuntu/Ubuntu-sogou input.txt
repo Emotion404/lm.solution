@@ -1,0 +1,11 @@
+
+
+安装：
+sudo dpkg -i sogoupinyin_2.2.0.0102_amd64.deb
+
+修复依赖关系：
+sudo apt-get install -f
+
+进入系统选择搜狗：
+fcitx 
+

@@ -3,6 +3,22 @@
 GIT:
 
 --------------------------------------------------------
+Git Hub
+文章：
+https://blog.csdn.net/qq_24147051/article/details/64923471
+操作补充（更改hosts，加上github.com DNS映射）：
+1.关联远程仓库
+git remote add origin git@github.com:git_username/repository_name.git
+2.更新远程跟踪分支
+git fetch origin
+3.跟踪远程分支
+git branch --set-upstream-to=origin/remote_branch  your_branch
+4.本地强推远端
+git push --force origin
+
+
+
+--------------------------------------------------------
 File Change
 git checkout -- <file>   // 放弃 未提交更改
 

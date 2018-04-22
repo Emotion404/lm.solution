@@ -1,0 +1,182 @@
+
+*****************************************************************************************
+Shell 环境:
+/bin/bash
+保存 shell 脚本,并执行 ：
+chmod +x ./test.sh		使脚本具有执行权限
+./test.sh		执行脚本   用./test.sh告诉系统说，就在当前目录找
+/bin/sh ./test.sh		这种运行方式是，直接运行解释器，其参数就是shell脚本的文件名
+
+
+------------------------------------------------------------------------------------------
+Shell 变量:
+your_name="w3cschool.cn"		定义变量时，变量名不加美元符号
+echo $your_name		使用一个定义过的变量，只要在变量名前面加美元符号即可
+echo ${your_name}	变量名外面的花括号是可选的，加不加都行，加花括号是为了帮助解释器识别变量的边界
+
+------------------------------------------------------------------------------------------
+Shell 字符串:
+str="this is a string"
+your_name="abcd"
+str="hello,${your_name}"		双引号里可以有变量
+echo ${str}
+拼接字符串:
+greeting1="Hello"
+greeting2=" abcd"
+echo ${greeting1} ${greeting2}
+获取字符串长度
+str="abcd"
+echo ${#str}
+提取子字符串
+str="abcdefghijk"
+echo ${str:1:4}
+
+------------------------------------------------------------------------------------------
+Shell 数组:   一维数组
+定义数组
+array_name=(value0 value1 value2 value3)
+赋值
+my_array[2]=C
+读取数组
+echo ${array_name[2]}
+echo ${array_name[@]}		使用@符号可以获取数组中的所有元素
+echo ${array_name[*]}
+获取数组的长度
+lenth=${#array_name[*]}
+lenth=${#array_name[@]}
+echo ${lenth}
+
+------------------------------------------------------------------------------------------
+Shell 注释
+以"#"开头的行就是注释，会被解释器忽略。     sh里没有多行注释，只能每一行加一个#号。
+
+------------------------------------------------------------------------------------------
+Shell 传递参数 ( 参考 https://www.w3cschool.cn/linux/linux-shell-passing-arguments.html ):
+$0   执行的文件名
+$1		第一个参数为
+$#		参数个数为
+$*		传递的参数作为一个字符串显示
+$@
+" * " 等价于 "1 2 3"（传递了一个参数），而 "@" 等价于 "1" "2" "3"（传递了三个参数）
+
+------------------------------------------------------------------------------------------
+Shell 运算符 ( 参考 https://www.w3cschool.cn/linux/linux-shell-basic-operators.html ):
+
+val=`expr 2 + 2`    expr 是一款表达式计算工具，使用它能完成表达式的求值操作   注意使用的是反引号 ` 而不是单引号 '
++	加法	`expr $a + $b` 结果为 30。
+-	减法	`expr $a - $b` 结果为 10。
+*	乘法	`expr $a \* $b` 结果为  200。
+/	除法	`expr $b / $a` 结果为 2。
+%	取余	`expr $b % $a` 结果为 0。
+=	赋值	a=$b 将把变量 b 的值赋给 a。
+==	相等。用于比较两个数字，相同则返回 true。	[ $a == $b ] 返回 false。
+!=	不相等。用于比较两个数字，不相同则返回 true。	[ $a != $b ] 返回 true。
+
+关系运算符:
+-eq	检测两个数是否相等，相等返回 true。	[ $a -eq $b ] 返回 false。
+-ne	检测两个数是否相等，不相等返回 true。	[ $a -ne $b ] 返回 true。
+-gt	检测左边的数是否大于右边的，如果是，则返回 true。	[ $a -gt $b ] 返回 false。
+-lt	检测左边的数是否小于右边的，如果是，则返回 true。	[ $a -lt $b ] 返回 true。
+-ge	检测左边的数是否大等于右边的，如果是，则返回 true。	[ $a -ge $b ] 返回 false。
+-le	检测左边的数是否小于等于右边的，如果是，则返回 true。	[ $a -le $b ] 返回 true。
+布尔运算符:
+!	非运算，表达式为 true 则返回 false，否则返回 true。	[ ! false ] 返回 true。
+-o	或运算，有一个表达式为 true 则返回 true。	[ $a -lt 20 -o $b -gt 100 ] 返回 true。
+-a	与运算，两个表达式都为 true 才返回 true。	[ $a -lt 20 -a $b -gt 100 ] 返回 false。
+逻辑运算符:
+&&	逻辑的 AND	[[ $a -lt 100 && $b -gt 100 ]] 返回 false
+||	逻辑的 OR	[[ $a -lt 100 || $b -gt 100 ]] 返回 true
+字符串运算符:
+=	检测两个字符串是否相等，相等返回 true。	[ $a = $b ] 返回 false。
+!=	检测两个字符串是否相等，不相等返回 true。	[ $a != $b ] 返回 true。
+-z	检测字符串长度是否为0，为0返回 true。	[ -z $a ] 返回 false。
+-n	检测字符串长度是否为0，不为0返回 true。	[ -n $a ] 返回 true。
+str	检测字符串是否为空，不为空返回 true。	[ $a ] 返回 true。
+文件测试运算符:
+-b file	检测文件是否是块设备文件，如果是，则返回 true。	[ -b $file ] 返回 false。
+-c file	检测文件是否是字符设备文件，如果是，则返回 true。	[ -c $file ] 返回 false。
+-d file	检测文件是否是目录，如果是，则返回 true。	[ -d $file ] 返回 false。
+-f file	检测文件是否是普通文件（既不是目录，也不是设备文件），如果是，则返回 true。	[ -f $file ] 返回 true。
+-g file	检测文件是否设置了 SGID 位，如果是，则返回 true。	[ -g $file ] 返回 false。
+-k file	检测文件是否设置了粘着位(Sticky Bit)，如果是，则返回 true。	[ -k $file ] 返回 false。
+-p file	检测文件是否是具名管道，如果是，则返回 true。	[ -p $file ] 返回 false。
+-u file	检测文件是否设置了 SUID 位，如果是，则返回 true。	[ -u $file ] 返回 false。
+-r file	检测文件是否可读，如果是，则返回 true。	[ -r $file ] 返回 true。
+-w file	检测文件是否可写，如果是，则返回 true。	[ -w $file ] 返回 true。
+-x file	检测文件是否可执行，如果是，则返回 true。	[ -x $file ] 返回 true。
+-s file	检测文件是否为空（文件大小是否大于0），不为空返回 true。	[ -s $file ] 返回 true。
+-e file	检测文件（包括目录）是否存在，如果是，则返回 true。	[ -e $file ] 返回 true。
+
+------------------------------------------------------------------------------------------
+Shell echo命令:
+1.显示普通字符串:
+echo "It is a test"
+echo "hello"	echo命令用于向窗口输出文本
+2.显示转义字符
+echo "\"it is a string\""
+3.显示变量
+4.显示换行
+https://www.w3cschool.cn/linux/linux-shell-echo.html
+6.显示结果定向至文件
+echo "It is a test" > myfile
+7.原样输出字符串，不进行转义或取变量(用单引号)
+8.显示命令执行结果
+echo `date`
+
+------------------------------------------------------------------------------------------
+Shell printf 命令:
+https://www.w3cschool.cn/linux/linux-shell-printf.html
+
+------------------------------------------------------------------------------------------
+Shell test命令 :
+数值测试
+-eq	等于则为真
+-ne	不等于则为真
+-gt	大于则为真
+-ge	大于等于则为真
+-lt	小于则为真
+-le	小于等于则为真
+字符串测试
+=	等于则为真
+!=	不相等则为真
+-z 字符串	字符串长度伪则为真
+-n 字符串	字符串长度不伪则为真
+文件测试
+-e 文件名	如果文件存在则为真
+-r 文件名	如果文件存在且可读则为真
+-w 文件名	如果文件存在且可写则为真
+-x 文件名	如果文件存在且可执行则为真
+-s 文件名	如果文件存在且至少有一个字符则为真
+-d 文件名	如果文件存在且为目录则为真
+-f 文件名	如果文件存在且为普通文件则为真
+-c 文件名	如果文件存在且为字符型特殊文件则为真
+-b 文件名	如果文件存在且为块特殊文件则为真
+
+------------------------------------------------------------------------------------------
+Shell 流程控制 （参考 https://www.w3cschool.cn/linux/linux-shell-process-control.html）
+Shell 函数 (参考 https://www.w3cschool.cn/linux/linux-shell-func.html)
+Shell 文件包含 （参考 https://www.w3cschool.cn/linux/linux-shell-include-file.html）
+
+------------------------------------------------------------------------------------------
+Shell 输入/输出重定向:
+command > file	将输出重定向到 file。
+command < file	将输入重定向到 file。
+command >> file	将输出以追加的方式重定向到 file。
+n > file	将文件描述符为 n 的文件重定向到 file。
+n >> file	将文件描述符为 n 的文件以追加的方式重定向到 file。
+n >& m	将输出文件 m 和 n 合并。
+n <& m	将输入文件 m 和 n 合并。
+<< tag	将开始标记 tag 和结束标记 tag 之间的内容作为输入。
+输出重定向:
+who
+who > users		它将命令的完整的输出重定向在用户文件中(users)
+cat ./users		可以使用 cat 命令查看文件内容
+echo "abcdef" > ./users		输出重定向会覆盖文件内容
+echo "123456" >> ./users		如果不希望文件内容被覆盖，可以使用 >> 追加到文件末尾
+输入重定向
+wc -l ./users		统计 users 文件的行数
+wc -l < ./users		也可以将输入重定向到 users 文件
+
+
+
+

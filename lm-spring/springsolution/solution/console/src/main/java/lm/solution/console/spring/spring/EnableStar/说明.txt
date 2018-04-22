@@ -1,0 +1,18 @@
+
+@EnableAspectJAutoProxy 开启对 AspectJ 自动代理的支持
+
+@EnableAsync 开启异步方法的支持
+
+@EnableScheduling 开启计划任务的支持
+
+@EnableWebMvc 开始 Web MVC 的支持
+
+@EnableCofigurationProperties 开启对 @ConfigurationProperties 注解配置 bean 的支持
+
+@EnableJpaRepositories 开启对 Spring Data JPA Repository 支持
+
+@EnableTransactionManagement 开启注解式事务的支持
+
+@EnableCaching 开启注解式缓存的支持
+
+

@@ -1,0 +1,12 @@
+
+安装 git ：
+sudo apt-get update
+sudo apt-get install git
+
+配置 git ：
+git config --global user.email "liumeng0403@163.com"
+git config --global user.name "liumeng"
+
+
+
+

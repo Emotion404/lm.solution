@@ -21,16 +21,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application {
 
-//	@Value("${book.author}")
-//	private String bookAuthor;
-//	@Value("${book.name}")
-//	private String bookName;
-
 //	@Value("${server.port}")
 //	private Integer port;
-
-
-
 
 
 	/**

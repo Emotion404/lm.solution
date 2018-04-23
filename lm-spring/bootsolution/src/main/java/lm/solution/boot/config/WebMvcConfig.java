@@ -10,6 +10,9 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
 
+        // index
+        registry.addViewController("/").setViewName("Index");
+
         // WebSocket
         registry.addViewController("/websocket/ws").setViewName("ws");
         registry.addViewController("/websocket/wsqueue").setViewName("chat");

@@ -62,11 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="文章列表.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="文章列表.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solution/Docs/博客/文章列表.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FastjsonTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -87,8 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jacksonCoreMapper.version</find>
-      <find>jackson.version</find>
       <find>getForObject</find>
       <find>getAllusers</find>
       <find>org.apache.commons</find>
@@ -117,6 +124,8 @@
       <find>readInternal</find>
       <find>read</find>
       <find>Dynamic</find>
+      <find>Object</find>
+      <find>Object</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/test/TestConfig.java" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/test/TestTest.java" />
         <option value="$PROJECT_DIR$/solution/console/pom.xml" />
         <option value="$PROJECT_DIR$/solution/console/src/test/java/lm/solution/console/junit/spring/test/TestTest.java" />
@@ -176,6 +184,7 @@
         <option value="$PROJECT_DIR$/solution/Docs/GIT.txt" />
         <option value="$PROJECT_DIR$/solution/Docs/快捷键.txt" />
         <option value="$PROJECT_DIR$/../bootsolution/Docs/GIT.txt" />
+        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java" />
       </list>
     </option>
   </component>
@@ -232,6 +241,144 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="fastjson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -301,73 +448,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="restful" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -856,6 +936,8 @@
       <workItem from="1524447968243" duration="298000" />
       <workItem from="1524451073253" duration="282000" />
       <workItem from="1524451766058" duration="7000" />
+      <workItem from="1524452191735" duration="86000" />
+      <workItem from="1524452317150" duration="8000" />
     </task>
     <servers />
   </component>
@@ -892,7 +974,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476330000" />
+    <option name="totallyTimeSpent" value="476424000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -927,7 +1009,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297491" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5232068" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5348101" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1070,13 +1152,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution/pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1286,6 +1361,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="47" />
         </state>
       </provider>
     </entry>

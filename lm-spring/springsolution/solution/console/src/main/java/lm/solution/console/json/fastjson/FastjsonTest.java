@@ -16,7 +16,7 @@ import java.io.FileReader;
  */
 public class FastjsonTest {
 
-    private static final String FILE_PATH = "F:\\易果\\Java\\lm-spring\\solution\\Docs\\Json\\jsontest.txt";
+    private static final String FILE_PATH = "F:\\Java\\lm.solution\\lm-spring\\solution\\Docs\\Json\\jsontest.txt";
 
     public void parseListByFastjsonStreamApi() {
 
@@ -76,7 +76,7 @@ public class FastjsonTest {
 
     }
 
-    private static final String FILE_PATH2 = "F:\\易果\\Java\\lm-spring\\solution\\Docs\\Json\\jsontest2.txt";
+    private static final String FILE_PATH2 = "F:\\Java\\lm.solution\\lm-spring\\solution\\Docs\\Json\\jsontest2.txt";
 
     public void parseComplexObject() {
 

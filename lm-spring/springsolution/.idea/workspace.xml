@@ -74,7 +74,7 @@
       <file leaf-file-name="FastjsonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="17">
               <caret line="30" column="47" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="47" />
             </state>
           </provider>
@@ -229,9 +229,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="912" />
-    <option name="y" value="346" />
+    <option name="y" value="432" />
     <option name="width" value="1008" />
-    <option name="height" value="690" />
+    <option name="height" value="604" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -938,6 +938,7 @@
       <workItem from="1524451766058" duration="7000" />
       <workItem from="1524452191735" duration="86000" />
       <workItem from="1524452317150" duration="8000" />
+      <workItem from="1524465992821" duration="14000" />
     </task>
     <servers />
   </component>
@@ -974,7 +975,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476424000" />
+    <option name="totallyTimeSpent" value="476438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +987,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="912" y="346" width="1008" height="690" extended-state="0" />
+    <frame x="912" y="432" width="1008" height="604" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1366,7 +1368,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="17">
           <caret line="30" column="47" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="47" />
         </state>
       </provider>

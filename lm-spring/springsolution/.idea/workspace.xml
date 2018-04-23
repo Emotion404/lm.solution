@@ -53,29 +53,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="本地仓.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/Docs/Maven/本地仓.txt">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="188">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+              <folding>
+                <element signature="n#parent#0;n#project#0;n#!!top" />
+                <element signature="e#655#821#0" />
+                <element signature="e#830#995#0" />
+                <element signature="e#1053#1189#0" />
+                <element signature="e#1219#1333#0" />
+                <element signature="e#1370#1492#0" />
+                <element signature="e#1535#1664#0" />
+                <element signature="e#1873#2035#0" />
+                <element signature="e#2067#2237#0" />
+                <element signature="e#2246#2410#0" />
+                <element signature="e#2419#2540#0" />
+                <element signature="e#2577#2747#0" />
+                <element signature="e#2787#2901#0" />
+                <element signature="e#2935#3065#0" />
+                <element signature="e#3074#3203#0" />
+                <element signature="e#3235#3375#0" />
+                <element signature="e#3384#3508#0" />
+                <element signature="e#3548#3678#0" />
+                <element signature="e#3687#3829#0" />
+                <element signature="e#3838#3973#0" />
+                <element signature="e#4017#4379#0" />
+                <element signature="e#4146#4357#0" />
+                <element signature="e#4175#4331#0" />
+                <element signature="e#4416#4544#0" />
+                <element signature="e#4596#4733#0" />
+                <element signature="e#4742#4881#0" />
+                <element signature="e#4927#5049#0" />
+                <element signature="e#5100#5227#0" />
+                <element signature="e#5274#5397#0" />
+                <element signature="n#build#0;n#project#0;n#!!top" />
+                <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+                <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="文章列表.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/Docs/博客/文章列表.txt">
+      <file leaf-file-name="mapper.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/Docs/solution/mapper.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FastjsonTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java">
+      <file leaf-file-name="DB.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="30" column="47" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="120">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -179,12 +213,12 @@
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/mocktest/MyRestController.java" />
         <option value="$PROJECT_DIR$/solution/web/src/test/java/lm/solution/web/test/TestControllerIntegrationTests.java" />
         <option value="$PROJECT_DIR$/solution/Docs/solution/mapper.txt" />
-        <option value="$PROJECT_DIR$/solution/Docs/DB.txt" />
         <option value="$PROJECT_DIR$/solution/Docs/solution/git.txt" />
         <option value="$PROJECT_DIR$/solution/Docs/GIT.txt" />
         <option value="$PROJECT_DIR$/solution/Docs/快捷键.txt" />
         <option value="$PROJECT_DIR$/../bootsolution/Docs/GIT.txt" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java" />
+        <option value="$PROJECT_DIR$/solution/Docs/DB.txt" />
       </list>
     </option>
   </component>
@@ -227,9 +261,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="912" />
-    <option name="y" value="346" />
+    <option name="y" value="345" />
     <option name="width" value="1008" />
     <option name="height" value="690" />
   </component>
@@ -306,73 +340,31 @@
             <path>
               <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
               <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-              <item name="fastjson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="console" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -938,6 +930,9 @@
       <workItem from="1524451766058" duration="7000" />
       <workItem from="1524452191735" duration="86000" />
       <workItem from="1524452317150" duration="8000" />
+      <workItem from="1524465992821" duration="14000" />
+      <workItem from="1524472650945" duration="1989000" />
+      <workItem from="1524500531030" duration="212000" />
     </task>
     <servers />
   </component>
@@ -974,7 +969,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476424000" />
+    <option name="totallyTimeSpent" value="478639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,7 +981,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="912" y="346" width="1008" height="690" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1009,7 +1004,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297491" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5348101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34276477" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1266,31 +1261,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/mocktest/NormalController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/mapper.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -1366,8 +1340,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="30" column="47" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="85">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" />
+            <element signature="e#655#821#0" />
+            <element signature="e#830#995#0" />
+            <element signature="e#1053#1189#0" />
+            <element signature="e#1219#1333#0" />
+            <element signature="e#1370#1492#0" />
+            <element signature="e#1535#1664#0" />
+            <element signature="e#1873#2035#0" />
+            <element signature="e#2067#2237#0" />
+            <element signature="e#2246#2410#0" />
+            <element signature="e#2419#2540#0" />
+            <element signature="e#2577#2747#0" />
+            <element signature="e#2787#2901#0" />
+            <element signature="e#2935#3065#0" />
+            <element signature="e#3074#3203#0" />
+            <element signature="e#3235#3375#0" />
+            <element signature="e#3384#3508#0" />
+            <element signature="e#3548#3678#0" />
+            <element signature="e#3687#3829#0" />
+            <element signature="e#3838#3973#0" />
+            <element signature="e#4017#4379#0" />
+            <element signature="e#4146#4357#0" />
+            <element signature="e#4175#4331#0" />
+            <element signature="e#4416#4544#0" />
+            <element signature="e#4596#4733#0" />
+            <element signature="e#4742#4881#0" />
+            <element signature="e#4927#5049#0" />
+            <element signature="e#5100#5227#0" />
+            <element signature="e#5274#5397#0" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/mapper.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

@@ -33,7 +33,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 // 在内存中 分配用户并指定角色
                 .withUser("wyf").password("wyf").roles("USER")
                 .and()
-                .withUser("wisely").password("wisely").roles("USER");
+                .withUser("wisely").password("wisely").roles("USER")
+                .and()
+                .withUser("lm").password("870403").roles("USER");
 
     }
 

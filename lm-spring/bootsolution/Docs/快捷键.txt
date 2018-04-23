@@ -24,7 +24,7 @@
 
 当前文件关键字搜索  ---  Ctrl F
 当前文件关键字搜索 下一个  ---   F3
-全文关键字搜索  ---  Ctrl Alt Shift n
+全文关键字搜索  ---  Ctrl Alt Shift N
 查找类&方法在哪被使用  ---  Alt F7
 
 全部折叠  ---  Ctrl Shift -

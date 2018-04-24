@@ -1,0 +1,44 @@
+
+文章：
+http://man.linuxde.net/pgrep
+
+pgrep:
+pgrep命令以名称为依据从运行进程队列中查找进程，并显示查找到的进程id。
+
+语法：
+pgrep(选项)(参数)
+
+选项：
+-o：仅显示找到的最小（起始）进程号；
+-n：仅显示找到的最大（结束）进程号；
+-l：显示进程名称；
+-P：指定父进程号；
+-g：指定进程组；
+-t：指定开启进程的终端；
+-u：指定进程的有效用户ID。
+
+参数：
+进程名称：指定要查找的进程名称，同时也支持类似grep指令中的匹配模式。
+
+实例：
+sudo pgrep -lo mysql
+12346 mysql-workbench
+
+sudo pgrep -ln mysql
+15190 mysqld
+
+sudo pgrep -l mysql
+12346 mysql-workbench
+12361 mysql-workbench
+15190 mysqld
+
+sudo pgrep mysql
+12346
+12361
+15190
+
+
+
+
+
+

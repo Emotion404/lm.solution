@@ -1,4 +1,0 @@
-
-安装
-sudo ./idea.sh
-

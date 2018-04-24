@@ -96,20 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mapper.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/Docs/solution/mapper.txt">
+      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/redis.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DB.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="291">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -168,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/spring/spring/test/TestTest.java" />
         <option value="$PROJECT_DIR$/solution/console/pom.xml" />
         <option value="$PROJECT_DIR$/solution/console/src/test/java/lm/solution/console/junit/spring/test/TestTest.java" />
         <option value="$PROJECT_DIR$/solution/web/pom.xml" />
@@ -219,6 +209,7 @@
         <option value="$PROJECT_DIR$/../bootsolution/Docs/GIT.txt" />
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java" />
         <option value="$PROJECT_DIR$/solution/Docs/DB.txt" />
+        <option value="$PROJECT_DIR$/solution/Docs/solution/redis.txt" />
       </list>
     </option>
   </component>
@@ -261,9 +252,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="912" />
-    <option name="y" value="345" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="348" />
     <option name="width" value="1008" />
     <option name="height" value="690" />
   </component>
@@ -275,6 +266,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -330,47 +369,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -440,6 +438,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,7 +453,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootsolution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
@@ -933,6 +932,7 @@
       <workItem from="1524465992821" duration="14000" />
       <workItem from="1524472650945" duration="1989000" />
       <workItem from="1524500531030" duration="212000" />
+      <workItem from="1524538051840" duration="831000" />
     </task>
     <servers />
   </component>
@@ -969,7 +969,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478639000" />
+    <option name="totallyTimeSpent" value="479470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,7 +981,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-8" y="348" width="1008" height="690" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1000,21 +1001,21 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297491" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34276477" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.45147678" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1147,14 +1148,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java" />
     <entry file="file://$PROJECT_DIR$/solution/Docs/solution/rabbitmq.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-960">
@@ -1345,6 +1338,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/mapper.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/redis.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1386,17 +1396,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/mapper.txt">
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="291">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

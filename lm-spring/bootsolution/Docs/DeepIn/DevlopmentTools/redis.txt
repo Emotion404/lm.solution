@@ -1,0 +1,34 @@
+
+
+Redis Demo ：
+redis.host = 127.0.0.1
+redis.port = 6380
+redis.password =$123$
+
+
+DeepIn 环境：
+
+
+
+Windows 环境：
+文章：
+https://www.cnblogs.com/M-LittleBird/p/5902850.html
+安装：
+1.这里下载的是Redis-x64-3.2.100版本，我的电脑是win7 64位，所以下载64位版本的，在运行中输入cmd，然后把目录指向解压的Redis目录。
+2.启动命令
+  redis-server redis.windows.conf
+  出现下图显示表示启动成功了。
+设置：
+1.由于上面虽然启动了redis，但是只要一关闭cmd窗口，redis就会消失。所以要把redis设置成windows下的服务。
+2.设置服务命令
+  redis-server --service-install redis.windows-service.conf --loglevel verbose
+3.常用的redis服务命令。
+  卸载服务：redis-server --service-uninstall
+  开启服务：redis-server --service-start
+  停止服务：redis-server --service-stop
+4.测试 redis
+  redis-cli.exe -h 127.0.0.1 -p 6379
+  set key value
+  get key
+
+

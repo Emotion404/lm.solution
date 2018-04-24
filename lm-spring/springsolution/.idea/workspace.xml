@@ -932,7 +932,7 @@
       <workItem from="1524465992821" duration="14000" />
       <workItem from="1524472650945" duration="1989000" />
       <workItem from="1524500531030" duration="212000" />
-      <workItem from="1524538051840" duration="831000" />
+      <workItem from="1524538051840" duration="1430000" />
     </task>
     <servers />
   </component>
@@ -969,7 +969,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="479470000" />
+    <option name="totallyTimeSpent" value="480069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -982,7 +982,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="348" width="1008" height="690" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1005,7 +1004,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45147678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45147678" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />

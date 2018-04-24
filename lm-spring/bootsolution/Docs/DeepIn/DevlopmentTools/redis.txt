@@ -7,7 +7,37 @@ redis.password =$123$
 
 
 DeepIn 环境：
+文章：
+https://blog.csdn.net/qq_29945729/article/details/79624827
+https://www.cnblogs.com/herry52/p/5997041.html
+http://outofmemory.cn/code-snippet/37597/how-to-stop-start-restart-redis-server
+https://blog.csdn.net/ronmy/article/details/66975810
+https://blog.csdn.net/u014229215/article/details/78456401
 
+操作：
+1.安装Redis服务
+sudo apt-get install redis-server
+2.启动服务
+/etc/init.d/redis-server start
+3.连接服务
+redis-cli
+4.修改配置
+sudo vim /etc/redis.conf
+    密码 -- #requirepass foobared去掉注释，foobared改为自己的密码
+5.redis服务操作
+sudo ./redis-server restart
+    如果是用apt-get或者yum install安装的redis，可以直接通过下面的命令停止/启动/重启redis
+    /etc/init.d/redis-server stop
+    /etc/init.d/redis-server start
+    /etc/init.d/redis-server restart
+    如果是通过源码安装的redis，则可以通过redis的客户端程序redis-cli的shutdown命令来重启redis
+    redis-cli -h 127.0.0.1 -p 6379 shutdown
+6.登录
+redis-cli -h 127.0.0.1 -p 6380 -a $123$
+    -h <主机ip>，默认是127.0.0.1
+    -p <端口>，默认是6379
+    -a <密码>，如果redis加锁，需要传递密码
+    --help，显示帮助信息
 
 
 Windows 环境：

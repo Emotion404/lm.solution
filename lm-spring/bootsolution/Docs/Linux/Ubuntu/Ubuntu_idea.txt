@@ -1,8 +1,0 @@
-
-
-安装：
-./idea.sh
-
-设置 localhost ：
-
-

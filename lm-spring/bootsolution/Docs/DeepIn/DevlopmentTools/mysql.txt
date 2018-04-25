@@ -19,22 +19,21 @@ sudo apt-get install mysql-client
 2.登录 
 mysql -u root -p
 输入root账户密码就可以登录了
+quit
+退出
 
 3.查看与修改默认编码
 登陆后
 SHOW VARIABLES LIKE 'character%';
 默认编码为utf-8 -- 修改/etc/mysql/my.cnf (默认安装路径下) （标签下没有的添加，有的修改）
-　　[mysqld]
+[mysqld]
+character_set_server=utf8
 
-　　character_set_server=utf8
+[mysql]
+default-character-set=utf8
 
-　　[mysql]
-
-　　default-character-set= utf8
-
-　　[client]
-
-　　default-character-set = utf8
+[client]
+default-character-set=utf8
 
 4.数据库服务的停止&启动
 停止MySQL数据库服务

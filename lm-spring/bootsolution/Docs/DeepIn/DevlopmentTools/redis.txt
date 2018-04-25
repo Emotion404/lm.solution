@@ -21,8 +21,11 @@ sudo apt-get install redis-server
 /etc/init.d/redis-server start
 3.连接服务
 redis-cli
+连接
+quit
+退出
 4.修改配置
-sudo vim /etc/redis.conf
+sudo vim /etc/redis/redis.conf
     密码 -- #requirepass foobared去掉注释，foobared改为自己的密码
 5.redis服务操作
 sudo ./redis-server restart

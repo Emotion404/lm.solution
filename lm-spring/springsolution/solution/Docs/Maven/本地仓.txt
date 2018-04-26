@@ -1,6 +1,0 @@
-
-.m2 目录下 是本地 Maven 库：
-jar包，入本地库命令：
-mvn install:install-file -DgroupId=com.oracle "-DartifactId=ojdbc14" "-Dversion=10.2.0.2.0" "-Dpackaging=jar" "-Dfile=D:\ojdbc14.jar"
-
-

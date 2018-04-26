@@ -1,4 +1,4 @@
-package lm.solution.boot.controller;
+package lm.solution.boot.controller.thymeleaf;
 
 import lm.solution.boot.entity.Person;
 import org.springframework.stereotype.Controller;
@@ -9,10 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-public class PersonController {
+public class ThymeleafEngineController {
 
 
-    @RequestMapping("/person")
+    @RequestMapping("/viewengine/thymeleaf")
     public String person(Model model){
         Person single = new Person("aa",11);
 
@@ -27,7 +27,7 @@ public class PersonController {
         model.addAttribute("singlePerson",single);
         model.addAttribute("people",people);
 
-        return "person";
+        return "thymeleaf/person";
     }
 
 

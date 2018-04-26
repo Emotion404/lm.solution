@@ -6,72 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/dpkg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/dpkg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/nano.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/nano.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/pgrep.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/pgrep.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/sudo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/sudo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/tar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/tar.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/git.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/git.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/intelij-idea.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/intelij-idea.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/jdk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/jdk.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/mysql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/mysql.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/redis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/redis.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/activemq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/activemq.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/mongo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/mongo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/oracle-xe-11g.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/oracle-xe-11g.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/rabbitmq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/rabbitmq.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/redis-2.8.21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/redis-2.8.21.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/VmWare/安装 VMware Tools.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/VmWare/安装 VMware Tools.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Windows双系统/DeepIn_Windows-系统时差(windows 执行).bat" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Windows双系统/DeepIn_Windows-系统时差(windows 执行).bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Windows双系统/DeepIn_Windows关机,DeepIn无法读取硬盘问题解决.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Windows双系统/DeepIn_Windows关机,DeepIn无法读取硬盘问题解决.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/docker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/docker.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/hosts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/hosts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/CentOS/Cent7VM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/CentOS/Cent7VM.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/Ubuntu/Ubuntu-sogou input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/Ubuntu/Ubuntu-sogou input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/Ubuntu/Ubuntu_1080p.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/Ubuntu/Ubuntu_1080p.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/Ubuntu/ubuntu-vm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/Ubuntu/ubuntu-vm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/linux-cmd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/linux-cmd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/linux-shell.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/linux-shell.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/linux-vim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/linux-vim.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/linux-yum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/linux-yum.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/SSL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/https_SSL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Spring/Thymeleaf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Spring/Thymeleaf.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Spring/starter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Spring/starter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/bootsolution.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/JAVA EE开发的颠覆者-SPRING BOOT实战.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/JAVA EE开发的颠覆者-SPRING BOOT实战.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/JAVA 入门经典 第六版.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/JAVA 入门经典 第六版.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part1.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/Java核心技术卷1第10版.part1.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part2.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/Java核心技术卷1第10版.part2.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part3.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/Java核心技术卷1第10版.part3.rar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/快捷键.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/快捷键.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documents/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documents/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../documents/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/DB.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DB.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/Excel/spring-test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Excel/spring-test.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/Json/jsontest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Json/jsontest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/Json/jsontest2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Json/jsontest2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/Maven/本地仓.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Maven/本地仓.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/solution/console.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/solution/console.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/solution/mapper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/solution/mapper.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/solution/rabbitmq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/solution/rabbitmq.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/solution/webservice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/solution/webservice.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/博客/文章列表.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/博客/文章列表.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Docs/项目启动顺序.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/projects.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/_remote.repositories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.lastUpdated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.lastUpdated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.sha1" afterDir="false" />
-    </list>
+    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
     <ignored path="$PROJECT_DIR$/solution/webapi/target/" />
@@ -279,6 +214,72 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="web" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="restful" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
+              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
+              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -348,72 +349,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="web" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="restful" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webapi" type="1039202d:NonAndroidModuleNode" />
-              <item name="resources" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webboot" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="lm-spring" type="1abcf292:AndroidViewProjectNode" />
-              <item name="webservice" type="1039202d:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,7 +363,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootsolution" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -921,6 +856,7 @@
       <workItem from="1524538051840" duration="1430000" />
       <workItem from="1524672921493" duration="819000" />
       <workItem from="1524705432753" duration="3368000" />
+      <workItem from="1524714012628" duration="26000" />
     </task>
     <servers />
   </component>
@@ -957,7 +893,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="484256000" />
+    <option name="totallyTimeSpent" value="484282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -975,7 +911,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="right" auto_hide="true" id="Maven Projects" order="3" weight="0.32911393" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" />
@@ -984,14 +920,13 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32885906" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" auto_hide="true" content_ui="combo" id="Run Dashboard" order="7" weight="0.32795697" />
-      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28586498" />
@@ -1001,10 +936,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1281,13 +1217,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../bootsolution/Docs/GIT.txt" />
-    <entry file="file://$PROJECT_DIR$/../bootsolution/Docs/Linux/CentOS/Cent7VM.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../bootsolution/Docs/Linux/CentOS/Cent7VM.txt" />
     <entry file="file://$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1344,38 +1274,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/项目启动顺序.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/Json/jsontest.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/Json/jsontest2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/Maven/本地仓.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/console.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/mapper.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/rabbitmq.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/webservice.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/项目启动顺序.txt" />
+    <entry file="file://$PROJECT_DIR$/solution/Docs/Maven/本地仓.txt" />
     <entry file="file://$PROJECT_DIR$/../documents/博客/文章列表.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1383,13 +1283,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt" />
   </component>
   <component name="masterDetails">
     <states>

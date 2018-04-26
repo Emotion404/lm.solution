@@ -3,9 +3,20 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false" />
-        <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/aop/Config.java</file>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/profile/ProfileConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/conditional/ConditionConifg.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/job/TaskSchedulerConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/di/DiConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/beanprepost/PrePostConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/annotationgroup/DemoConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/scope/ScopeConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/javaconfig/JavaConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/multithread/TaskExecutorConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/aop/Config.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/springel/ElConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/event/EventConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/lm/solution/console/spring/spring/test/TestConfig.java</file>
         </fileset>
       </configuration>
     </facet>

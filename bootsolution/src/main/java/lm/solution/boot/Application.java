@@ -21,10 +21,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application {
 
-//	@Value("${server.port}")
-//	private Integer port;
-
-
 	/**
 	 * 这是一个标准的 java main 方法，
 	 * 主要作用是作为项目启动的入口
@@ -36,41 +32,5 @@ public class Application {
 		app.run(args);
 
 	}
-
-//	@Bean
-//	public Connector httpConnector(){
-//
-//		Connector connector=new Connector("org.apache.coyote.httpll.HttpllNioProtocol");
-//		connector.setScheme("http");
-//		connector.setPort(8080);
-//		connector.setSecure(false);
-//		connector.setRedirectPort(port);
-//		return connector;
-//
-//	}
-
-//	@Bean
-//	public EmbeddedServletContainerFactory servletContainerFactory(){
-//
-//		TomcatEmbeddedServletContainerFactory tomcat =new TomcatEmbeddedServletContainerFactory(){
-//
-//			@Override
-//			protected void postProcessContext(Context context){
-//
-//				SecurityConstraint securityConstraint=new SecurityConstraint();
-//				securityConstraint.setUserConstraint("CONFIDENTIAL");
-//				SecurityCollection collection=new SecurityCollection();
-//				collection.addPattern("/*");
-//				securityConstraint.addCollection(collection);
-//				context.addConstraint(securityConstraint);
-//
-//			}
-//
-//		};
-//
-//		tomcat.addAdditionalTomcatConnectors(httpConnector());
-//		return tomcat;
-//
-//	}
 
 }

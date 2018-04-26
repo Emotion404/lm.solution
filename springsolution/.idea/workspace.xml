@@ -2,640 +2,75 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="webapi:war exploded" />
+      <artifact name="web:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/.keystore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Command/dpkg.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Command/nano.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Command/pgrep.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Command/sudo.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Command/tar.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/DevlopmentTools/git.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/DevlopmentTools/intelij-idea.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/DevlopmentTools/jdk.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/DevlopmentTools/mysql.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/DevlopmentTools/redis.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Docker/activemq.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Docker/mongo.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Docker/oracle-xe-11g.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Docker/rabbitmq.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Docker/redis-2.8.21.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/VmWare/安装 VMware Tools.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Windows双系统/DeepIn_Windows-系统时差(windows 执行).bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/Windows双系统/DeepIn_Windows关机,DeepIn无法读取硬盘问题解决.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/docker.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/DeepIn/hosts.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Linux/CentOS/Cent7VM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Linux/Ubuntu/Ubuntu-sogou input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Linux/Ubuntu/Ubuntu_1080p.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Linux/Ubuntu/ubuntu-vm.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Linux/linux-cmd.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Linux/linux-shell.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Linux/linux-vim.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Linux/linux-yum.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/SSL.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Spring/Thymeleaf.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/Spring/starter.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/bootsolution.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/参考引用书籍/JAVA EE开发的颠覆者-SPRING BOOT实战.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/参考引用书籍/JAVA 入门经典 第六版.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part1.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part2.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part3.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/参考引用书籍/ReadMe.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/Docs/快捷键.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/mvnw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/mvnw.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/config/WebMvcConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/config/WebSecurityConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/config/WebSocketConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/config/property/AuthorSettings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/controller/IndexController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/controller/PersonController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/controller/action/ActionController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/controller/propertyconfig/PropertyAutoConfigTestController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/controller/socket/WsController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/entity/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/entity/websocket/WiselyMessage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/java/lm/solution/boot/entity/websocket/WiselyResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/application-dev.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/application-prod.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/config/author.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/action.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-animate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-animate.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-aria.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-aria.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-aria.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-cookies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-cookies.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-cookies.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-loader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-loader.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-message-format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-message-format.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-message-format.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-messages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-messages.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-messages.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-mocks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-resource.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-sanitize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-sanitize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-sanitize.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-scenario.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-touch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-touch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular-touch.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/errors.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-001.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-150.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ai.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-as.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-bb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-be.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-bm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-bw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-bz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-cc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-cm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-cx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-dg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-dm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-er.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-fj.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-fk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-fm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-gd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-gg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-gh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-gi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-gm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-gu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-gy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-hk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-im.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-in.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-io.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-iso.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-je.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-jm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ke.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ki.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-kn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-lc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-lr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ls.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-mg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-mh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-mo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-mp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-mt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-mu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-mw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-my.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-na.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-nf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ng.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-nr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-nu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-nz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-pg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ph.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-pk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-pn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-pr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-pw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-rw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-sb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-sc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-sd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-sg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-sh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-sx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-sz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-tc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-tk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-to.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-tt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-tv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-tz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-um.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-vc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-vg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-vu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-ws.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-za.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-zm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en-zw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hans-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hans-hk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hans-mo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hans-sg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hans.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hant-hk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hant-mo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hant-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hant.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-hk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/i18n/angular-locale_zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/version.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/angular-1.4.5/version.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/bootstrap/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/businessJs/action/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/businessJs/action/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/businessJs/action/directives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/businessJs/js.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/html5/html5shiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/html5/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jQuery-v3.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/jqueryui/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/views/view1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/views/view2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/websocket/sockjs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/static/websocket/stomp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/templates/BootstrapStandardTemplate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/templates/Index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/templates/chat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/templates/person.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/main/resources/templates/ws.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/bootsolution/src/test/java/lm/solution/boot/ApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/artifacts/web_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/artifacts/web_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/artifacts/webapi_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/artifacts/webapi_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/artifacts/webboot_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/artifacts/webboot_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/artifacts/webservice_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/artifacts/webservice_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_alibaba_druid_1_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_alibaba_fastjson_1_2_46.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_sun_org_apache_xml_internal_resolver_20050927.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_sun_xml_stream_buffer_streambuffer_1_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_sun_xml_ws_jaxws_rt_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__com_sun_xml_ws_policy_2_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_jws_jsr181_api_1_0_MR1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_xml_soap_javax_xml_soap_api_1_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__javax_xml_ws_jaxws_api_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_6_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__net_sf_ehcache_ehcache_web_2_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_poi_poi_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_glassfish_external_management_api_3_0_0_b012.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_glassfish_gmbal_gmbal_api_only_3_1_0_b001.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_glassfish_ha_ha_api_3_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_jvnet_mimepull_mimepull_1_9_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_7_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/DB.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/Excel/spring-test.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/Json/jsontest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/Json/jsontest2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/Maven/本地仓.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/solution/console.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/solution/mapper.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/solution/rabbitmq.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/solution/webservice.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/博客/文章列表.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Docs/项目启动顺序.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/_remote.repositories" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.lastUpdated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.lastUpdated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.sha1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/Http/HttpClientUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/Http/RestClient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/excel/ExportExcelUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/excel/ImportExcelUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/exceptions/BaseSystemException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/file/Files_Utils_DG.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/imagecode/ColorHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/rabbitmq/ConfigRabbitMQ.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/rabbitmq/MqConst.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/redis/RedisPoolFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/common/src/main/java/lm/solution/common/web/messageconverter/CustomMessageConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/console.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/MainEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/JvmStackTrace/StackTraceTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/classX/ClassGenericTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/collections/Item.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/collections/LinkedListTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/collections/MapTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/collections/PriorityQueueTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/collections/SetTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/collections/TreeSetTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/generic/ArrayAlg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/generic/ArrayAlg2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/generic/PairAlg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/generic/PairTest1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/generic/PairTest2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/generic/PairTest3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/generic/PairTest4.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/lambda/AnonymousInnerClassTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/lambda/ArraySortTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/lambda/TimerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/proxy/ProxyTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/reflection/ExtendArrayTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/reflection/MethodInvokeTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/reflection/ReflectClassTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/corejava1/reflection/ReflectFieldValueTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/jaxws/JaxWsTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonUnitTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/json/jackson/Jackson1xTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/json/jackson/Jackson2xTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/json/jackson/JacksonNewTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/rabbitmq/Customer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/rabbitmq/Producer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/EnableStar/说明.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/AnnotationGroupTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/BeanService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/DemoConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/annotationgroup/WiselyConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/aop/Action.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/aop/AnnotationService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/aop/AopTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/aop/Config.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/aop/LogAspect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/aop/MethodService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/beanprepost/BeanTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/beanprepost/BeanWayService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/beanprepost/JSR250WayService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/beanprepost/PrePostConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/ConditionConifg.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/ConditionalTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/LinuxCondition.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/LinuxListService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/WindowsCondition.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/conditional/WindowsListService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/di/DiConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/di/DiTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/di/FunctionService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/di/UseFunctionService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/event/DemoEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/event/DemoListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/event/DemoPublisher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/event/EventConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/event/EventTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/javaconfig/ConfigTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/javaconfig/FunctionService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/javaconfig/JavaConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/javaconfig/UseFunctionService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/job/JobBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/job/TaskSchedulerConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/job/TaskSchedulerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/multithread/AsyncBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/multithread/TaskExecutorConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/multithread/ThreadPoolTaskExecutorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/profile/DemoBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/profile/ProfileConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/profile/ProfileTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/profile/WebInit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/scope/PrototypeService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/scope/ScopeConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/scope/ScopeTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/scope/SingletonService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/springel/DemoService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/springel/ElConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/springel/ElTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/test/TestBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/java/lm/solution/console/spring/spring/test/TestConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/resources/redis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/resources/spring/springel/test.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/main/resources/spring/springel/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/console/src/test/java/lm/solution/console/junit/spring/test/TestTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/mapper/mapper.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/mapper/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/mapper/src/main/java/lm/solution/mapper/UserMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/mapper/src/main/java/lm/solution/mapper/provider/UserDynaSqlProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/pojo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/dto/ExcelDto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/dto/JsonResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/dto/properties/TestInfoSettings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/entity/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/entity/web/DemoObj.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/enums/HttpExceptionEnum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/enums/ScopeEnum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/BeginEndBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/JsonComplex.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/ThirdBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/classX/Animal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/classX/Cat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/classX/Dog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Course.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Student.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/fastjsonunittest/Teacher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/generic/Employee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/generic/Manager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/generic/Pair.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pojo/src/main/java/lm/solution/pojo/model/console/spring/spring/ListService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/service.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/src/main/java/lm/solution/service/jaxws/SquareRootServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/src/main/java/lm/solution/service/jaxws/SquareRootServerImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/src/main/java/lm/solution/service/jaxws/ri/SquareRootServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/src/main/java/lm/solution/service/jaxws/ri/SquareRootServerImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/src/main/java/lm/solution/service/mysql/UserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/src/main/java/lm/solution/service/mysql/impl/UserServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/service/src/main/java/lm/solution/service/webtest/DemoService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/solution.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/beans/GlobalExceptionHandlerAdvice.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/beans/HandlerBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/beans/JaxWsRiBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/beans/MySqlBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/beans/RedisBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/beans/TimerInterceptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/exceptions/SpringHandlerExceptionResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/jaxwsclient/SquareRootServer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/jaxwsclient/SquareRootServerImplService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/properties/CacheConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/config/properties/DbConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/IndexController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/customconverter/CustomConverterController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/db/MyBatisController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/excel/ExportExcelController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/excel/UploadExcelControl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/fileupload/FileUploadController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/handleradvice/AdviceController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/jaxwsri/JaxWsRiController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/login/ValidateCodeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/mocktest/MyRestController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/mocktest/NormalController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/redis/JedisOpRedisController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/restful/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/java/lm/solution/web/controller/serverpushmessage/SseController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/assets/js/ajaxfileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/assets/js/jquery-2.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/assets/js/jquery-3.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/assets/js/jquery-form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/dbconfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/redis.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/db/mybatis.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/error/error.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/excel/excel.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/fileupload/upload.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/httpmessageconverter/customconverter.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/jaxwsri/wsri.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/login/imageValidateCodeLogin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/mocktest/page.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/redis/jedis.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/restful/user.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/serverpushmessage/sse.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/resources/views/说明.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/main/webapp/files/download/mst.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/src/test/java/lm/solution/web/test/TestControllerIntegrationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/web/web.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/src/main/java/lm/solution/webapi/RESTfulController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/src/main/resources/dbconfig.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/src/main/resources/spring-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/src/main/resources/spring-mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/src/main/webapp/WEB-INF/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webapi/webapi.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webboot/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webboot/src/main/java/lm/solution/webboot/Application.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webboot/src/main/java/lm/solution/webboot/controller/UserController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webboot/src/main/resources/application.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webboot/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webboot/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webboot/webboot.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webservice/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webservice/src/main/webapp/WEB-INF/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webservice/src/main/webapp/WEB-INF/sun-jaxws.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webservice/src/main/webapp/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../lm-spring/springsolution/solution/webservice/webservice.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/dpkg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/dpkg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/nano.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/nano.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/pgrep.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/pgrep.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/sudo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/sudo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Command/tar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Command/tar.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/git.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/git.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/intelij-idea.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/intelij-idea.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/jdk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/jdk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/mysql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/mysql.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/DevlopmentTools/redis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/redis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/activemq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/activemq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/mongo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/mongo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/oracle-xe-11g.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/oracle-xe-11g.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/rabbitmq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/rabbitmq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Docker/redis-2.8.21.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Docker/redis-2.8.21.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/VmWare/安装 VMware Tools.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/VmWare/安装 VMware Tools.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Windows双系统/DeepIn_Windows-系统时差(windows 执行).bat" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Windows双系统/DeepIn_Windows-系统时差(windows 执行).bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/Windows双系统/DeepIn_Windows关机,DeepIn无法读取硬盘问题解决.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/Windows双系统/DeepIn_Windows关机,DeepIn无法读取硬盘问题解决.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/docker.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/docker.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/DeepIn/hosts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DeepIn/hosts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/CentOS/Cent7VM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/CentOS/Cent7VM.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/Ubuntu/Ubuntu-sogou input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/Ubuntu/Ubuntu-sogou input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/Ubuntu/Ubuntu_1080p.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/Ubuntu/Ubuntu_1080p.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/Ubuntu/ubuntu-vm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/Ubuntu/ubuntu-vm.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/linux-cmd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/linux-cmd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/linux-shell.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/linux-shell.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/linux-vim.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/linux-vim.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Linux/linux-yum.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Linux/linux-yum.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/SSL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/https_SSL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Spring/Thymeleaf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Spring/Thymeleaf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/Spring/starter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Spring/starter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/bootsolution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/JAVA EE开发的颠覆者-SPRING BOOT实战.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/JAVA EE开发的颠覆者-SPRING BOOT实战.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/JAVA 入门经典 第六版.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/JAVA 入门经典 第六版.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part1.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/Java核心技术卷1第10版.part1.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part2.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/Java核心技术卷1第10版.part2.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/Java核心技术卷1第10版.part3.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/Java核心技术卷1第10版.part3.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/参考引用书籍/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/Docs/快捷键.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/快捷键.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/DB.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/DB.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/Excel/spring-test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Excel/spring-test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/Json/jsontest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Json/jsontest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/Json/jsontest2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Json/jsontest2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/Maven/本地仓.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Maven/本地仓.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/solution/console.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/solution/console.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/solution/mapper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/solution/mapper.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/solution/rabbitmq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/solution/rabbitmq.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/solution/webservice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/solution/webservice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/博客/文章列表.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/博客/文章列表.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Docs/项目启动顺序.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/projects.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.sha1" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
@@ -682,7 +117,7 @@
     <favorites_list name="lm-spring" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -733,15 +168,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution/console/pom.xml" />
         <option value="$PROJECT_DIR$/solution/console/src/test/java/lm/solution/console/junit/spring/test/TestTest.java" />
         <option value="$PROJECT_DIR$/solution/web/pom.xml" />
         <option value="$PROJECT_DIR$/solution/web/src/main/resources/logback.xml" />
@@ -792,6 +221,7 @@
         <option value="$PROJECT_DIR$/solution/console/src/main/java/lm/solution/console/json/fastjson/FastjsonTest.java" />
         <option value="$PROJECT_DIR$/solution/Docs/DB.txt" />
         <option value="$PROJECT_DIR$/solution/Docs/solution/redis.txt" />
+        <option value="$PROJECT_DIR$/solution/Docs/项目启动顺序.txt" />
       </list>
     </option>
   </component>
@@ -844,20 +274,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -927,56 +348,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1032,6 +403,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1077,6 +459,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -1088,7 +475,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat-webapi">
+  <component name="RunManager" selected="Tomcat Server.tomcat-web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -1533,6 +920,7 @@
       <workItem from="1524500531030" duration="212000" />
       <workItem from="1524538051840" duration="1430000" />
       <workItem from="1524672921493" duration="819000" />
+      <workItem from="1524705432753" duration="3368000" />
     </task>
     <servers />
   </component>
@@ -1569,7 +957,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="480888000" />
+    <option name="totallyTimeSpent" value="484256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1581,40 +969,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1845" height="1080" extended-state="6" />
+    <frame x="898" y="461" width="1008" height="579" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2864378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" auto_hide="true" id="Maven Projects" order="3" weight="0.32911393" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32885906" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" auto_hide="true" content_ui="combo" id="Run Dashboard" order="7" weight="0.32795697" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28586498" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1722,7 +1112,6 @@
       </breakpoints-dialog>
       <option name="time" value="54" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1748,17 +1137,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/rabbitmq.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.23/tomcat-embed-websocket-8.5.23.jar!/org/apache/tomcat/websocket/server/WsFilter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/connector/CoyoteAdapter.class" />
@@ -1777,23 +1155,23 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/views/httpmessageconverter/customconverter.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/pojo/src/main/java/lm/solution/pojo/entity/web/DemoObj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/common/src/main/java/lm/solution/common/web/messageconverter/CustomMessageConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="62" column="12" lean-forward="false" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
@@ -1801,9 +1179,9 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/customconverter/CustomConverterController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" />
           </folding>
         </state>
       </provider>
@@ -1811,7 +1189,7 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/serverpushmessage/SseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="48" />
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1827,7 +1205,7 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="13" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1835,7 +1213,7 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1850,39 +1228,39 @@
     <entry file="file://$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/webtest/DemoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/mocktest/NormalController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/test/java/lm/solution/web/test/TestControllerIntegrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
-          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
-            <element signature="e#2343#2928#0" expanded="false" />
-            <element signature="e#2934#3264#0" expanded="false" />
-            <element signature="e#3270#3597#0" expanded="false" />
-            <element signature="e#3603#3904#0" expanded="false" />
-            <element signature="e#3906#3908#0" expanded="false" />
-            <element signature="e#7232#7382#0" expanded="false" />
-            <element signature="e#7413#7553#0" expanded="false" />
-            <element signature="e#7413#8338#0" expanded="false" />
-            <element signature="e#8677#8793#0" expanded="false" />
-            <element signature="e#8799#8965#0" expanded="false" />
+            <element signature="e#2343#2928#0" />
+            <element signature="e#2934#3264#0" />
+            <element signature="e#3270#3597#0" />
+            <element signature="e#3603#3904#0" />
+            <element signature="e#3906#3908#0" />
+            <element signature="e#7232#7382#0" />
+            <element signature="e#7413#7553#0" />
+            <element signature="e#7413#8338#0" />
+            <element signature="e#8677#8793#0" />
+            <element signature="e#8799#8965#0" />
           </folding>
         </state>
       </provider>
@@ -1890,14 +1268,7 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/mocktest/MyRestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/项目启动顺序.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1905,7 +1276,7 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/views/mocktest/page.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1913,21 +1284,7 @@
     <entry file="file://$PROJECT_DIR$/../bootsolution/Docs/Linux/CentOS/Cent7VM.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/Maven/本地仓.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/博客/文章列表.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1938,68 +1295,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solution/Docs/solution/redis.txt" />
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding />
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
           <folding>
-            <element signature="n#parent#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#19;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#20;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusions#0;n#dependency#20;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#exclusion#0;n#exclusions#0;n#dependency#20;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#21;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#22;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#23;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#24;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#25;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#26;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#parent#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#19;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#20;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#exclusions#0;n#dependency#20;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#exclusion#0;n#exclusions#0;n#dependency#20;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#21;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#22;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#23;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#24;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#25;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#26;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/console.txt">
+    <entry file="file://$PROJECT_DIR$/solution/Docs/项目启动顺序.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/Json/jsontest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/Json/jsontest2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/Maven/本地仓.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/console.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/mapper.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/rabbitmq.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/solution/webservice.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../documents/博客/文章列表.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -2022,7 +1409,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Web (webboot)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2057,12 +1444,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>webboot</last-edited>
+          <last-edited>Spring|console</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.36099586" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -2082,7 +1468,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: org.slf4j:slf4j-log4j12:1.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

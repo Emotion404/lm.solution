@@ -1,17 +1,8 @@
 
+solution:
 依赖：
 web <-- webservice
-
 站点：
---------rabbit -- mq
-127.0.0.1
-5672
---------mysql
-127.0.0.1
-3306
---------redis
-127.0.0.1
-6380
 --------web
 127.0.0.1
 8080
@@ -27,5 +18,26 @@ web <-- webservice
 --------webboot
 127.0.0.1
 8084
+
+boot:
+http
+server.port=8080
+https
+prod:
+server.port=8085
+dev:
+server.port=8086
+
+
+公用：
+--------rabbitMQ
+127.0.0.1
+5672
+--------mysql
+127.0.0.1
+3306
+--------redis
+127.0.0.1
+6380
 
 

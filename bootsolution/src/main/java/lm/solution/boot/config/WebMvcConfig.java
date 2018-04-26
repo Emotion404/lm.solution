@@ -14,14 +14,14 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         registry.addViewController("/").setViewName("Index");
 
         // WebSocket
-        registry.addViewController("/websocket/ws").setViewName("ws");
-        registry.addViewController("/websocket/wsqueue").setViewName("chat");
+        registry.addViewController("/websocket/ws").setViewName("websocket/ws");
+        registry.addViewController("/websocket/wsqueue").setViewName("websocket/chat");
 
-        // Spring Security
-        registry.addViewController("/login").setViewName("login");
-
+        /**
+         * 页面模板
+         * */
         // Bootstrap
-        registry.addViewController("/template/bootstrap").setViewName("BootstrapStandardTemplate");
+        registry.addViewController("/template/bootstrap").setViewName("template/BootstrapStandardTemplate");
 
     }
 

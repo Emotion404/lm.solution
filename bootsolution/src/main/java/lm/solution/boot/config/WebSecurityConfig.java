@@ -20,7 +20,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 // 设置 Spring Security 的登录页面访问路径 /login ，登录成功后转向 /chat
-                .formLogin().loginPage("/login").defaultSuccessUrl("/chat").permitAll()
+                .formLogin().loginPage("/login").defaultSuccessUrl("/").permitAll()
                 .and()
                 .logout().permitAll();
 
@@ -35,7 +35,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .withUser("wisely").password("wisely").roles("USER")
                 .and()
-                .withUser("lm").password("870403").roles("USER");
+                .withUser("lm").password("lm").roles("USER");
 
     }
 

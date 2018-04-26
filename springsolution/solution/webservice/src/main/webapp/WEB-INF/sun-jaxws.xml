@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+    <!--
+        契约 - 服务路径?wsdl
+        配置文件中一个WebService对应一个Endpoint
+        -->
+    <endpoint
+            name="SquareRootServerService"
+            implementation="lm.solution.service.jaxws.ri.SquareRootServerImpl"
+            url-pattern="/ri/SquareRootServer" />
+</endpoints>

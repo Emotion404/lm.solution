@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="webapi:war">
-    <output-path>$PROJECT_DIR$/solution/webapi/target</output-path>
-    <root id="archive" name="webapi.war">
-      <element id="artifact" artifact-name="webapi:war exploded" />
-    </root>
-  </artifact>
-</component>

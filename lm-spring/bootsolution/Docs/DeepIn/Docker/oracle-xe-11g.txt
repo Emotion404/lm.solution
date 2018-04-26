@@ -1,2 +1,0 @@
-
-sudo docker pull wnameless/oracle-xe-11g

@@ -1,9 +1,0 @@
-
-命令详解 tar ：
-tar zxvf jdk1.7.0_79
-  -- z - 表示 tar 包是被 gzip 压缩过的，所以解压时需要用 gunzip 解压
-  -- x - 从 tar 包中把文件提取出来
-  -- v - 显示详细信息
-  -- f - f xxx.tar.gz :  指定被处理的文件是 xxx.tar.gz
-
-

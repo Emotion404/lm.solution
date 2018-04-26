@@ -1,0 +1,67 @@
+
+
+Redis Demo ：
+redis.host = 127.0.0.1
+redis.port = 6380
+redis.password =$123$
+
+
+DeepIn 环境：
+文章：
+https://blog.csdn.net/qq_29945729/article/details/79624827
+https://www.cnblogs.com/herry52/p/5997041.html
+http://outofmemory.cn/code-snippet/37597/how-to-stop-start-restart-redis-server
+https://blog.csdn.net/ronmy/article/details/66975810
+https://blog.csdn.net/u014229215/article/details/78456401
+
+操作：
+1.安装Redis服务
+sudo apt-get install redis-server
+2.启动服务
+/etc/init.d/redis-server start
+3.连接服务
+redis-cli
+连接
+quit
+退出
+4.修改配置
+sudo vim /etc/redis/redis.conf
+    密码 -- #requirepass foobared去掉注释，foobared改为自己的密码
+5.redis服务操作
+sudo ./redis-server restart
+    如果是用apt-get或者yum install安装的redis，可以直接通过下面的命令停止/启动/重启redis
+    /etc/init.d/redis-server stop
+    /etc/init.d/redis-server start
+    /etc/init.d/redis-server restart
+    如果是通过源码安装的redis，则可以通过redis的客户端程序redis-cli的shutdown命令来重启redis
+    redis-cli -h 127.0.0.1 -p 6379 shutdown
+6.登录
+redis-cli -h 127.0.0.1 -p 6380 -a $123$
+    -h <主机ip>，默认是127.0.0.1
+    -p <端口>，默认是6379
+    -a <密码>，如果redis加锁，需要传递密码
+    --help，显示帮助信息
+
+
+Windows 环境：
+文章：
+https://www.cnblogs.com/M-LittleBird/p/5902850.html
+安装：
+1.这里下载的是Redis-x64-3.2.100版本，我的电脑是win7 64位，所以下载64位版本的，在运行中输入cmd，然后把目录指向解压的Redis目录。
+2.启动命令
+  redis-server redis.windows.conf
+  出现下图显示表示启动成功了。
+设置：
+1.由于上面虽然启动了redis，但是只要一关闭cmd窗口，redis就会消失。所以要把redis设置成windows下的服务。
+2.设置服务命令
+  redis-server --service-install redis.windows-service.conf --loglevel verbose
+3.常用的redis服务命令。
+  卸载服务：redis-server --service-uninstall
+  开启服务：redis-server --service-start
+  停止服务：redis-server --service-stop
+4.测试 redis
+  redis-cli.exe -h 127.0.0.1 -p 6379
+  set key value
+  get key
+
+

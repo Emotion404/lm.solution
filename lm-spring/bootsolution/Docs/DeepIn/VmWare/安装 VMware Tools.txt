@@ -1,6 +1,0 @@
-
-解压 vmware tools，然后进入目录，安装：
-sudo ./vmware-install.pl
-
-
-

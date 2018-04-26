@@ -1,0 +1,71 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webservice:war exploded">
+    <output-path>$PROJECT_DIR$/solution/webservice/target/webservice</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webservice" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="service" />
+          </element>
+          <element id="archive" name="mapper-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="mapper" />
+          </element>
+          <element id="archive" name="pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="pojo" />
+          </element>
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.5" />
+          <element id="library" level="project" name="Maven: com.sun.xml.ws:jaxws-rt:2.3.0" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.3.0" />
+          <element id="library" level="project" name="Maven: javax.xml.ws:jaxws-api:2.3.0" />
+          <element id="library" level="project" name="Maven: javax.xml.soap:javax.xml.soap-api:1.4.0" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.3" />
+          <element id="library" level="project" name="Maven: javax.jws:jsr181-api:1.0-MR1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.0" />
+          <element id="library" level="project" name="Maven: com.sun.xml.ws:policy:2.7.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.gmbal:gmbal-api-only:3.1.0-b001" />
+          <element id="library" level="project" name="Maven: org.glassfish.external:management-api:3.0.0-b012" />
+          <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.7.8" />
+          <element id="library" level="project" name="Maven: com.sun.xml.stream.buffer:streambuffer:1.5.4" />
+          <element id="library" level="project" name="Maven: org.jvnet.mimepull:mimepull:1.9.7" />
+          <element id="library" level="project" name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.13" />
+          <element id="library" level="project" name="Maven: org.glassfish.ha:ha-api:3.1.9" />
+          <element id="library" level="project" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.4.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Maven: com.sun.org.apache.xml.internal:resolver:20050927" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.13" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.13" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.9.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.7" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/solution/webservice/target/webservice/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webservice/web/Web" />
+    </root>
+  </artifact>
+</component>

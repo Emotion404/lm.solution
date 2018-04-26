@@ -1,3 +1,0 @@
-
-sudo docker pull redis:2.8.21
-

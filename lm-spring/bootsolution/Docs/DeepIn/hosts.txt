@@ -1,4 +1,0 @@
-
-修改hosts
-sudo gedit /etc/hosts
-

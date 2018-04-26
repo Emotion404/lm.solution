@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "lm.solution.boot.config.property.AuthorSettings",
+      "name": "author",
+      "type": "lm.solution.boot.config.property.AuthorSettings"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "lm.solution.boot.config.property.AuthorSettings",
+      "name": "author.age",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "lm.solution.boot.config.property.AuthorSettings",
+      "name": "author.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

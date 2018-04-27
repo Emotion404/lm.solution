@@ -2,59 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/config/property/DruidSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/springdata/JpaEmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/springdatajpa/dao/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/springdatajpa/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/boot/mysqlTable.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/config/property/DbConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/config/property/DruidSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/config/property/DruidSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/springdatajpa/dao/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/springdatajpa/dao/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/springdatajpa/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/springdatajpa/entity/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/templates/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/solution/solution/mapper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/solution/mysqlTable.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RefBooks/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RefBooks/ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/solution/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/src/main/java/lm/solution/webboot/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/src/main/java/lm/solution/webboot/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/webboot.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,8 +51,8 @@
       <file leaf-file-name="mysqlTable.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/boot/mysqlTable.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="289">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -207,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SourceCode/ch8_3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -304,12 +258,12 @@
       <updated>1524674348049</updated>
       <workItem from="1524674351040" duration="109000" />
       <workItem from="1524705411596" duration="3464000" />
-      <workItem from="1524793084338" duration="3378000" />
+      <workItem from="1524793084338" duration="4581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6951000" />
+    <option name="totallyTimeSpent" value="8154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="907" y="468" width="1011" height="569" extended-state="0" />
@@ -425,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/boot/mysqlTable.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>

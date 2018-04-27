@@ -1,32 +1,59 @@
 package lm.solution.boot.springdatajpa.entity;
 
-import org.hibernate.annotations.Entity;
-import org.hibernate.annotations.Table;
-import org.springframework.data.annotation.Id;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
-import javax.persistence.Column;
-
-// @Entity 代表一个实体类
-@Entity()
-// @Table(name=”employee”)用来对应MySQL中的employee数据库
-@Table(appliesTo = "employee")
+@Entity
 public class Employee {
 
-    private static final long serialVersionUID=1L;
-
-    // @Id 主键
     @Id
-    // @Column(name=”id”)表明一个id属性
-    @Column(name = "id")
-    private String id;
-
-    @Column(name = "name")
+    @GeneratedValue
+    private long id;
     private String name;
-
-    @Column(name = "gender")
     private String gender;
-
-    @Column(name = "age")
     private int age;
 
+    public Employee(){
+        super();
+    }
+    public Employee(long id,String name,String gender,int age){
+        super();
+        this.id=id;
+        this.name=name;
+        this.gender=gender;
+        this.age=age;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }

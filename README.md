@@ -23,7 +23,7 @@ Spring and More ...
 
 　　3.完备的 Spring MVC/Boot/Cloud 框架，开箱即用！
 
-　　4.让老猿省时，让新鸟不费力！
+　　4.让老猿省时，菜鸟不费力！
 
 三、特点
 

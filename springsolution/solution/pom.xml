@@ -14,7 +14,6 @@
         <module>pojo</module>
         <module>console</module>
         <module>webservice</module>
-        <module>webboot</module>
     </modules>
     <packaging>pom</packaging>
 

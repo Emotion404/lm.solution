@@ -6,7 +6,61 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="" />
+    <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/config/property/DruidSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/springdata/JpaEmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/springdatajpa/dao/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/springdatajpa/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../documents/Projects/boot/mysqlTable.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/Projects/solution/solution/mapper.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Projects/solution/mysqlTable.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/RefBooks/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/RefBooks/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/webboot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/webboot/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/webboot/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/webboot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/webboot/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/webboot/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/webboot/webboot.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
     <ignored path="$PROJECT_DIR$/solution/webapi/target/" />
@@ -52,7 +106,86 @@
     <favorites_list name="lm-spring" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="dbconfig.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/dbconfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-143">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solution/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="44" selection-start-line="44" selection-end-line="45" selection-end-column="44" />
+              <folding>
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="e#7012#7210#0" />
+                <element signature="e#7223#7424#0" />
+                <element signature="e#7462#7640#0" />
+                <element signature="e#7682#7870#0" />
+                <element signature="e#7883#8084#0" />
+                <element signature="e#8130#8323#0" />
+                <element signature="e#8643#8888#0" />
+                <element signature="e#8901#9134#0" />
+                <element signature="e#9147#9331#0" />
+                <element signature="e#9376#9616#0" />
+                <element signature="e#9662#9871#0" />
+                <element signature="e#9884#10095#0" />
+                <element signature="e#10143#10321#0" />
+                <element signature="e#10363#10563#0" />
+                <element signature="e#10576#10774#0" />
+                <element signature="e#10814#11030#0" />
+                <element signature="e#11043#11235#0" />
+                <element signature="e#11248#11449#0" />
+                <element signature="e#11462#11682#0" />
+                <element signature="e#11695#11883#0" />
+                <element signature="e#11935#12396#0" />
+                <element signature="e#12139#12370#0" />
+                <element signature="e#12172#12340#0" />
+                <element signature="e#12441#12638#0" />
+                <element signature="e#12676#12859#0" />
+                <element signature="e#12872#13061#0" />
+                <element signature="e#13121#13325#0" />
+                <element signature="e#13338#13546#0" />
+                <element signature="e#13604#13796#0" />
+                <element signature="e#13850#14036#0" />
+                <element signature="e#14095#14291#0" />
+                <element signature="e#14346#14536#0" />
+                <element signature="e#14598#14793#0" />
+                <element signature="n#pluginRepositories#0;n#project#0;n#!!top" />
+                <element signature="n#pluginRepository#0;n#pluginRepositories#0;n#project#0;n#!!top" />
+                <element signature="n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" />
+                <element signature="n#snapshots#0;n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" />
+                <element signature="n#pluginRepository#2;n#pluginRepositories#0;n#project#0;n#!!top" />
+                <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+                <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+                <element signature="n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+                <element signature="n#plugin#0;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -97,7 +230,7 @@
       <find>read</find>
       <find>Dynamic</find>
       <find>Object</find>
-      <find>Object</find>
+      <find>druid.version</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,7 +274,6 @@
         <option value="$PROJECT_DIR$/solution/web/src/main/resources/views/index.jsp" />
         <option value="$PROJECT_DIR$/solution/web/src/main/resources/views/serverpushmessage/sse.jsp" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" />
-        <option value="$PROJECT_DIR$/solution/pom.xml" />
         <option value="$PROJECT_DIR$/solution/service/src/main/java/lm/solution/service/webtest/DemoService.java" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" />
         <option value="$PROJECT_DIR$/solution/web/src/main/resources/views/mocktest/page.jsp" />
@@ -157,6 +289,7 @@
         <option value="$PROJECT_DIR$/solution/Docs/DB.txt" />
         <option value="$PROJECT_DIR$/solution/Docs/solution/redis.txt" />
         <option value="$PROJECT_DIR$/solution/Docs/项目启动顺序.txt" />
+        <option value="$PROJECT_DIR$/solution/pom.xml" />
       </list>
     </option>
   </component>
@@ -202,7 +335,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="898" />
     <option name="y" value="461" />
-    <option name="width" value="1008" />
+    <option name="width" value="1023" />
     <option name="height" value="579" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -363,7 +496,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootsolution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -857,6 +990,7 @@
       <workItem from="1524672921493" duration="819000" />
       <workItem from="1524705432753" duration="3368000" />
       <workItem from="1524714012628" duration="26000" />
+      <workItem from="1524793462348" duration="2315000" />
     </task>
     <servers />
   </component>
@@ -893,7 +1027,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="484282000" />
+    <option name="totallyTimeSpent" value="486597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -905,7 +1039,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="898" y="461" width="1008" height="579" extended-state="0" />
+    <frame x="898" y="461" width="1023" height="579" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -929,8 +1064,7 @@
       <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28586498" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.28556594" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -939,6 +1073,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32885906" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -1073,7 +1208,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.23/tomcat-embed-websocket-8.5.23.jar!/org/apache/tomcat/websocket/server/WsFilter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/connector/CoyoteAdapter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/valves/AbstractAccessLogValve.class" />
@@ -1150,13 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1284,6 +1411,110 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/Docs/DB.txt" />
+    <entry file="file://$PROJECT_DIR$/solution/webboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/webboot/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/webboot/src/main/java/lm/solution/webboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/dbconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="44" selection-start-line="44" selection-end-line="45" selection-end-column="44" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="e#7012#7210#0" />
+            <element signature="e#7223#7424#0" />
+            <element signature="e#7462#7640#0" />
+            <element signature="e#7682#7870#0" />
+            <element signature="e#7883#8084#0" />
+            <element signature="e#8130#8323#0" />
+            <element signature="e#8643#8888#0" />
+            <element signature="e#8901#9134#0" />
+            <element signature="e#9147#9331#0" />
+            <element signature="e#9376#9616#0" />
+            <element signature="e#9662#9871#0" />
+            <element signature="e#9884#10095#0" />
+            <element signature="e#10143#10321#0" />
+            <element signature="e#10363#10563#0" />
+            <element signature="e#10576#10774#0" />
+            <element signature="e#10814#11030#0" />
+            <element signature="e#11043#11235#0" />
+            <element signature="e#11248#11449#0" />
+            <element signature="e#11462#11682#0" />
+            <element signature="e#11695#11883#0" />
+            <element signature="e#11935#12396#0" />
+            <element signature="e#12139#12370#0" />
+            <element signature="e#12172#12340#0" />
+            <element signature="e#12441#12638#0" />
+            <element signature="e#12676#12859#0" />
+            <element signature="e#12872#13061#0" />
+            <element signature="e#13121#13325#0" />
+            <element signature="e#13338#13546#0" />
+            <element signature="e#13604#13796#0" />
+            <element signature="e#13850#14036#0" />
+            <element signature="e#14095#14291#0" />
+            <element signature="e#14346#14536#0" />
+            <element signature="e#14598#14793#0" />
+            <element signature="n#pluginRepositories#0;n#project#0;n#!!top" />
+            <element signature="n#pluginRepository#0;n#pluginRepositories#0;n#project#0;n#!!top" />
+            <element signature="n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" />
+            <element signature="n#snapshots#0;n#pluginRepository#1;n#pluginRepositories#0;n#project#0;n#!!top" />
+            <element signature="n#pluginRepository#2;n#pluginRepositories#0;n#project#0;n#!!top" />
+            <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#0;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -1,0 +1,32 @@
+
+表：
+-- 新建表
+CREATE TABLE `employee` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `gender` varchar(16) NOT NULL,
+  `age` int(11) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ;
+
+-- 增加主键
+ALTER TABLE `employee` ADD PRIMARY KEY (`id`) ;
+
+-- 插入数据
+insert into employee(name,gender,age) value('name1','男','11');
+insert into employee(name,gender,age) value('name2','女','20');
+
+-- 查主键
+SELECT
+  t.TABLE_NAME,
+  t.CONSTRAINT_TYPE,
+  c.COLUMN_NAME,
+  c.ORDINAL_POSITION
+FROM
+  INFORMATION_SCHEMA.TABLE_CONSTRAINTS AS t,
+  INFORMATION_SCHEMA.KEY_COLUMN_USAGE AS c
+WHERE
+  t.TABLE_NAME = c.TABLE_NAME
+  AND t.TABLE_SCHEMA = 'mybatis'
+  AND t.CONSTRAINT_TYPE = 'PRIMARY KEY';
+

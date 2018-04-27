@@ -182,7 +182,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="907" />
     <option name="y" value="468" />
-    <option name="width" value="1008" />
+    <option name="width" value="1011" />
     <option name="height" value="569" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -217,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">

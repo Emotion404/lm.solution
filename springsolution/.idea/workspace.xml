@@ -57,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/dbconfig.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/solution/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-814">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
               <folding>
                 <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
                 <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
@@ -531,6 +531,9 @@
       <module name="webboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lm.solution.webboot.controller.UserController" />
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+    </configuration>
     <configuration name="springboot-web" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="webboot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="lm.solution.webboot.Application" />
@@ -794,12 +797,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SHOW_IN_DASHBOARD" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -1390,7 +1387,7 @@
     <entry file="file://$PROJECT_DIR$/solution/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-814">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding>
             <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
             <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
@@ -1457,7 +1454,7 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/resources/dbconfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

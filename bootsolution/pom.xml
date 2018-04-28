@@ -45,7 +45,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<!--
 			对常用的测试框架 JUnit Hamcrest Mockito 的支持，包含 spring-test 模块
 		-->
@@ -75,11 +74,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
-		<!-- configuration processor -->
+		<!--starter-data-rest-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-configuration-processor</artifactId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
 		</dependency>
+        <!-- configuration processor -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+        </dependency>
 
 		<!-- Libary -->
 		<!-- org.apache.httpcomponents/httpcore-nio -->

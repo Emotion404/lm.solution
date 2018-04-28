@@ -23,6 +23,9 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         // Bootstrap
         registry.addViewController("/template/bootstrap").setViewName("template/BootstrapStandardTemplate");
 
+        // Spring data rest
+        registry.addViewController("/springdata/restful").setViewName("springdata/restful");
+
     }
 
 }

@@ -2,8 +2,6 @@
 安装
 1.优先推荐深度商店安装
 2.sudo ./idea.sh
+3.修改host，仅限研究学习使用
 
-修改host，仅限研究学习使用
-# intelij idea
-0.0.0.0 account.jetbrains.com
 

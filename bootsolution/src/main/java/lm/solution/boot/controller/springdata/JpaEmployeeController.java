@@ -1,6 +1,6 @@
 package lm.solution.boot.controller.springdata;
 
-import lm.solution.boot.springdatajpa.dao.EmployeeRepository;
+import lm.solution.boot.springdatajpa.repository.EmployeeRepository;
 import lm.solution.boot.springdatajpa.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

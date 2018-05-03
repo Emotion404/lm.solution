@@ -1,2 +1,0 @@
-
-Spring Boot 的页面放置在 src/main/resources 下，此处为仿 Spring Boot

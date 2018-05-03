@@ -1,21 +1,5 @@
 
-/lm-spring/solution/service/target/
-/lm-spring/solution/mapper/target/
-/lm-spring/solution/web/target/
-/lm-spring/solution/webapi/target/
-/lm-spring/solution/pojo/target/
-/lm-spring/solution/common/target/
-/lm-spring/solution/webservice/target/
-/lm-spring/solution/console/target/
-/lm-spring/solution/webboot/target/
-/lm-spring/springsolution/solution/console/target/
-/lm-spring/springsolution/solution/common/target/
-/lm-spring/springsolution/solution/mapper/target/
-/lm-spring/springsolution/solution/pojo/target/
-/lm-spring/springsolution/solution/service/target/
-/lm-spring/springsolution/solution/web/target/
-/lm-spring/springsolution/solution/webboot/target/
-/lm-spring/springsolution/solution/webapi/target/
+
 /springsolution/solution/common/target/
 /springsolution/solution/console/target/
 /springsolution/solution/mapper/target/

@@ -1,0 +1,12 @@
+
+Spring 的事务机制是用统一的机制来处理不同数据访问技术的事务处理。
+Spring 的事务机制提供了一个 PlatformTransactionManager 接口，不同的数据访问技术的事务使用不同的接口实现：
+    JDBC -- DataSourceTransactionManager
+    JPA -- JpaTransactionManager
+    Hibernate -- HibernateTransactionManager
+    JDO -- JdoTransactionManager
+    分布式事务 -- JtaTransactionManager
+
+
+
+

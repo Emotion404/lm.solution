@@ -1,0 +1,47 @@
+
+@Transactional 的属性可以定制事务的行为：
+1.propagation--定义事务的生命周期
+    默认值--Propagation.REQUIRED
+    Propagation.REQUIRED--方法A调用时没有事务新建一个事务，
+                          当方法A调用另外一个方法B时，方法B将使用相同的事务，
+                          如果此时方法B发生异常数据回滚的时候，整个事务将回滚。
+    Propagation.REQUIRES_NEW--对于方法A和B，
+                              在方法调用的时候无论是否有事务存在都开启一个新的事务，
+                              如果方法B有异常不会导致A方法的回滚。
+    Propagation.NESTED--与Propagation.REQUIRES_NEW相同，
+                        支持JDBC,不支持JPA和Hibernate。
+    Propagation.SUPPORTS--方法调用时，有事务就用事务，没有就不用。
+    Propagation.NOT_SUPPORTED--强制方法不在事务中执行，
+                               若有事务，在方法调用时，事务会先被挂起。
+    Propagation.NEVER--强制方法不在事务中执行，若有事务则抛出异常。
+    Propagation.MANDATORY--强制方法在事务中执行，若无事务则抛出异常。
+2.isolation--隔离决定事务的完整性，可以设置多事务对相同数据下的处理机制
+    默认值--Isolation.DEFAULT
+    Isolation.READ_UNCOMMITTED--对于在A事务里修改了一条记录但没有提交事务，
+                                在B事务可以读取到修改后的记录，
+                                可能导致脏读、不可重复读、以及幻读。
+    Isolation.READ_COMMITTED--只有当在A事务里修改了一条记录且提交事务之后，
+                              B事务才可以读取到提交后的记录，
+                              阻止脏读，但可能导致不可重复读和幻读。
+    Isolation.REPEATABLE_READ--具有Isolation.READ_COMMITTED的功能，
+                               并且当A事务读取一条记录时，B事务将不能修改这条记录了，
+                               阻止脏读、不可重复读，但可能导致幻读。
+    Isolation.SERIALIZABLE--此级别下事务是顺序执行的，可阻止脏读、不可重复读、幻读，但开销较大。
+    Isolation.DEFAULT--使用当前数据库的默认隔离级别，
+                       Oracle--READ_COMMITTED
+                       SqlServer--READ_COMMITTED
+                       MySQL--REPEATABLE_READ
+3.timeout--事务过期时间，默认当前数据库事务的过期时间
+4.readOnly--指定当前事务是否是只读事务，默认 false
+5.rollbackFor--指定哪些异常引起事务回滚，
+               源码-- Class<? extends Throwable>[] rollbackFor() default {};
+6.noRollbackFor--指定哪些异常不引起事务回滚，
+                 源码-- Class<? extends Throwable>[] noRollbackFor() default {};
+
+
+
+
+
+
+
+

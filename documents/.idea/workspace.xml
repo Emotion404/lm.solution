@@ -3,461 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/Http/HttpClientUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/Http/HttpClientUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/Http/RestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/excel/ExportExcelUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/excel/ImportExcelUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/exceptions/BaseSystemException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/file/Files_Utils_DG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/imagecode/ColorHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/rabbitmq/ConfigRabbitMQ.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/rabbitmq/MqConst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/redis/RedisPoolFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/classes/lm/solution/common/web/messageconverter/CustomMessageConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/MainEntry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/JvmStackTrace/StackTraceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/classX/ClassGenericTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/collections/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/collections/LinkedListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/collections/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/collections/PriorityQueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/collections/SetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/collections/TreeSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/generic/ArrayAlg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/generic/ArrayAlg2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/generic/PairAlg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/generic/PairTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/generic/PairTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/generic/PairTest3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/generic/PairTest4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/lambda/AnonymousInnerClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/lambda/ArraySortTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/lambda/TalkingClock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/lambda/TalkingClock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/lambda/TimerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/proxy/ProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/proxy/TraceHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/reflection/ExtendArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/reflection/MethodInvokeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/reflection/ReflectClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/corejava1/reflection/ReflectFieldValueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/jaxws/JaxWsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/fastjson/FastjsonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/fastjson/FastjsonUnitTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/fastjson/FastjsonUnitTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/fastjson/FastjsonUnitTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/fastjson/FastjsonUnitTest$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/fastjson/FastjsonUnitTest$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/fastjson/FastjsonUnitTest$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/fastjson/FastjsonUnitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/jackson/Jackson1xTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/jackson/Jackson1xTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/jackson/Jackson1xTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/jackson/Jackson2xTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/json/jackson/JacksonNewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Customer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Customer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Customer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Customer$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Customer$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Customer$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Customer$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/rabbitmq/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/annotationgroup/AnnotationGroupTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/annotationgroup/BeanService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/annotationgroup/DemoConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/annotationgroup/WiselyConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/aop/Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/aop/AnnotationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/aop/AopTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/aop/Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/aop/LogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/aop/MethodService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/beanprepost/BeanTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/beanprepost/BeanWayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/beanprepost/JSR250WayService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/beanprepost/PrePostConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/conditional/ConditionConifg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/conditional/ConditionalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/conditional/LinuxCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/conditional/LinuxListService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/conditional/WindowsCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/conditional/WindowsListService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/di/DiConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/di/DiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/di/FunctionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/di/UseFunctionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/event/DemoEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/event/DemoListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/event/DemoPublisher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/event/EventConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/event/EventTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/javaconfig/ConfigTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/javaconfig/FunctionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/javaconfig/JavaConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/javaconfig/UseFunctionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/job/JobBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/job/TaskSchedulerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/job/TaskSchedulerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/multithread/AsyncBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/multithread/TaskExecutorConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/multithread/ThreadPoolTaskExecutorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/profile/DemoBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/profile/ProfileConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/profile/ProfileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/profile/WebInit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/scope/PrototypeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/scope/ScopeConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/scope/ScopeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/scope/SingletonService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/springel/DemoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/springel/ElConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/springel/ElTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/test/TestBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/lm/solution/console/spring/spring/test/TestConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/redis.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/spring/springel/test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/classes/spring/springel/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/console/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/mapper/target/classes/lm/solution/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/mapper/target/classes/lm/solution/mapper/provider/UserDynaSqlProvider$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/mapper/target/classes/lm/solution/mapper/provider/UserDynaSqlProvider$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/mapper/target/classes/lm/solution/mapper/provider/UserDynaSqlProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/dto/ExcelDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/dto/JsonResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/dto/properties/TestInfoSettings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/entity/web/DemoObj.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/enums/HttpExceptionEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/enums/ScopeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/BeginEndBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/JsonComplex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/ThirdBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/classX/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/classX/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/classX/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/fastjsonunittest/Course.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/fastjsonunittest/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/fastjsonunittest/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/generic/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/generic/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/generic/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/classes/lm/solution/pojo/model/console/spring/spring/ListService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/classes/lm/solution/service/jaxws/SquareRootServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/classes/lm/solution/service/jaxws/SquareRootServerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/classes/lm/solution/service/jaxws/ri/SquareRootServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/classes/lm/solution/service/jaxws/ri/SquareRootServerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/classes/lm/solution/service/mysql/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/classes/lm/solution/service/mysql/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/classes/lm/solution/service/webtest/DemoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/assets/js/ajaxfileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/assets/js/jquery-2.1.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/assets/js/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/assets/js/jquery-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/dbconfig.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/WebInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/beans/GlobalExceptionHandlerAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/beans/HandlerBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/beans/MySqlBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/beans/RedisBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/beans/TimerInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/configs/RootConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/configs/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/exceptions/SpringHandlerExceptionResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/jaxwsclient/SquareRootServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/jaxwsclient/SquareRootServerImplService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/properties/CacheConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/config/properties/DbConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/customconverter/CustomConverterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/db/MyBatisController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/excel/ExportExcelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/excel/UploadExcelControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/fileupload/FileUploadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/handleradvice/AdviceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/jaxwsri/JaxWsRiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/login/ValidateCodeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/mocktest/MyRestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/mocktest/NormalController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/redis/JedisOpRedisController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/restful/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/lm/solution/web/controller/serverpushmessage/SseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/redis.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/db/mybatis.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/error/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/excel/excel.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/fileupload/upload.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/httpmessageconverter/customconverter.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/jaxwsri/wsri.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/login/imageValidateCodeLogin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/mocktest/page.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/redis/jedis.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/restful/user.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/serverpushmessage/sse.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/classes/views/说明.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/test-classes/lm/solution/web/test/TestControllerIntegrationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/assets/js/ajaxfileupload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/assets/js/jquery-2.1.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/assets/js/jquery-3.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/assets/js/jquery-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/dbconfig.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/WebInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/beans/GlobalExceptionHandlerAdvice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/beans/HandlerBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/beans/MySqlBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/beans/RedisBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/beans/TimerInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/configs/RootConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/configs/WebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/exceptions/SpringHandlerExceptionResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/jaxwsclient/SquareRootServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/jaxwsclient/SquareRootServerImplService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/properties/CacheConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/config/properties/DbConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/customconverter/CustomConverterController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/db/MyBatisController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/excel/ExportExcelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/excel/UploadExcelControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/fileupload/FileUploadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/handleradvice/AdviceController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/jaxwsri/JaxWsRiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/login/ValidateCodeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/mocktest/MyRestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/mocktest/NormalController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/redis/JedisOpRedisController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/restful/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/lm/solution/web/controller/serverpushmessage/SseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/redis.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/db/mybatis.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/error/error.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/excel/excel.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/fileupload/upload.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/httpmessageconverter/customconverter.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/jaxwsri/wsri.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/login/imageValidateCodeLogin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/mocktest/page.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/redis/jedis.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/restful/user.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/serverpushmessage/sse.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/classes/views/说明.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/amqp-client-5.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/asm-4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/aspectjrt-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/cglib-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-beanutils-1.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-collections-3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-collections4-4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-lang-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-lang3-3.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-logging-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/druid-1.0.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/ehcache-core-2.6.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/ehcache-web-2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/ezmorph-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/fastjson-1.2.46.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/freemarker-2.3.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/httpclient-4.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/httpcore-4.4.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/jackson-annotations-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/jackson-dataformat-xml-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/json-lib-2.1-jdk15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/mapper-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/mysql-connector-java-5.1.34.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/poi-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/poi-ooxml-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/poi-ooxml-schemas-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/slf4j-api-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-aop-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-aspects-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-beans-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-context-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-context-support-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-core-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-expression-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-jdbc-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-tx-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-web-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/spring-webmvc-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/stax2-api-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/woodstox-core-5.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/lib/xmlbeans-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/target/web/files/download/mst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/classes/dbconfig.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/classes/lm/solution/webapi/RESTfulController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/classes/spring-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/classes/dbconfig.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/classes/lm/solution/webapi/RESTfulController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/classes/spring-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/classes/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/amqp-client-5.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/asm-4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/aspectjrt-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/cglib-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-beanutils-1.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-collections-3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-collections4-4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-lang-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-lang3-3.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-logging-1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/druid-1.0.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/ehcache-core-2.6.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/ehcache-web-2.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/ezmorph-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/freemarker-2.3.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/httpclient-4.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/httpcore-4.4.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/jackson-annotations-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/jackson-dataformat-xml-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/json-lib-2.1-jdk15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/mapper-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/mysql-connector-java-5.1.34.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/poi-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/poi-ooxml-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/poi-ooxml-schemas-3.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/slf4j-api-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-aop-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-aspects-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-beans-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-context-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-context-support-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-core-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-expression-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-jdbc-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-tx-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-web-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/spring-webmvc-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/stax2-api-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/woodstox-core-5.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/lib/xmlbeans-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/target/webapi/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/target/classes/lm/solution/webboot/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/target/classes/lm/solution/webboot/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webboot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/FastInfoset-1.2.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/aspectjrt-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/druid-1.0.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/gmbal-api-only-3.1.0-b001.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/ha-api-3.1.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jackson-annotations-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jackson-core-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jackson-databind-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jackson-dataformat-xml-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/javax.annotation-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/javax.xml.soap-api-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jaxb-core-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jaxb-impl-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jaxws-api-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jaxws-rt-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/jsr181-api-1.0-MR1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/management-api-3.0.0-b012.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/mapper-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/mimepull-1.9.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/mysql-connector-java-5.1.34.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/pojo-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/policy-2.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/resolver-20050927.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/saaj-impl-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/slf4j-api-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-aop-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-aspects-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-beans-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-context-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-context-support-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-core-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-expression-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-jdbc-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/spring-tx-4.3.13.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/stax-ex-1.7.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/stax2-api-3.1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/streambuffer-1.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/woodstox-core-5.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/lib/woodstox-core-asl-4.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/sun-jaxws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webservice/target/webservice/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../sql/mybatis.sql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -545,6 +92,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -567,8 +116,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -682,11 +229,12 @@
       <workItem from="1525177041007" duration="1191000" />
       <workItem from="1525316715055" duration="175000" />
       <workItem from="1525318801926" duration="249000" />
+      <workItem from="1525319256776" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13996000" />
+    <option name="totallyTimeSpent" value="14369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="917" y="457" width="988" height="565" extended-state="0" />
@@ -705,7 +253,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5409483" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5528017" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -729,6 +277,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/rabbitmq.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/rabbitmq.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">

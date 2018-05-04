@@ -9,16 +9,16 @@ virtual host：lmQueue
 
 
 DeepIn 环境：
-文章（仅限参考，不可照搬，不然系统会坏掉的）：
+文章（链接中内容仅限参考，不可照搬，不然系统会坏掉的）：
 https://blog.csdn.net/jxgahxs/article/details/71525289?utm_source=itdadao&utm_medium=referral
 操作：
 1.安装：
 sudo apt install rabbitmq-server
 2.进入目录 -- /usr/lib/rabbitmq/lib/rabbitmq_server-3.6.10/sbin：
-输入命令：sudo rabbitmq-server
-3.安装以后可以通过下面的命令，停止、启动：
+输入命令启动：
+sudo rabbitmq-server
+3.安装以后可以通过下面的命令，停止：
 sudo rabbitmqctl stop
-sudo rabbitmqctl start
 4.开启web管理插件:
 sudo rabbitmq-plugins enable rabbitmq_management
 5.创建管理用户：

@@ -17,7 +17,7 @@
     <br>
 <div id="getAllusers"></div>
 <br>
-<script>
+<script type="text/javascript">
     $(function () {
         $('#btnAllusers').on("click", function (e) {
             var request = $.ajax({
@@ -109,12 +109,12 @@
             request.done(function (data) {
                 if (data) {
                     var html = "";
-                    html += "<span>id</sapn>:<span>" + data.id + "</span><br>";
-                    html += "<span>name</sapn>:<span>" + data.name + "</span><br>";
-                    html += "<span>age</sapn>:<span>" + data.age + "</span><br>";
-                    html += "<span>salary</sapn>:<span>" + data.salary + "</span><br>";
+                    html += "<span>id</span>:<span>" + data.id + "</span><br>";
+                    html += "<span>name</span>:<span>" + data.name + "</span><br>";
+                    html += "<span>age</span>:<span>" + data.age + "</span><br>";
+                    html += "<span>salary</span>:<span>" + data.salary + "</span><br>";
                     html += "<br>----------------------------------------------------------<br>";
-                    $("#createUser").html(data);
+                    $("#createUser").html(html);
                 }
             });
 

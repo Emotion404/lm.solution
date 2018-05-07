@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
     <title>Title</title>
@@ -7,10 +7,25 @@
 <body>
 
 <h3> @Transactional rollbackFor 回滚</h3>
-
+<button id="rollback">click</button>
+<div id="rollbackTxt">
+    <span>id</span>:<span> </span><br/>
+    <span>name</span>:<span>回滚test</span><br/>
+    <span>age</span>:<span>1</span><br/>
+    <span>address</span>:<span>发生异常，会回滚数据库</span><br/>
+</div>
 <h3> @Transactional noRollbackFor 不回滚</h3>
-
+<button id="noRollback">click</button>
+<div id="noRollbackTxt">
+    <span>id</span>:<span></span><br/>
+    <span>name</span>:<span>不回滚test</span><br/>
+    <span>age</span>:<span>2</span><br/>
+    <span>address</span>:<span>发生异常，不会回滚数据库</span><br/>
+</div>
 <h3>所有数据</h3>
-
+<button id="btnAll">click</button>
+<div id="allData"></div>
+<script th:src="@{/jQuery-v3.3.1.js}"></script>
+<script th:src="@{/businessJs/springdata/transaction.js}"></script>
 </body>
 </html>

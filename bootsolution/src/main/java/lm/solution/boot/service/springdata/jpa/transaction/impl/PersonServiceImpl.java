@@ -21,7 +21,7 @@ public class PersonServiceImpl implements PersonService {
     public Person savePersonWithRollback(Person person) {
         Person p = personRepository.save(person);
 
-        if (person.getName().equals("汪云飞")) {
+        if (person.getName().equals("回滚test")) {
             // 手动触发异常
             throw new IllegalArgumentException("测试 with rollback，数据将回滚！");
         }
@@ -35,7 +35,7 @@ public class PersonServiceImpl implements PersonService {
     public Person savePersonWithoutRollback(Person person) {
         Person p = personRepository.save(person);
 
-        if (person.getName().equals("汪云飞")) {
+        if (person.getName().equals("不回滚test")) {
             // 手动触发异常
             throw new IllegalArgumentException("测试 without rollback，数据已存在，但是不回滚！");
         }

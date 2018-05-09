@@ -1,6 +1,6 @@
 package lm.solution.boot.controller.thymeleaf;
 
-import lm.solution.boot.entity.Person;
+import lm.solution.boot.entity.springdatajpa.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

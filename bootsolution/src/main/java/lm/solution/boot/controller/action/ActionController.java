@@ -1,6 +1,6 @@
 package lm.solution.boot.controller.action;
 
-import lm.solution.boot.entity.Person;
+import lm.solution.boot.entity.springdatajpa.Person;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

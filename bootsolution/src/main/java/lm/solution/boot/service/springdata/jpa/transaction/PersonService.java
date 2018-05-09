@@ -1,6 +1,6 @@
 package lm.solution.boot.service.springdata.jpa.transaction;
 
-import lm.solution.boot.springdatajpa.entity.Person;
+import lm.solution.boot.entity.springdatajpa.Person;
 
 import java.util.List;
 

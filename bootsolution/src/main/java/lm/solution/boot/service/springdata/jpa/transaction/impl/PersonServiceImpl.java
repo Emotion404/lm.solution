@@ -1,8 +1,8 @@
 package lm.solution.boot.service.springdata.jpa.transaction.impl;
 
 import lm.solution.boot.service.springdata.jpa.transaction.PersonService;
-import lm.solution.boot.springdatajpa.entity.Person;
-import lm.solution.boot.springdatajpa.repository.PersonRepository;
+import lm.solution.boot.entity.springdatajpa.Person;
+import lm.solution.boot.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,4 +1,4 @@
-package lm.solution.boot.springdatajpa.entity;
+package lm.solution.boot.entity.springdatajpa;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -26,6 +26,20 @@ public class Person {
     public Person(Long id, String name, Integer age, String address) {
         super();
         this.id = id;
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+    public Person(String name, Integer age, String address) {
+        super();
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+    public Person(String name, Integer age) {
+        super();
         this.name = name;
         this.age = age;
         this.address = address;

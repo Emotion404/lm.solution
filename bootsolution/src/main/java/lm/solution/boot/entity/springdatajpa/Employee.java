@@ -1,4 +1,4 @@
-package lm.solution.boot.springdatajpa.entity;
+package lm.solution.boot.entity.springdatajpa;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

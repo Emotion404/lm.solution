@@ -1,6 +1,6 @@
-package lm.solution.boot.springdatajpa.repository;
+package lm.solution.boot.repository;
 
-import lm.solution.boot.springdatajpa.entity.Employee;
+import lm.solution.boot.entity.springdatajpa.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

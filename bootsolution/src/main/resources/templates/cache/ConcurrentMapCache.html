@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <!-- Spring Security csrf anti & ajax LM.2018.05.10 -->
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <title>ConcurrentMapCacheManager</title>
+</head>
+<body>
+<h3>@Cacheable DB查询一条数据并放入缓存</h3>
+<span>ID:</span>
+<input id="ableIdTxt" type="text"/>
+<button id="cacheableOne">click</button>
+<div id="cacheableOneData"></div>
+<h3>@CachePut DB保存一条数据并放入缓存</h3>
+<div>
+    <span>id</span>:<br/>
+    <span>name</span>:<input id="putName" type="text"/><br/>
+    <span>age</span>:<input id="putAge" type="text"/><br/>
+    <span>address</span>:<input id="putAddress" type="text"/><br/>
+    <button id="putBtn">click</button>
+</div>
+<div id="cachePutOneData"></div>
+<h3>@CacheEvict DB删除一条数据并从缓存中也删除</h3>
+<span>ID:</span>
+<input id="evictIdTxt" type="text"/>
+<button id="evictBtn">click</button>
+<div id="evictData"></div>
+<h3>DB查询所有数据</h3>
+<button id="getAll">click</button>
+<div id="allData"></div>
+<script th:src="@{/jQuery-v3.3.1.js}"></script>
+<script th:src="@{/businessJs/security/csrf.js}"></script>
+<script th:src="@{/businessJs/cache/concurrentMapCache.js}"></script>
+</body>
+</html>

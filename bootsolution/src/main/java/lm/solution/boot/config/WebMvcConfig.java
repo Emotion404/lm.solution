@@ -26,6 +26,9 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
         // Spring data rest
         registry.addViewController("/springdata/restful").setViewName("springdata/restful");
 
+        // cache
+        registry.addViewController("/cache/concurrentmappage").setViewName("cache/ConcurrentMapCache");
+
     }
 
 }

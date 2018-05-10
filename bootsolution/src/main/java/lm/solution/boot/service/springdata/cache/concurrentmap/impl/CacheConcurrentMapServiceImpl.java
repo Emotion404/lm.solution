@@ -8,6 +8,9 @@ import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
+
 /**
  * Spring Boot 默认以 ConcurrentMapCacheManager 做为缓存技术
  * */
@@ -49,6 +52,13 @@ public class CacheConcurrentMapServiceImpl implements CacheConcurrentMapService 
         Person p=personRepository.findOne(person.getId());
         System.out.println("为id、key为："+p.getId()+"数据做了缓存。");
         return p;
+    }
+
+    @Override
+    public List<Person> allData() {
+
+        return personRepository.findAll();
+
     }
 }
 

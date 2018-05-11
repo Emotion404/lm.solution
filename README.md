@@ -1,7 +1,7 @@
 # lm.solution
 Spring and More ...
 
-博客地址：http://www.cnblogs.com/Meng-NET/ 
+博客地址：<a href="http://www.cnblogs.com/Meng-NET/" target="_blank">Meng.NET -- 技术改变人生,网络改变生活,信息改变世界.</a>
 
 一、说明
 
@@ -29,15 +29,8 @@ Spring and More ...
 
 四、目录
 
-　　<a href="http://www.cnblogs.com/Meng-NET/p/8986703.html" target="_blank">Spring 事务与脏读、不可重复读、幻读</a>  
-    --  http://www.cnblogs.com/Meng-NET/p/8986703.html 
-    
-　　Linux(DeepInOS) 下 mysql 的安装与基本配置  
-    --  http://www.cnblogs.com/Meng-NET/p/8996788.html
-    
-　　Spring 下 MyBatis 的基本使用  
-    --  http://www.cnblogs.com/Meng-NET/p/9005972.html
-    
-　　Linux & Windows 环境下 Redis 安装与基本配置  
-    --  http://www.cnblogs.com/Meng-NET/p/9017110.html
-    
+　　<a href="http://www.cnblogs.com/Meng-NET/p/8986703.html" target="_blank">Spring 事务与脏读、不可重复读、幻读</a>
+　　<a href="http://www.cnblogs.com/Meng-NET/p/8996788.html" target="_blank">Linux(DeepInOS) 下 mysql 的安装与基本配置</a>
+　　<a href="http://www.cnblogs.com/Meng-NET/p/9005972.html" target="_blank">Spring 下 MyBatis 的基本使用</a>
+　　<a href="http://www.cnblogs.com/Meng-NET/p/9017110.html" target="_blank">Linux & Windows 环境下 Redis 安装与基本配置</a>
+  

@@ -5,15 +5,9 @@ Spring and More ...
 
 一、说明
 
-　　1.本项目未按java项目传统命名方式命名项目名，包名
+　　1.本项目未按java项目传统命名方式命名项目名，包名，如：org.xxxx.xxxx  等等，原因是个人的开源项目不属于任何组织。
 
-　　　　如：org.xxxx.xxxx  等等，
-
-　　　　原因是个人的开源项目不属于任何组织，目标是开箱即用不在为
-
-　　　　各种环境配置搭建而烦恼~
-
-　　2.欢迎大家 Fork 我的项目并提出自己的代码想法~
+　　2.如果对你有帮助，或者你喜欢，别忘了给个星(Star)，同时欢迎 Fork 我的项目并提出自己的代码想法~
 
 二、项目努力目标
 
@@ -32,3 +26,10 @@ Spring and More ...
 　　2.注释完备，资料齐全
 
 　　3.持续集成与改进~~
+
+四、目录
+
+　　Spring 事务与脏读、不可重复读、幻读  --  http://www.cnblogs.com/Meng-NET/p/8986703.html
+　　Linux(DeepInOS) 下 mysql 的安装与基本配置  --  http://www.cnblogs.com/Meng-NET/p/8996788.html
+　　Spring 下 MyBatis 的基本使用  --  http://www.cnblogs.com/Meng-NET/p/9005972.html
+　　Linux & Windows 环境下 Redis 安装与基本配置  --  http://www.cnblogs.com/Meng-NET/p/9017110.html

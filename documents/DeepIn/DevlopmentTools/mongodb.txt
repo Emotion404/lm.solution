@@ -1,0 +1,38 @@
+
+MongoDB ：
+port：27017
+
+
+DeepIn 环境：
+
+
+
+Windows没有运行成功，后面继续修补
+Windows 环境：
+1.下载 mongodb-win32-x86_64-2008plus-ssl-3.2.11-signed.msi
+注意：偶数为稳定版，如1.6，奇数为开发版，如1.7
+2.直接安装
+双击.msi文件，根据向导一步一步进行安装
+安装完成 C:\Program Files\MongoDB\Server\3.2\bin 目录：
+mongod.exe   -- Server
+mongos.exe   -- Router
+mongo.exe    -- Client
+mongostat.exe，mongotop.exe   -- MonitoringTools
+mongodump.exe，mongorestore.exe，mongoexport.exe，mongoimport.exe     -- InportExportsTools
+bsondump.exe，mongofiles.exe，mongooplog.exe，mongoperf.exe   -- MiscellaneousTools
+3.创建数据存储目录
+C:\Program Files\MongoDB\Server\3.2>md .\data\db
+4.指定数据目录
+C:\Program Files\MongoDB\Server\3.2\bin>mongod.exe --dbpath "C:\Program Files\MongoDB\Server\3.2\data\db"
+5.创建log目录
+C:\Program Files\MongoDB\Server\3.2>md .\data\log
+6.新建配置文件
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+
+
+//
+使用 Guava 作为缓存技术，在 pom.xml 中增加依赖：
+		<!--guava-->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>18.0</version>
+		</dependency>
+
+//
+Spring Boot 会给我们自动配置 GuavaCacheManager 的 Bean
+
+

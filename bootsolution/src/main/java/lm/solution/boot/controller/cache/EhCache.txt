@@ -1,0 +1,21 @@
+
+
+//
+若果需要在SpringBoot中使用EhCache作为缓存技术，在pom.xml中添加依赖：
+		<!--ehcache-->
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+		</dependency>
+
+//
+所需的配置文件 ehcache.xml 放在类路径下，Spring Boot 会自动扫描
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+<cache name="people" maxElementsInMemory="1000" />
+</ehcache>
+
+//
+Spring Boot 会给我们自动配置 EhCacheCacheManager 的 Bean
+
+

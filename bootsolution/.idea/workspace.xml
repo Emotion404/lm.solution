@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72e0679c-3984-4404-8bde-afc0b7fefa11" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cache/ConcurrentMapCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/EhCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/GuavaCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/RedisCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../documents/DeepIn/DevlopmentTools/mongodb.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lm/solution/boot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/ConcurrentMapCacheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/ConcurrentMapCacheController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lm/solution/boot/service/springdata/cache/concurrentmap/CacheConcurrentMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/service/springdata/cache/concurrentmap/CacheConcurrentMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lm/solution/boot/service/springdata/cache/concurrentmap/impl/CacheConcurrentMapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/service/springdata/cache/concurrentmap/impl/CacheConcurrentMapServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/businessJs/js.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/businessJs/cache/concurrentMapCache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="ConcurrentMapCache.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cache/ConcurrentMapCache.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="499">
+              <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -35,8 +33,8 @@
       <file leaf-file-name="concurrentMapCache.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/businessJs/cache/concurrentMapCache.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="85" column="43" lean-forward="true" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+            <state relative-caret-position="204">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -44,7 +42,7 @@
       <file leaf-file-name="ConcurrentMapCacheController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/ConcurrentMapCacheController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
+            <state relative-caret-position="185">
               <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,7 +88,6 @@
         <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/security/CsrfController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/springdata/transaction.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/businessJs/springdata/transaction.js" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/springdatajpa/repository/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/entity/springdatajpa/entity/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/entity/springdatajpa/Employee.java" />
@@ -111,6 +108,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/cache/ConcurrentMapCache.html" />
         <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/ConcurrentMapCacheController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/businessJs/cache/concurrentMapCache.js" />
+        <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/EhCache.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/GuavaCache.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/RedisCache.txt" />
       </list>
     </option>
   </component>
@@ -148,7 +149,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="905" />
-    <option name="y" value="400" />
+    <option name="y" value="404" />
     <option name="width" value="1012" />
     <option name="height" value="633" />
   </component>
@@ -193,15 +194,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bootsolution" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="boot" type="b2602c69:ProjectViewProjectNode" />
@@ -344,9 +336,9 @@
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="15" />
-    <property name="RequestMappingsPanelWidth1" value="15" />
-    <property name="RequestMappingsPanelWidth2" value="15" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../documents" />
@@ -449,14 +441,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61063000" />
+    <option name="totallyTimeSpent" value="68534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="905" y="400" width="1012" height="633" extended-state="0" />
+    <frame x="905" y="404" width="1012" height="633" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32934132" />
       <window_info anchor="right" auto_hide="true" id="Maven Projects" order="3" weight="0.33718488" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -481,12 +473,38 @@
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.5928144" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.375" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" auto_hide="true" id="Maven Projects" order="3" weight="0.33718488" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.32983193" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" auto_hide="true" id="Debug" order="3" weight="0.6007984" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,8 +529,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Docs/bootsolution.txt" />
-    <entry file="file://$PROJECT_DIR$/Docs/快捷键.txt" />
     <entry file="file://$PROJECT_DIR$/Docs/Linux/linux-shell.txt" />
     <entry file="file://$PROJECT_DIR$/Docs/Linux/linux-cmd.txt" />
     <entry file="file://$PROJECT_DIR$/Docs/DeepIn/docker.txt" />
@@ -593,35 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="71" column="26" lean-forward="true" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-          <folding>
-            <element signature="n#parent#0;n#project#0;n#!!top" />
-            <element signature="n#properties#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="e#1173#1298#0" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="e#1452#1519#0" />
-            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/entity/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/springdatajpa/CustomRepository/CustomerSpecs.java" />
     <entry file="file://$PROJECT_DIR$/../documents/Spring/java/泛型与匿名类理解.txt">
@@ -663,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -740,9 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/businessJs/js.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/businessJs/springdata/transaction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -754,9 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="16" column="19" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +786,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/EhCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/GuavaCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/RedisCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+          <folding>
+            <element signature="n#parent#0;n#project#0;n#!!top" />
+            <element signature="n#properties#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="e#1173#1298#0" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="e#1452#1519#0" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cache/ConcurrentMapCache.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="32" column="34" lean-forward="true" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/ConcurrentMapCacheController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="185">
           <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -818,17 +857,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cache/ConcurrentMapCache.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/businessJs/cache/concurrentMapCache.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="85" column="43" lean-forward="true" selection-start-line="85" selection-start-column="43" selection-end-line="85" selection-end-column="43" />
+        <state relative-caret-position="204">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>

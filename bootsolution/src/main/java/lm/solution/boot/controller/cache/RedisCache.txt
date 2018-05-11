@@ -1,0 +1,14 @@
+
+
+//
+使用 redis 在 pom.xml 中添加依赖：
+		<!--starter-redis-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-redis</artifactId>
+		</dependency>
+
+//
+Spring Boot 会为我们自动配置 RedisCacheManager 及 RedisTemplate 的 Bean
+
+

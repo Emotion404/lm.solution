@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/templates/cache/ConcurrentMapCache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/EhCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/GuavaCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/RedisCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepIn/DevlopmentTools/mongodb.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/ConcurrentMapCacheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/ConcurrentMapCacheController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/service/springdata/cache/concurrentmap/CacheConcurrentMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/service/springdata/cache/concurrentmap/CacheConcurrentMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/service/springdata/cache/concurrentmap/impl/CacheConcurrentMapServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/service/springdata/cache/concurrentmap/impl/CacheConcurrentMapServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/static/businessJs/js.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/static/businessJs/cache/concurrentMapCache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="泛型与匿名类理解.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spring/java/泛型与匿名类理解.txt">
+      <file leaf-file-name="快捷键.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/快捷键.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="-57">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="快捷键.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/快捷键.txt">
+      <file leaf-file-name="mongodb.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mongodb.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -64,6 +63,7 @@
         <option value="$PROJECT_DIR$/DeepIn/DevlopmentTools/maven.txt" />
         <option value="$PROJECT_DIR$/Projects/EasterEggs.txt" />
         <option value="$PROJECT_DIR$/DeepIn/DevlopmentTools/intelij-idea.txt" />
+        <option value="$PROJECT_DIR$/DeepIn/DevlopmentTools/mongodb.txt" />
       </list>
     </option>
   </component>
@@ -101,9 +101,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="902" />
-    <option name="y" value="451" />
-    <option name="width" value="1012" />
-    <option name="height" value="584" />
+    <option name="y" value="404" />
+    <option name="width" value="1010" />
+    <option name="height" value="631" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -120,6 +120,17 @@
             <path>
               <item name="documents" type="b2602c69:ProjectViewProjectNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
+              <item name="DevlopmentTools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="documents" type="b2602c69:ProjectViewProjectNode" />
@@ -274,15 +285,15 @@
       <workItem from="1525703496767" duration="1473000" />
       <workItem from="1525766048748" duration="607000" />
       <workItem from="1525847300699" duration="2033000" />
-      <workItem from="1525934627154" duration="1794000" />
+      <workItem from="1525934627154" duration="7288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34197000" />
+    <option name="totallyTimeSpent" value="39691000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="902" y="451" width="1012" height="584" extended-state="0" />
+    <frame x="902" y="404" width="1010" height="631" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -308,12 +319,35 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32743362" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.5945378" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4422269" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,13 +357,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/maven.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/maven.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -662,15 +689,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring/java/泛型与匿名类理解.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="232">
           <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/快捷键.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-57">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mongodb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

@@ -29,7 +29,7 @@ Spring and More ...
 
 四、目录
 
-　　Spring 事务与脏读、不可重复读、幻读  
+　　<a href="http://www.cnblogs.com/Meng-NET/p/8986703.html" target="_blank">Spring 事务与脏读、不可重复读、幻读</a>  
     --  http://www.cnblogs.com/Meng-NET/p/8986703.html 
     
 　　Linux(DeepInOS) 下 mysql 的安装与基本配置  

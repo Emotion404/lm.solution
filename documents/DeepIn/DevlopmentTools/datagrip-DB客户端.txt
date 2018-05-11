@@ -1,0 +1,33 @@
+
+
+DeepIn 环境：
+1.下载
+https://www.jetbrains.com/datagrip/download/#section=linux
+datagrip-2018.1.2.tar.gz
+2.解压
+tar -zxvf datagrip-2018.1.2.tar.gz -C ~/dev/DataGrip
+3.安装
+./datagrip.sh
+4.创建桌面图标
+/usr/share/applications
+sudo touch ./DataGrip.desktop
+sudo vim ./DataGrip.desktop
+内容：
+[Desktop Entry]
+Name=datagrip
+Comment=datagrip
+Exec=env JAVA_HOME=/home/liumeng/dev/Java/jdk1.8.0_171 /home/liumeng/dev/DataGrip/DataGrip-2018.1.2/bin/datagrip.sh
+Icon=/home/liumeng/dev/DataGrip/DataGrip-2018.1.2/bin/datagrip.png
+Terminal=false
+Type=Application
+Categories=Application;
+X-Deepin-CreatedBy=com.deepin.dde.daemon.Launcher
+X-Deepin-AppID=DataGrip
+
+
+
+
+
+
+
+

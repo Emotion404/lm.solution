@@ -10,7 +10,7 @@ CREATE TABLE `user` (
   `age` varchar(100) NOT NULL,
   `salary` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 -->
 
 

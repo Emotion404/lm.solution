@@ -1,0 +1,19 @@
+
+
+
+
+DeepIn 环境：
+1.下载 tomcat
+https://tomcat.apache.org/download-90.cgi#9.0.8
+apache-tomcat-9.0.8.tar.gz
+2.解压
+tar -zxvf apache-tomcat-9.0.8.tar.gz -C ~/dev/Tomcat
+3.启动服务
+./startup.sh
+访问：
+http://127.0.0.1:8080/
+4.停止服务
+./shutdown.sh
+
+
+

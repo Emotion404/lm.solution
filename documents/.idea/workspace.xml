@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepIn/Command/git.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/repository/cache/SpringDataRedisCacheRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/RedisCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/RedisCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/entity/springdatajpa/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/entity/springdatajpa/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepIn/DevlopmentTools/git.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DeepIn/DevlopmentTools/git.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springsolution/solution/webapi/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/solution/webapi/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,20 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="快捷键.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="快捷键.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/快捷键.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datagrip-DB客户端.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="102">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -40,7 +36,7 @@
       <file leaf-file-name="projects.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/projects.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="102">
               <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
@@ -49,7 +45,7 @@
       <file leaf-file-name="mysql.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mysql.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="187">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -58,7 +54,7 @@
       <file leaf-file-name="mysqlTable.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/solution/mysqlTable.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="408">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -67,17 +63,8 @@
       <file leaf-file-name="git.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/git.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="153">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="git.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DeepIn/Command/git.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -146,9 +133,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="902" />
-    <option name="y" value="404" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="912" />
+    <option name="y" value="408" />
     <option name="width" value="1010" />
     <option name="height" value="631" />
   </component>
@@ -159,66 +146,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-              <item name="DevlopmentTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springsolution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootsolution" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -340,14 +273,16 @@
       <workItem from="1526039169415" duration="1809000" />
       <workItem from="1526041211526" duration="5401000" />
       <workItem from="1526204483843" duration="736000" />
+      <workItem from="1526269507416" duration="1219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47637000" />
+    <option name="totallyTimeSpent" value="48856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
+    <frame x="912" y="408" width="1010" height="631" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -671,61 +606,43 @@
     <entry file="file://$PROJECT_DIR$/Spring/java/泛型与匿名类理解.txt" />
     <entry file="file://$PROJECT_DIR$/快捷键.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mongodb.txt" />
-    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/tomcat.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/tomcat.txt" />
+    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt" />
     <entry file="file://$PROJECT_DIR$/Projects/projects.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="102">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mysql.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/solution/mysqlTable.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="408">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/git.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepIn/Command/git.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepIn/Command/git.txt" />
   </component>
   <component name="masterDetails">
     <states>

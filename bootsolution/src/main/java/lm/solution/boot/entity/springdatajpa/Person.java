@@ -3,9 +3,13 @@ package lm.solution.boot.entity.springdatajpa;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 @Entity
-public class Person {
+// 实现 Serializable 接口，因为使用 Jackson 做序列化需要一个空构造
+public class Person implements Serializable {
+
+    private static final long serialVersionUID=1L;
 
     /**
      * 在定义实体类的数据类型时要尽量使用包装类型（Long、Integer）,
@@ -23,12 +27,18 @@ public class Person {
         super();
     }
 
-    public Person(Long id, String name, Integer age, String address) {
+    public Person(String name, Integer age) {
+        super();
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+    public Person(Long id, String name, Integer age) {
         super();
         this.id = id;
         this.name = name;
         this.age = age;
-        this.address = address;
     }
 
     public Person(String name, Integer age, String address) {
@@ -38,8 +48,9 @@ public class Person {
         this.address = address;
     }
 
-    public Person(String name, Integer age) {
+    public Person(Long id, String name, Integer age, String address) {
         super();
+        this.id = id;
         this.name = name;
         this.age = age;
         this.address = address;

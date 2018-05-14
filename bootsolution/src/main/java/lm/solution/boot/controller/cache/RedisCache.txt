@@ -10,5 +10,17 @@
 
 //
 Spring Boot 会为我们自动配置 RedisCacheManager 及 RedisTemplate 的 Bean
+Spring Boot RedisAutoConfiguration 为我们默认配置了 JedisConnectionFactory、RedisTemplate、StringRedisTemplate,
+让我们可以直接使用 Redis 做为数据存储
+
+//
+根据不同的 java 客户端，Spring Data Redis 提供了如下 ConnectionFactory:
+JedisConnectionFactory:使用 Jedis 做为 Redis 客户端
+JredisConnectionFactory:使用 Jredis 做为 Redis 客户端
+LettuceConnectionFactory:使用 Lettuce 做为 Redis 客户端
+SrpConnectionFactory:使用 Spullara/redis-protocol 做为 Redis 客户端
+
+//
+
 
 

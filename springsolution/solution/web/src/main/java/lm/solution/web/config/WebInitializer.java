@@ -28,10 +28,6 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
          * */
         super.onStartup(servletContext);
 
-//        // ApplicationContext
-//        AnnotationConfigWebApplicationContext ctx=new AnnotationConfigWebApplicationContext();
-//        ctx.setServletContext(servletContext);
-
         //
         ServletRegistration servletRegistration =servletContext.getServletRegistration("dispatcher");
 

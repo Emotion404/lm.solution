@@ -126,6 +126,7 @@ public class FileUploadController {
     }
 
     /**
+     * 方式六
      * 多文件上传
      * 采用 MultipartFile[] multipartFile 上传文件方法
      * */
@@ -158,6 +159,7 @@ public class FileUploadController {
     }
 
     /**
+     * 方式八
      * 文件下载
      *
      * @param response

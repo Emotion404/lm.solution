@@ -40,6 +40,7 @@ public class WebConfig extends WebMvcConfigurerAdapter {
         registry.addViewController("/").setViewName("index");
         registry.addViewController("/error").setViewName("error/error");
         registry.addViewController("/excel").setViewName("excel/excel");
+        // 文件上传下载
         registry.addViewController("/upload").setViewName("fileupload/upload");
         registry.addViewController("/ImageValidateCodeLogin").setViewName("login/imageValidateCodeLogin");
         registry.addViewController("/restfulapi").setViewName("restful/user");
@@ -89,6 +90,16 @@ public class WebConfig extends WebMvcConfigurerAdapter {
          * */
         registry.addResourceHandler("/assets/**")
                 .addResourceLocations("classpath:/assets/");
+
+        // href 链接方式 下载文件
+        registry.addResourceHandler("/files/**")
+                .addResourceLocations("classpath:/files/");
+
+        /**
+         * 解决 No handler found for GET /favicon.ico 异常
+         * */
+        registry.addResourceHandler("/favicon.ico")
+                .addResourceLocations("classpath:/favicon.ico");
 
     }
 

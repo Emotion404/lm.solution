@@ -35,4 +35,5 @@ Spring and More ...
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9017110.html" target="_blank">Linux & Windows 环境下 Redis 安装与基本配置</a><br/>
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9029890.html" target="_blank">Linux & Windows 环境下 RabbitMQ 安装与基本配置</a><br/>
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9032965.html" target="_blank">Spring MVC 的 XML 配置方式</a><br/>
+　　<a href="http://www.cnblogs.com/Meng-NET/p/9039738.html" target="_blank">Linux 环境下 Git 安装与基本配置</a><br/>
   

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/repository/cache/SpringDataRedisCacheRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/boot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/RedisCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/controller/cache/RedisCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/entity/springdatajpa/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/entity/springdatajpa/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsolution/solution/web/src/main/resources/files/download/mst.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/solution/common/src/main/java/lm/solution/common/file/Files_Utils_DG.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/solution/common/src/main/java/lm/solution/common/file/Files_Utils_DG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/solution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/solution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/src/main/java/lm/solution/web/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/src/main/java/lm/solution/web/controller/fileupload/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/solution/web/src/main/java/lm/solution/web/controller/fileupload/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/solution/web/src/main/resources/views/fileupload/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/solution/web/src/main/resources/views/fileupload/upload.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/快捷键.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -134,8 +134,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="912" />
-    <option name="y" value="408" />
+    <option name="x" value="26" />
+    <option name="y" value="136" />
     <option name="width" value="1010" />
     <option name="height" value="631" />
   </component>
@@ -146,12 +146,17 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bootsolution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springsolution" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -274,14 +279,15 @@
       <workItem from="1526041211526" duration="5401000" />
       <workItem from="1526204483843" duration="736000" />
       <workItem from="1526269507416" duration="1219000" />
+      <workItem from="1526348263555" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48856000" />
+    <option name="totallyTimeSpent" value="49465000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="912" y="408" width="1010" height="631" extended-state="0" />
+    <frame x="26" y="136" width="1010" height="631" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -293,20 +299,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.5945378" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32743362" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.30702704" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.30631578" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -607,7 +613,7 @@
     <entry file="file://$PROJECT_DIR$/快捷键.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>

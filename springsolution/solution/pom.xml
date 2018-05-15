@@ -377,26 +377,6 @@
         </dependencies>
     </dependencyManagement>
 
-    <!--&lt;!&ndash; tomcat8-maven-plugin 中央仓没有，所以配置 plugin 仓地址 &ndash;&gt;-->
-    <!--<pluginRepositories>-->
-        <!--<pluginRepository>-->
-            <!--<id>alfresco-public</id>-->
-            <!--<url>https://artifacts.alfresco.com/nexus/content/groups/public</url>-->
-        <!--</pluginRepository>-->
-        <!--<pluginRepository>-->
-            <!--<id>alfresco-public-snapshots</id>-->
-            <!--<url>https://artifacts.alfresco.com/nexus/content/groups/public-snapshots</url>-->
-            <!--<snapshots>-->
-                <!--<enabled>true</enabled>-->
-                <!--<updatePolicy>daily</updatePolicy>-->
-            <!--</snapshots>-->
-        <!--</pluginRepository>-->
-        <!--<pluginRepository>-->
-            <!--<id>beardedgeeks-releases</id>-->
-            <!--<url>http://beardedgeeks.googlecode.com/svn/repository/releases</url>-->
-        <!--</pluginRepository>-->
-    <!--</pluginRepositories>-->
-
     <build>
         <plugins>
             <!-- java编译插件 -->

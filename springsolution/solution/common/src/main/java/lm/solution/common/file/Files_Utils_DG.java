@@ -11,13 +11,13 @@ import java.util.UUID;
 public final class Files_Utils_DG {
 
     /**
-     * private constructor method that make class can not be instantiation
+     * 构造函数私有，以使此类不可构造实例
      */
     private Files_Utils_DG() {
         throw new Error("The class Cannot be instance !");
     }
 
-    // return server absolute path（real path）
+    // 获取绝对路径
     public static String getServerPath(
             HttpServletRequest request,
             String filePath) {
@@ -26,16 +26,18 @@ public final class Files_Utils_DG {
 
     }
 
-    // return a dir that named date of today ; example:20160912
+    // 获取一个以日期命名的文件夹名 ; example:20160912
     public static String getDataPath() {
         return new SimpleDateFormat("yyyyMMdd").format(new Date());
     }
 
-    // check if the path has exist if not create it
+    // 检查文件夹是否存在，不存在新建一个
     public static void checkDir(String savePath) {
         File dir = new File(savePath);
         if (!dir.exists() || !dir.isDirectory()) {
-            //dir.mkdir(); // 不能创建多层目录
+            // 不能创建多层目录
+            //dir.mkdir();
+            // 创建多层目录
             dir.mkdirs();
         }
     }

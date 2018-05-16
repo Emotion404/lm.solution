@@ -39,7 +39,7 @@ public class SpringDataRedisCacheRepository {
     public void save(Person person){
 
         // 存储对象类型
-        valOps.set(person.getId(),person);
+        valOps.set(person.getId().toString(),person);
 
     }
 

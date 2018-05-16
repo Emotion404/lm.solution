@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html
+        lang="en"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <title>Spring Data Redis Cache 方式</title>
+</head>
+<body>
+<h3>在 Redis 中 存入一个 person 和 一个 string </h3>
+<button id="setCacheBtn">click</button>
+<div id="setTxt"></div>
+<h3>从 Redis 中 读取一个字符串</h3>
+<button id="getCacheStrBtn">click</button>
+<div id="getStrTxt"></div>
+<h3>从 Redis 中 读取一个 person </h3>
+<button id="getCachePersonBtn">click</button>
+<div id="getPersonTxt"></div>
+<script th:src="@{/jQuery-v3.3.1.js}"></script>
+<script th:src="@{/businessJs/security/csrf.js}"></script>
+<script th:src="@{/businessJs/cache/springDataRedisCache.js}"></script>
+</body>
+</html>

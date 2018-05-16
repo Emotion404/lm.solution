@@ -28,6 +28,7 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
         // cache
         registry.addViewController("/cache/concurrentmappage").setViewName("cache/ConcurrentMapCache");
+        registry.addViewController("/cache/redisCachePage").setViewName("cache/RedisCache");
 
     }
 

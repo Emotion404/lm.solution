@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72e0679c-3984-4404-8bde-afc0b7fefa11" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/RedisCacheController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/businessJs/cache/springDataRedisCache.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cache/RedisCache.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lm/solution/boot/repository/cache/SpringDataRedisCacheRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/repository/cache/SpringDataRedisCacheRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../documents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/DeepIn/VmWare/安装 VMware Tools.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Windows/VmWare/安装 VMware Tools.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/DeepIn/Windows双系统/DeepIn_Windows-系统时差(windows 执行).bat" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Windows-DeepIn-双系统/DeepIn_Windows-系统时差(windows 执行).bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documents/DeepIn/Windows双系统/DeepIn_Windows关机,DeepIn无法读取硬盘问题解决.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/Windows-DeepIn-双系统/DeepIn_Windows关机,DeepIn无法读取硬盘问题解决.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +22,8 @@
       <file leaf-file-name="RedisCacheController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/RedisCacheController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springDataRedisCache.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="springDataRedisCache.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/businessJs/cache/springDataRedisCache.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="442">
+              <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -45,7 +43,7 @@
       <file leaf-file-name="RedisCache.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cache/RedisCache.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="323">
               <caret line="19" column="21" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
@@ -54,10 +52,48 @@
       <file leaf-file-name="SpringDataRedisCacheRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/repository/cache/SpringDataRedisCacheRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="595">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebMvcConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebMvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#addViewControllers#0;class#WebMvcConfig#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+              <folding>
+                <element signature="e#1843#1886#0" expanded="true" />
+                <element signature="method#redisTemplate#0;class#Application#0" />
               </folding>
             </state>
           </provider>
@@ -129,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/cache/RedisCache.html" />
         <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/repository/cache/SpringDataRedisCacheRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/businessJs/cache/springDataRedisCache.js" />
+        <option value="$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -165,9 +202,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="903" />
+    <option name="x" value="898" />
     <option name="y" value="430" />
-    <option name="width" value="1008" />
+    <option name="width" value="1021" />
     <option name="height" value="610" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -179,6 +216,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,7 +371,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -446,19 +483,20 @@
       <workItem from="1526269528636" duration="10626000" />
       <workItem from="1526437478813" duration="5515000" />
       <workItem from="1526454978761" duration="3250000" />
+      <workItem from="1526523887656" duration="11367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87925000" />
+    <option name="totallyTimeSpent" value="99292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="903" y="430" width="1008" height="610" extended-state="0" />
+    <frame x="898" y="430" width="1021" height="610" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" auto_hide="true" id="Maven Projects" order="3" weight="0.33718488" />
+      <window_info anchor="right" auto_hide="true" id="Maven Projects" order="3" weight="0.3364979" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -468,7 +506,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" auto_hide="true" id="Debug" order="3" weight="0.4665272" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -477,7 +514,7 @@
       <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.46025103" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.42405063" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.42351717" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32983193" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -485,6 +522,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -585,9 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,13 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -650,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/Index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -664,22 +685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="92" lean-forward="true" selection-start-line="30" selection-start-column="92" selection-end-line="30" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/entity/springdatajpa/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-572">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Person#1;class#Person#0" />
-            <element signature="method#Person#2;class#Person#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,10 +888,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cache/RedisCache.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/businessJs/cache/springDataRedisCache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/controller/cache/RedisCacheController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -891,25 +914,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/repository/cache/SpringDataRedisCacheRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="595">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/cache/RedisCache.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding>
+            <element signature="e#1843#1886#0" expanded="true" />
+            <element signature="method#redisTemplate#0;class#Application#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/businessJs/cache/springDataRedisCache.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addViewControllers#0;class#WebMvcConfig#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lm/solution/boot/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

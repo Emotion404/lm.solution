@@ -1,0 +1,53 @@
+
+
+官方 starter 汇总
+spring-boot-starter:Spring Boot 核心 starter,包含自动配置、日志、yaml 配置文件的支持
+spring-boot-starter-actuator:准生产特性，用来监控和管理应用
+spring-boot-starter-remote-shell:提供基于 ssh 协议的监控和管理
+spring-boot-starter-amqp:使用 spring-rabbit 来支持 AMQP
+spring-boot-starter-aop:使用 spring-aop 和 AspectJ 支持面向切面编程
+spring-boot-starter-batch:对 Spring Batch 的支持
+spring-boot-starter-cache:对 Spring Cache 抽象的支持
+spring-boot-starter-cloud-connectors:对云平台 （Cloud Foundry、Heroku）提供的服务提供简化的连接方式
+spring-boot-starter-data-elasticsearch:通过 spring-data-elasticsearch 对 Elasticsearch 支持
+spring-boot-starter-data-gemfire:通过 spring-data-gemfire 对分布式存储 GemFire 的支持
+spring-boot-starter-data-jpa:对 JPA 的支持，包含 spring-data-jpa、spring-orm和 Hibernate
+spring-boot-starter-data-mongodb:通过 spring-data-mongodb ,对 MongoDB 进行支持
+spring-boot-starter-data-rest:通过 spring-data-rest-webmvc 将 Spring Data repository 暴露为 REST 形式的服务
+spring-boot-starter-data-solr:通过 spring-data-solr 对 Apache Solr 数据检索平台的支持
+spring-boot-starter-freemarker:对 FreeMarker 模板引擎的支持
+spring-boot-starter-groovy-templates:对 Groovy 模板引擎的支持
+spring-boot-starter-hateoas:通过 spring-hateoas 对基于 HATEOAS 的 REST 形式的网络服务的支持
+spring-boot-starter-hornetq:通过 HornetQ 对 JMS 的支持
+spring-boot-starter-integration:对系统集成框架 spring-integration 的支持
+spring-boot-starter-jdbc:对 JDBC 数据库的支持
+spring-boot-starter-jersey:对 Jersey REST 形式的网络服务的支持
+spring-boot-starter-jta-atomikos:通过 Atomikos 对分布式事务的支持
+spring-boot-starter-jta-bitronix:通过 Bitronix 对分布式事务的支持
+spring-boot-starter-mail:对 javax.mail 的支持
+spring-boot-starter-mobile:对 spring-mobile 的支持
+spring-boot-starter-mustache:对 Mustache 模板引擎的支持
+spring-boot-starter-redis:对键值对内存数据库 Redis 的支持，包含 spring-redis
+spring-boot-starter-security:对 spring-security 的支持
+spring-boot-starter-test:对常用的测试框架 JUnit、Hibernate 和 Mockito 的支持，包含 spring-test 模块
+spring-boot-starter-thymeleaf:对 Thymeleaf 模板引擎的支持，包含 Spring 整合的配置
+spring-boot-starter-velocity:对 Velocity 模板引擎的支持
+spring-boot-starter-web:对 Web 项目开发的支持，包含 Tomcat 和 spring-webmvc
+spring-boot-starter-Tomcat:Spring Boot 默认的 Servlet 容器 Tomcat
+spring-boot-starter-Jetty:使用 Jetty 做为 Servlet 容器替换 Tomcat
+spring-boot-starter-undertow:使用 Undertow 作为 Servlet 容器替换 Tomcat
+spring-boot-starter-logging:Spring Boot 默认的日志框架 Logback
+spring-boot-starter-log4j:支持使用 Log4J 日志框架
+spring-boot-starter-websocket:对 WebSocket 开发的支持
+spring-boot-starter-ws:对 Spring Web Services 的支持
+
+
+
+
+
+
+
+
+
+
+

@@ -38,6 +38,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .key("loginToken") // 使用 key 指定 cookie 中的私钥
                 .and()
                 .logout()  // 使用 logout 定制注销行为
+                //.logoutUrl("xxxxxx")  // 使用 logoutUrl 指定注销的 URL
+                //.logoutSuccessUrl("yyyy")  // 使用 logoutSuccessUrl 指定注销成功后转向的页面
                 .permitAll();  // permitAll 用户可任意访问
 
     }

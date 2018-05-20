@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../documents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/JaxWsRiBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solution/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solution/web/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
@@ -58,157 +56,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
-              <folding>
-                <element signature="n#modules#0;n#project#0;n#!!top" />
-                <element signature="n#properties#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
-                <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-                <element signature="e#6979#7177#0" />
-                <element signature="e#7190#7391#0" />
-                <element signature="e#7429#7607#0" />
-                <element signature="e#7649#7837#0" />
-                <element signature="e#7850#8051#0" />
-                <element signature="e#8097#8290#0" />
-                <element signature="e#8340#8570#0" />
-                <element signature="e#8610#8855#0" />
-                <element signature="e#8868#9101#0" />
-                <element signature="e#9114#9298#0" />
-                <element signature="e#9343#9583#0" />
-                <element signature="e#9629#9838#0" />
-                <element signature="e#9851#10062#0" />
-                <element signature="e#10110#10288#0" />
-                <element signature="e#10330#10530#0" />
-                <element signature="e#10543#10741#0" />
-                <element signature="e#10781#10997#0" />
-                <element signature="e#11010#11202#0" />
-                <element signature="e#11215#11416#0" />
-                <element signature="e#11429#11649#0" />
-                <element signature="e#11662#11850#0" />
-                <element signature="e#11902#12363#0" />
-                <element signature="e#12408#12605#0" />
-                <element signature="e#12643#12826#0" />
-                <element signature="e#12839#13028#0" />
-                <element signature="e#13088#13292#0" />
-                <element signature="e#13305#13513#0" />
-                <element signature="e#13571#13763#0" />
-                <element signature="e#13817#14003#0" />
-                <element signature="e#14062#14258#0" />
-                <element signature="e#14313#14503#0" />
-                <element signature="e#14565#14760#0" />
-                <element signature="n#build#0;n#project#0;n#!!top" />
-                <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
-                <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
-                <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
-                <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-                <element signature="n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-                <element signature="n#plugin#0;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding>
-                <element signature="n#parent#0;n#project#0;n#!!top" />
-                <element signature="e#655#821#0" />
-                <element signature="e#830#995#0" />
-                <element signature="e#1219#1333#0" />
-                <element signature="e#1370#1492#0" />
-                <element signature="e#1535#1664#0" />
-                <element signature="e#1702#1831#0" />
-                <element signature="e#1873#2035#0" />
-                <element signature="e#2067#2237#0" />
-                <element signature="e#2246#2410#0" />
-                <element signature="e#2419#2540#0" />
-                <element signature="e#2577#2747#0" />
-                <element signature="e#2787#2901#0" />
-                <element signature="e#2935#3065#0" />
-                <element signature="e#3074#3203#0" />
-                <element signature="e#3235#3375#0" />
-                <element signature="e#3384#3508#0" />
-                <element signature="e#3548#3678#0" />
-                <element signature="e#3687#3829#0" />
-                <element signature="e#3838#3973#0" />
-                <element signature="e#4017#4379#0" />
-                <element signature="e#4416#4544#0" />
-                <element signature="e#4596#4733#0" />
-                <element signature="e#4742#4881#0" />
-                <element signature="e#4927#5049#0" />
-                <element signature="e#5100#5227#0" />
-                <element signature="e#5274#5397#0" />
-                <element signature="n#build#0;n#project#0;n#!!top" />
-                <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#getServletFilters#0;class#WebInitializer#0" />
-                <element signature="method#customizeRegistration#0;class#WebInitializer#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="276" column="62" selection-start-line="276" selection-start-column="62" selection-end-line="276" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3956#4257#0" />
-                <element signature="e#4259#4261#0" />
-                <element signature="e#7585#7735#0" />
-                <element signature="e#7766#7906#0" />
-                <element signature="e#7766#8691#0" />
-                <element signature="e#8697#8812#0" />
-                <element signature="e#8697#9024#0" />
-                <element signature="e#9030#9146#0" />
-                <element signature="e#9152#9318#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -275,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/solution/web/src/main/resources/views/说明.txt" />
         <option value="$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/excel/UploadExcelControl.java" />
         <option value="$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml" />
@@ -326,6 +172,7 @@
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/controller/fileupload/FileUploadController.java" />
         <option value="$PROJECT_DIR$/solution/web/src/main/resources/views/fileupload/upload.jsp" />
         <option value="$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java" />
+        <option value="$PROJECT_DIR$/solution/web/pom.xml" />
       </list>
     </option>
   </component>
@@ -382,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -475,8 +321,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -499,13 +346,6 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Java\lm.solution\springsolution\solution\web\src\main\webapp\files" />
-      <recent name="F:\Java\lm.solution\springsolution\solution\web\src\main\resources\files" />
-      <recent name="F:\Java\lm.solution\springsolution\solution\web\src\main\resources\assets" />
-      <recent name="F:\Java\lm.solution\springsolution\solution\web\src\main\resources" />
-      <recent name="F:\Java\lm.solution\lm-spring\solution\web\src\main\resources\assets" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="lm.solution.web.controller" />
       <recent name="lm.solution.console.junit.spring.test" />
@@ -519,6 +359,13 @@
       <recent name="F:\Spring &amp; JAVA\LocalGit\lm-spring\solution\Docs\博客" />
       <recent name="F:\Java\lm.solution\lm-spring\solution\webboot\src\main\java" />
       <recent name="F:\Java\lm.solution\lm-spring\solution\Docs\Excel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\lm.solution\springsolution\solution\web\src\main\webapp\files" />
+      <recent name="F:\Java\lm.solution\springsolution\solution\web\src\main\resources\files" />
+      <recent name="F:\Java\lm.solution\springsolution\solution\web\src\main\resources\assets" />
+      <recent name="F:\Java\lm.solution\springsolution\solution\web\src\main\resources" />
+      <recent name="F:\Java\lm.solution\lm-spring\solution\web\src\main\resources\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -967,6 +814,7 @@
       <workItem from="1526348274387" duration="11914000" />
       <workItem from="1526789095730" duration="1219000" />
       <workItem from="1526790331760" duration="215000" />
+      <workItem from="1526823439623" duration="4947000" />
     </task>
     <servers />
   </component>
@@ -1003,7 +851,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523064000" />
+    <option name="totallyTimeSpent" value="528011000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1412,8 +1260,8 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/beans/JaxWsRiBean.java" />
     <entry file="file://$PROJECT_DIR$/solution/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
+        <state relative-caret-position="396">
+          <caret line="111" column="38" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="38" />
           <folding>
             <element signature="n#modules#0;n#project#0;n#!!top" />
             <element signature="n#properties#0;n#project#0;n#!!top" />
@@ -1477,8 +1325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="375">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
             <element signature="n#parent#0;n#project#0;n#!!top" />
             <element signature="e#655#821#0" />
@@ -1516,14 +1364,14 @@
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/WebInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="309">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getServletFilters#0;class#WebInitializer#0" />
@@ -1534,7 +1382,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
+        <state relative-caret-position="705">
           <caret line="276" column="62" selection-start-line="276" selection-start-column="62" selection-end-line="276" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />

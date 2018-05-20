@@ -38,5 +38,6 @@ Spring and More ...
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9039738.html" target="_blank">Linux 环境下 Git 安装与基本配置</a><br/>
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9048583.html" target="_blank">Spring MVC 文件上传 & 文件下载</a><br/>
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9061612.html" target="_blank">Linux 环境 Intelij Idea 安装与快捷图标配置</a><br/>
+　　<a href="http://www.cnblogs.com/Meng-NET/p/9065260.html" target="_blank">Spring MVC 的 Java Config ( 非 XML ) 配置方式</a><br/>
   
   

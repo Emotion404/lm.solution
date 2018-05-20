@@ -29,6 +29,7 @@
         <!--spring mvc-->
         <dependency>
             <groupId>org.springframework</groupId>
+            <!--引入该包后，maven 会自动解析依赖，引入 spring-web 等包。-->
             <artifactId>spring-webmvc</artifactId>
         </dependency>
         <!--cglib-->

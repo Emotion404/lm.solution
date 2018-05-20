@@ -19,9 +19,8 @@ import javax.servlet.*;
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override
-    public void onStartup(
-            ServletContext servletContext
-    ) throws ServletException{
+    public void onStartup(ServletContext servletContext)
+            throws ServletException{
 
         /**
          * super 中已设置 servlet.setLoadOnStartup(1)
@@ -70,7 +69,9 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
     @Override
     protected Filter[] getServletFilters() {
+
         return null;
+
     }
 
     @Override
@@ -81,11 +82,5 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
     }
 
-//    @Override
-//    public void onStartup(ServletContext context){
-//
-//
-//
-//    }
 }
 

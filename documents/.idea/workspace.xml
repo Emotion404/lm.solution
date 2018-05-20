@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepIn/ReadMe.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepIn/DevlopmentTools/intelij-idea.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DeepIn/DevlopmentTools/intelij-idea.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux/CentOS/Cent7VM.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CentOS/Cent7VM.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux/Ubuntu/Ubuntu_1080p.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/Ubuntu_1080p.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Linux/Ubuntu/ubuntu-vm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ubuntu/ubuntu-vm.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,35 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadMe.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepIn/ReadMe.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intelij-idea.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/intelij-idea.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datagrip-DB客户端.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -116,9 +82,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="889" />
-    <option name="y" value="365" />
-    <option name="width" value="1014" />
-    <option name="height" value="661" />
+    <option name="y" value="372" />
+    <option name="width" value="1024" />
+    <option name="height" value="663" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -127,38 +93,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-              <item name="DevlopmentTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springsolution" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -287,14 +227,17 @@
       <workItem from="1526523984085" duration="1652000" />
       <workItem from="1526605514663" duration="6826000" />
       <workItem from="1526732062107" duration="684000" />
+      <workItem from="1526746008904" duration="10000" />
+      <workItem from="1526789052730" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61186000" />
+    <option name="totallyTimeSpent" value="61239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -628,24 +571,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepIn/ReadMe.txt">
+    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="286">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/intelij-idea.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt">
+    <entry file="file://$PROJECT_DIR$/DeepIn/ReadMe.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

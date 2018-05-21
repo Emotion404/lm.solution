@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring/SpringCloud/SpringCloud_模块与功能概要.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/java/泛型与匿名类理解.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/Java/泛型与匿名类理解.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/springboot/boot-starter-汇总.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/SpringBoot/boot-starter-汇总.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/springboot/spring-boot-starter-web.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/SpringBoot/spring-boot-starter-web.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/SpringData/jpa/mysql/spring-boot-springdatajpa-mysql.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/springdata/transaction/@Transactional--事务行为.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/SpringData/transaction/@Transactional--事务行为.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring/springdata/transaction/PlatformTransactionManager--接口.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Spring/SpringData/transaction/PlatformTransactionManager--接口.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,7 +21,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="SpringCloud_模块与功能概要.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring/SpringCloud/SpringCloud_模块与功能概要.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,6 +62,7 @@
         <option value="$PROJECT_DIR$/DeepIn/ReadMe.txt" />
         <option value="$PROJECT_DIR$/DeepIn/DevlopmentTools/intelij-idea.txt" />
         <option value="$PROJECT_DIR$/DeepIn/DevlopmentTools/datagrip-DB客户端.txt" />
+        <option value="$PROJECT_DIR$/Spring/SpringCloud/SpringCloud_模块与功能概要.txt" />
       </list>
     </option>
   </component>
@@ -80,9 +98,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="889" />
-    <option name="y" value="372" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="893" />
+    <option name="y" value="377" />
     <option name="width" value="1024" />
     <option name="height" value="663" />
   </component>
@@ -93,12 +111,38 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springsolution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -229,14 +273,15 @@
       <workItem from="1526732062107" duration="684000" />
       <workItem from="1526746008904" duration="10000" />
       <workItem from="1526789052730" duration="43000" />
+      <workItem from="1526870408959" duration="7567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61239000" />
+    <option name="totallyTimeSpent" value="68806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
+    <frame x="893" y="377" width="1024" height="663" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -248,20 +293,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.5945378" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32743362" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.30594593" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.30497926" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -277,13 +322,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/rabbitmq.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/rabbitmq.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -424,20 +462,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ubuntu/ubuntu-vm.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ubuntu/Ubuntu_1080p.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ubuntu/ubuntu-vm.txt" />
+    <entry file="file://$PROJECT_DIR$/Ubuntu/Ubuntu_1080p.txt" />
     <entry file="file://$PROJECT_DIR$/Linux/Ubuntu/Ubuntu-sogou input.txt" />
     <entry file="file://$PROJECT_DIR$/Maven/本地仓.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -474,21 +500,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt">
+    <entry file="file://$PROJECT_DIR$/Spring/SpringData/jpa/mysql/spring-boot-springdatajpa-mysql.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/springdata/transaction/@Transactional--事务行为.txt">
+    <entry file="file://$PROJECT_DIR$/Spring/SpringData/transaction/@Transactional--事务行为.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="822">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/springdata/transaction/PlatformTransactionManager--接口.txt">
+    <entry file="file://$PROJECT_DIR$/Spring/SpringData/transaction/PlatformTransactionManager--接口.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -523,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/java/泛型与匿名类理解.txt" />
+    <entry file="file://$PROJECT_DIR$/Spring/Java/泛型与匿名类理解.txt" />
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mongodb.txt" />
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/tomcat.txt" />
     <entry file="file://$PROJECT_DIR$/Windows/VmWare/安装 VMware Tools.txt" />
@@ -534,8 +560,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/springboot/spring-boot-starter-web.txt" />
-    <entry file="file://$PROJECT_DIR$/Spring/springboot/boot-starter-汇总.txt" />
+    <entry file="file://$PROJECT_DIR$/Spring/SpringBoot/spring-boot-starter-web.txt" />
+    <entry file="file://$PROJECT_DIR$/Spring/SpringBoot/boot-starter-汇总.txt" />
     <entry file="file://$PROJECT_DIR$/Projects/projects.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -585,10 +611,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepIn/ReadMe.txt">
+    <entry file="file://$PROJECT_DIR$/DeepIn/ReadMe.txt" />
+    <entry file="file://$PROJECT_DIR$/Spring/SpringCloud/SpringCloud_模块与功能概要.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="850">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>

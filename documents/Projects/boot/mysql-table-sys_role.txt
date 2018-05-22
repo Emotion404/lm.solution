@@ -1,0 +1,16 @@
+
+
+-- 新建表
+CREATE TABLE `sys_role` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ;
+
+-- 插入数据
+insert into SYS_ROLE(id,name) values(1,'ROLE_ADMIN');
+insert into SYS_ROLE(id,name) values(2,'ROLE_USER');
+
+
+select * from sys_role;
+

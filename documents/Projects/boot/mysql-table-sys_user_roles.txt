@@ -1,0 +1,15 @@
+
+
+-- 新建表
+CREATE TABLE `sys_user_roles` (
+  `sys_user_id` bigint(20) NOT NULL,
+  `roles_id` bigint(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;
+
+-- 插入数据
+insert into SYS_USER_ROLES(SYS_USER_ID,ROLES_ID) values(1,1);
+insert into SYS_USER_ROLES(SYS_USER_ID,ROLES_ID) values(2,2);
+
+
+select * from sys_user_roles;
+

@@ -39,5 +39,7 @@ Spring and More ...
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9048583.html" target="_blank">Spring MVC 文件上传 & 文件下载</a><br/>
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9061612.html" target="_blank">Linux 环境 Intelij Idea 安装与快捷图标配置</a><br/>
 　　<a href="http://www.cnblogs.com/Meng-NET/p/9065260.html" target="_blank">Spring MVC 的 Java Config ( 非 XML ) 配置方式</a><br/>
+　　<a href="https://www.cnblogs.com/Meng-NET/p/9079978.html" target="_blank">Linux 环境 Maven 安装&仓源配置</a><br/>
+  
   
   

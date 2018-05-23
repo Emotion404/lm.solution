@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/entity/springsecurity/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../bootsolution/src/main/java/lm/solution/boot/entity/springsecurity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/boot/mysql-table-sys_role.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/boot/mysql-table-sys_user.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/boot/mysql-table-sys_user_roles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../bootsolution/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,29 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mysql-table-sys_user.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_user.txt">
+      <file leaf-file-name="maven.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/maven.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql-table-sys_role.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_role.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql-table-sys_user_roles.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_user_roles.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -119,7 +95,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="894" />
     <option name="y" value="421" />
     <option name="width" value="1024" />
@@ -144,20 +120,25 @@
             <path>
               <item name="documents" type="b2602c69:ProjectViewProjectNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="documents" type="b2602c69:ProjectViewProjectNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
+              <item name="DevlopmentTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,14 +277,17 @@
       <workItem from="1526789052730" duration="43000" />
       <workItem from="1526870408959" duration="7567000" />
       <workItem from="1526958653243" duration="3276000" />
+      <workItem from="1527078100943" duration="13000" />
+      <workItem from="1527078148133" duration="27000" />
+      <workItem from="1527078188528" duration="928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72082000" />
+    <option name="totallyTimeSpent" value="73050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="894" y="421" width="1024" height="620" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -319,7 +303,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30497926" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.30486485" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -465,13 +449,6 @@
     <entry file="file://$PROJECT_DIR$/Ubuntu/ubuntu-vm.txt" />
     <entry file="file://$PROJECT_DIR$/Ubuntu/Ubuntu_1080p.txt" />
     <entry file="file://$PROJECT_DIR$/Linux/Ubuntu/Ubuntu-sogou input.txt" />
-    <entry file="file://$PROJECT_DIR$/Maven/本地仓.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-employee.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -500,27 +477,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/springdata/transaction/@Transactional--事务行为.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spring/springdata/transaction/PlatformTransactionManager--接口.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/springdata/jpa/mysql/spring-boot-springdatajpa-mysql.txt" />
+    <entry file="file://$PROJECT_DIR$/Spring/springdata/transaction/@Transactional--事务行为.txt" />
+    <entry file="file://$PROJECT_DIR$/Spring/springdata/transaction/PlatformTransactionManager--接口.txt" />
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/redis.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
@@ -539,13 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/maven.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -612,31 +564,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/ReadMe.txt" />
-    <entry file="file://$PROJECT_DIR$/Spring/SpringCloud/SpringCloud_模块与功能概要.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring/SpringCloud/SpringCloud_模块与功能概要.txt" />
     <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_user.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="176">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_role.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_role.txt" />
+    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_user_roles.txt" />
+    <entry file="file://$PROJECT_DIR$/Maven/本地仓.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_user_roles.txt">
+    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/maven.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>

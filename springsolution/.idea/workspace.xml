@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ccc8b36-c10f-48a7-b88d-5b75a565e1e9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../documents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../documents/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/solution/web/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/solution/target/" />
     <ignored path="$PROJECT_DIR$/webapi/target/" />
@@ -59,8 +59,8 @@
       <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="132">
+              <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,10 +216,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="889" />
-    <option name="y" value="372" />
+    <option name="x" value="894" />
+    <option name="y" value="421" />
     <option name="width" value="1024" />
-    <option name="height" value="663" />
+    <option name="height" value="620" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -228,103 +228,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springsolution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -338,7 +242,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../documents" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -815,6 +719,8 @@
       <workItem from="1526789095730" duration="1219000" />
       <workItem from="1526790331760" duration="215000" />
       <workItem from="1526823439623" duration="4947000" />
+      <workItem from="1527078087754" duration="26000" />
+      <workItem from="1527078148646" duration="24000" />
     </task>
     <servers />
   </component>
@@ -851,7 +757,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="528011000" />
+    <option name="totallyTimeSpent" value="528061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -864,6 +770,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1262,64 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="111" column="38" selection-start-line="111" selection-start-column="24" selection-end-line="111" selection-end-column="38" />
-          <folding>
-            <element signature="n#modules#0;n#project#0;n#!!top" />
-            <element signature="n#properties#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" />
-            <element signature="n#dependencyManagement#0;n#project#0;n#!!top" />
-            <element signature="e#6979#7177#0" />
-            <element signature="e#7190#7391#0" />
-            <element signature="e#7429#7607#0" />
-            <element signature="e#7649#7837#0" />
-            <element signature="e#7850#8051#0" />
-            <element signature="e#8097#8290#0" />
-            <element signature="e#8340#8570#0" />
-            <element signature="e#8610#8855#0" />
-            <element signature="e#8868#9101#0" />
-            <element signature="e#9114#9298#0" />
-            <element signature="e#9343#9583#0" />
-            <element signature="e#9629#9838#0" />
-            <element signature="e#9851#10062#0" />
-            <element signature="e#10110#10288#0" />
-            <element signature="e#10330#10530#0" />
-            <element signature="e#10543#10741#0" />
-            <element signature="e#10781#10997#0" />
-            <element signature="e#11010#11202#0" />
-            <element signature="e#11215#11416#0" />
-            <element signature="e#11429#11649#0" />
-            <element signature="e#11662#11850#0" />
-            <element signature="e#11902#12363#0" />
-            <element signature="e#12408#12605#0" />
-            <element signature="e#12643#12826#0" />
-            <element signature="e#12839#13028#0" />
-            <element signature="e#13088#13292#0" />
-            <element signature="e#13305#13513#0" />
-            <element signature="e#13571#13763#0" />
-            <element signature="e#13817#14003#0" />
-            <element signature="e#14062#14258#0" />
-            <element signature="e#14313#14503#0" />
-            <element signature="e#14565#14760#0" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugin#0;n#plugins#0;n#pluginManagement#0;n#build#0;n#project#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,37 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="n#parent#0;n#project#0;n#!!top" />
-            <element signature="e#655#821#0" />
-            <element signature="e#830#995#0" />
-            <element signature="e#1219#1333#0" />
-            <element signature="e#1370#1492#0" />
-            <element signature="e#1535#1664#0" />
-            <element signature="e#1702#1831#0" />
-            <element signature="e#1873#2035#0" />
-            <element signature="e#2067#2237#0" />
-            <element signature="e#2246#2410#0" />
-            <element signature="e#2419#2540#0" />
-            <element signature="e#2577#2747#0" />
-            <element signature="e#2787#2901#0" />
-            <element signature="e#2935#3065#0" />
-            <element signature="e#3074#3203#0" />
-            <element signature="e#3235#3375#0" />
-            <element signature="e#3384#3508#0" />
-            <element signature="e#3548#3678#0" />
-            <element signature="e#3687#3829#0" />
-            <element signature="e#3838#3973#0" />
-            <element signature="e#4017#4379#0" />
-            <element signature="e#4416#4544#0" />
-            <element signature="e#4596#4733#0" />
-            <element signature="e#4742#4881#0" />
-            <element signature="e#4927#5049#0" />
-            <element signature="e#5100#5227#0" />
-            <element signature="e#5274#5397#0" />
-            <element signature="n#build#0;n#project#0;n#!!top" />
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1401,8 +1219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution/web/src/main/java/lm/solution/web/config/configs/RootConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="132">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

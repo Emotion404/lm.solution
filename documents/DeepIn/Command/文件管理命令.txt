@@ -1,0 +1,17 @@
+
+一、cat
+    1.全拼：concatenate
+    2.简介：将文件内容连接后输出
+    3.语法：cat [option] [file]...
+    4.选项参数说明：
+        -n: number，从第一行开始对文件输出的所有行编号
+        -b: 忽略对空白行的编号
+        -s: --squeeze-blank，将连续的空白行合并为一行
+    5.示例：cat ./test.txt
+
+二、cd
+    1.全拼：change directory
+    2.简介：更改当前的目录
+    3.语法：cd [-L|-P] [dir]
+    4.
+

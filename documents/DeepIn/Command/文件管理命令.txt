@@ -13,5 +13,32 @@
     1.全拼：change directory
     2.简介：更改当前的目录
     3.语法：cd [-L|-P] [dir]
-    4.
+    4.选项参数说明：
+        -L: 强制带符号链接
+        -P: 设置內建命令
+    5.示例：cd ~/Desktop/Temp
+
+三、chmod
+    1.全拼：change mode
+    2.简介：更改文件的访问权限
+    3.语法：
+        chmod [option]... mode[,mode]... file...
+        chmod [option]... octal-mode file...
+        chmod [option]... --reference=rfile file...
+    4.选项参数说明：
+        -c: changes，完成权限更改后显示更改信息
+        -f: 忽略错误信息输出
+        -R: recursive，以递归的方式更改文件权限
+    5.示例：
+
+
+
+
+
+
+
+
+
+
+
 

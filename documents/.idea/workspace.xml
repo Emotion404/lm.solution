@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="文件管理命令.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="412">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -109,38 +110,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springsolution" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -278,11 +253,13 @@
       <workItem from="1527078188528" duration="928000" />
       <workItem from="1527086127925" duration="402000" />
       <workItem from="1527157891175" duration="1222000" />
+      <workItem from="1527217933207" duration="1629000" />
+      <workItem from="1527248790032" duration="1294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74674000" />
+    <option name="totallyTimeSpent" value="77597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
@@ -577,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="412">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

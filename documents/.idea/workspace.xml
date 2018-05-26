@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="" />
+    <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/DeepIn/Command/系统管理命令.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springsolution/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="文件管理命令.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="文件管理命令.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="1342">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="系统管理命令.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DeepIn/Command/系统管理命令.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -58,6 +72,7 @@
         <option value="$PROJECT_DIR$/Projects/boot/mysql-table-sys_role.txt" />
         <option value="$PROJECT_DIR$/Projects/boot/mysql-table-sys_user_roles.txt" />
         <option value="$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt" />
+        <option value="$PROJECT_DIR$/DeepIn/Command/系统管理命令.txt" />
       </list>
     </option>
   </component>
@@ -106,7 +121,33 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -251,11 +292,13 @@
       <workItem from="1527157891175" duration="1222000" />
       <workItem from="1527217933207" duration="1629000" />
       <workItem from="1527248790032" duration="1294000" />
+      <workItem from="1527318211874" duration="275000" />
+      <workItem from="1527334529190" duration="1877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77597000" />
+    <option name="totallyTimeSpent" value="79749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
@@ -274,7 +317,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info auto_hide="true" content_ui="combo" id="Project" order="0" weight="0.30486485" />
+      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30486485" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -298,13 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-person.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/SystemSetting/鼠标滚轮设置.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1474">
@@ -550,8 +586,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/Command/文件管理命令.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="1342">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepIn/Command/系统管理命令.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

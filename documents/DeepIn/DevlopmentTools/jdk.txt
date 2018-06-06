@@ -1,7 +1,8 @@
 
 JAVA JDK 8 :
-文章
+参考文章（不可全按文章，需根据自己机器环境调整）
 https://blog.csdn.net/h13140995776/article/details/76652383
+
 命令
 1.提取文件
 mkdir -p ~/dev/Java

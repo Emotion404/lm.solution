@@ -1,0 +1,8 @@
+
+
+1.安装
+sudo apt-get update
+sudo apt-get install qtcreator
+2.卸载
+sudo apt-get remove qtcreator
+

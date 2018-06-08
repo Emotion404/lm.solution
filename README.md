@@ -29,7 +29,7 @@ Spring and More ...
 
 <b>四、目录</b><br/>
 　　<b>DeepIn(GNU/Linux):</b><br/>
-　　	<a href="http://www.cnblogs.com/Meng-NET/p/8996788.html" target="_blank">Linux(DeepInOS) 下 mysql 的安装与基本配置</a><br/>
+　　	<a href="http://www.cnblogs.com/Meng-NET/p/8996788.html" target="_blank">Linux 环境 mysql 的安装与基本配置</a><br/>
 　　	<a href="http://www.cnblogs.com/Meng-NET/p/9017110.html" target="_blank">Linux & Windows 环境下 Redis 安装与基本配置</a><br/>
 　　	<a href="http://www.cnblogs.com/Meng-NET/p/9029890.html" target="_blank">Linux & Windows 环境下 RabbitMQ 安装与基本配置</a><br/>
 　　	<a href="http://www.cnblogs.com/Meng-NET/p/9039738.html" target="_blank">Linux 环境下 Git 安装与基本配置</a><br/>
@@ -43,8 +43,8 @@ Spring and More ...
 　　	<a href="http://www.cnblogs.com/Meng-NET/p/9048583.html" target="_blank">Spring MVC 文件上传 & 文件下载</a><br/>
 　　	<a href="http://www.cnblogs.com/Meng-NET/p/9065260.html" target="_blank">Spring MVC 的 Java Config ( 非 XML ) 配置方式</a><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/9091076.html" target="_blank">基于 Maven 的多模块 Java ( Spring ) 项目构建</a><br/>
-  
-  
+　　<b>Git:</b><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/9158098.html" target="_blank">Git - git clone - 将远端仓库克隆拷贝到本地</a><br/>
 
 
 

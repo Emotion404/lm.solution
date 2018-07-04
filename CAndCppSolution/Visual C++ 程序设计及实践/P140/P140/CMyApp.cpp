@@ -22,5 +22,7 @@ BOOL CMyApp:: InitInstance()  // 覆盖继承的应用程序初始化虚函数
 		AfxMessageBox(_T("用户单击了'忽略'按钮"),MB_OK|MB_ICONINFORMATION		  );
 	}
 
+	// 
+
 	return TRUE;
 }

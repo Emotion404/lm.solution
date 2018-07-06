@@ -47,7 +47,17 @@ Spring and More ...
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/9158098.html" target="_blank">Git - git clone - 将远端仓库克隆拷贝到本地</a><br/>
 　　<b>C/C++:</b><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/9175230.html" target="_blank">C/C++ -- 插入排序算法</a><br/>
-
+　　<b>.NET Core:</b><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/5885731.html" target="_blank">新建 .NET Core 项目 -- Hello World!</a><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/5892096.html" target="_blank">新建 ASP.NET Core MVC 项目 -- Hello World!</a><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/5895558.html" target="_blank">新建 ASP.NET Core Web API 项目 -- RESTFul 风格 Hello World!</a><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/5900147.html" target="_blank">000.Introduction to ASP.NET Core--【Asp.net core 介绍】</a><br/>
+    
+　　<b>.NET:</b><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/5904129.html" target="_blank">【原创-算法-实现】异步HTTP请求操作</a><br/>
+    
+　　<b>其它:</b><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/3543624.html" target="_blank">PowerDesigner16 基本使用教程</a><br/>
 
 
   

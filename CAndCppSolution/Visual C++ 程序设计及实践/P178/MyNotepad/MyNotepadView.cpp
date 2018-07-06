@@ -22,6 +22,9 @@ BEGIN_MESSAGE_MAP(CMyNotepadView, CView)
 	ON_COMMAND(ID_FILE_PRINT, &CView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_DIRECT, &CView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &CView::OnFilePrintPreview)
+
+	ON_WM_LBUTTONDOWN()
+	ON_WM_LBUTTONUP()
 END_MESSAGE_MAP()
 
 // CMyNotepadView 构造/析构
@@ -30,6 +33,7 @@ CMyNotepadView::CMyNotepadView()
 {
 	// TODO: 在此处添加构造代码
 
+	this->m_ptOrigin=0;
 }
 
 CMyNotepadView::~CMyNotepadView()
@@ -98,3 +102,44 @@ CMyNotepadDoc* CMyNotepadView::GetDocument() const // 非调试版本是内联的
 
 
 // CMyNotepadView 消息处理程序
+
+void CMyNotepadView::OnLButtonDown(UINT nFlags, CPoint point)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+
+	// 直线的起点
+	m_ptOrigin=point;
+
+	//
+	CView::OnLButtonDown(nFlags, point);
+}
+
+void CMyNotepadView::OnLButtonUp(UINT nFlags, CPoint point)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+
+	// 使用 SDK 方式进行画线
+	HDC hdc;
+	hdc=::GetDC(m_hWnd);
+	MoveToEx(hdc,m_ptOrigin.x,m_ptOrigin.y,NULL);
+	LineTo(hdc,point.x,point.y);
+	::ReleaseDC(m_hWnd,hdc);
+
+	// 使用 CDC 方式进行画线
+	CDC *dc;
+	dc=GetDC();
+	dc->MoveTo(m_ptOrigin);
+	dc->LineTo(point);
+	ReleaseDC(dc);
+
+	// 使用 CClientDC 方式进行画线
+	CClientDC dc2(this);
+	dc2.MoveTo(m_ptOrigin);
+	dc2.LineTo(point);
+
+	// 使用 CWindowDC 方式进行画线
+	// 略
+
+	//
+	CView::OnLButtonUp(nFlags, point);
+}

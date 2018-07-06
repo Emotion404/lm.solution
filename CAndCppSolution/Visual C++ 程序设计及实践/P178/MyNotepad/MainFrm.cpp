@@ -32,6 +32,8 @@ static UINT indicators[] =
 CMainFrame::CMainFrame()
 {
 	// TODO: 在此添加成员初始化代码
+
+
 }
 
 CMainFrame::~CMainFrame()
@@ -62,6 +64,14 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 	EnableDocking(CBRS_ALIGN_ANY);
 	DockControlBar(&m_wndToolBar);
 
+	//
+	GetMenu()  // 获得菜单
+		->GetSubMenu(0)  // 获得子菜单
+		->EnableMenuItem(0,MF_BYPOSITION|MF_DISABLED|MF_GRAYED);
+	m_bitmap.LoadBitmap(IDB_BITMAP1);
+	GetMenu()
+		->GetSubMenu(0)
+		->SetMenuItemBitmaps(1,MF_BYPOSITION,&m_bitmap,&m_bitmap);
 
 	return 0;
 }

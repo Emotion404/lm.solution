@@ -13,6 +13,7 @@ protected: // 仅从序列化创建
 
 // 属性
 public:
+	CBitmap m_bitmap;  // 位图资源 
 
 // 操作
 public:

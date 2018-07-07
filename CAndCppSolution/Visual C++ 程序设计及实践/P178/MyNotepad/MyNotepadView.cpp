@@ -25,6 +25,7 @@ BEGIN_MESSAGE_MAP(CMyNotepadView, CView)
 
 	ON_WM_LBUTTONDOWN()
 	ON_WM_LBUTTONUP()
+	ON_COMMAND(ID_OP_SHOW, &CMyNotepadView::OnOpShow)
 END_MESSAGE_MAP()
 
 // CMyNotepadView 构造/析构
@@ -142,4 +143,14 @@ void CMyNotepadView::OnLButtonUp(UINT nFlags, CPoint point)
 
 	//
 	CView::OnLButtonUp(nFlags, point);
+}
+
+void CMyNotepadView::OnOpShow()
+{
+	// TODO: 在此添加命令处理程序代码
+
+	CDC* pDC=GetDC();
+	CString strText=_T("hello SDI");
+	pDC->TextOut(100,100,strText);
+	ReleaseDC(pDC);
 }

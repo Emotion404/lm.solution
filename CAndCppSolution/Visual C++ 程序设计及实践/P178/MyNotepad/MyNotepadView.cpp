@@ -26,6 +26,7 @@ BEGIN_MESSAGE_MAP(CMyNotepadView, CView)
 	ON_WM_LBUTTONDOWN()
 	ON_WM_LBUTTONUP()
 	ON_COMMAND(ID_OP_SHOW, &CMyNotepadView::OnOpShow)
+	ON_UPDATE_COMMAND_UI(ID_OP_SHOW, &CMyNotepadView::OnUpdateOpShow)
 END_MESSAGE_MAP()
 
 // CMyNotepadView 构造/析构
@@ -35,6 +36,7 @@ CMyNotepadView::CMyNotepadView()
 	// TODO: 在此处添加构造代码
 
 	this->m_ptOrigin=0;
+	this->m_nShowed=FALSE;  // 初始化 m_nShowed 值
 }
 
 CMyNotepadView::~CMyNotepadView()
@@ -145,12 +147,31 @@ void CMyNotepadView::OnLButtonUp(UINT nFlags, CPoint point)
 	CView::OnLButtonUp(nFlags, point);
 }
 
-void CMyNotepadView::OnOpShow()
+void CMyNotepadView::OnOpShow()  // 菜单命令消息函数
 {
 	// TODO: 在此添加命令处理程序代码
 
-	CDC* pDC=GetDC();
-	CString strText=_T("hello SDI");
-	pDC->TextOut(100,100,strText);
-	ReleaseDC(pDC);
+	if(!m_nShowed)  // 显示文字
+	{
+		CDC* pDC=GetDC();
+		CString strText=_T("hello SDI");
+		pDC->TextOut(100,100,strText);
+		ReleaseDC(pDC);
+
+	}
+	else  // 刷新,不显示文字
+	{
+
+		InvalidateRect(NULL);  // 该函数使整个窗口显示无效,用来实现刷新
+	}
+
+	m_nShowed=!m_nShowed;
+}
+
+void CMyNotepadView::OnUpdateOpShow(CCmdUI *pCmdUI)  // 菜单更新命令函数
+{
+	// TODO: 在此添加命令更新用户界面处理程序代码
+
+	// 设置选中标记
+	pCmdUI->SetCheck(m_nShowed);
 }

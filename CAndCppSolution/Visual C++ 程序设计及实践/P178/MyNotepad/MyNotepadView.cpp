@@ -27,6 +27,7 @@ BEGIN_MESSAGE_MAP(CMyNotepadView, CView)
 	ON_WM_LBUTTONUP()
 	ON_COMMAND(ID_OP_SHOW, &CMyNotepadView::OnOpShow)
 	ON_UPDATE_COMMAND_UI(ID_OP_SHOW, &CMyNotepadView::OnUpdateOpShow)
+	ON_WM_RBUTTONUP()
 END_MESSAGE_MAP()
 
 // CMyNotepadView 构造/析构
@@ -174,4 +175,17 @@ void CMyNotepadView::OnUpdateOpShow(CCmdUI *pCmdUI)  // 菜单更新命令函数
 
 	// 设置选中标记
 	pCmdUI->SetCheck(m_nShowed);
+}
+
+void CMyNotepadView::OnRButtonUp(UINT nFlags, CPoint point)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+
+	CMenu menu;  // 使用 CMenu 类实例化菜单对象
+	menu.LoadMenu(IDR_MYPOP_MENU);  // 加载菜单资源
+	CMenu* pMenu=menu.GetSubMenu(0);  // 0是索引值, 这里指顶层菜单的第一项子菜单
+	ClientToScreen(&point);  // 将以客户区坐标转换成屏幕坐标
+	pMenu->TrackPopupMenu(TPM_LEFTALIGN,point.x,point.y,this);  // 弹出菜单
+
+	CView::OnRButtonUp(nFlags, point);
 }

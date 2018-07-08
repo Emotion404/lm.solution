@@ -152,6 +152,16 @@ BEGIN
     END
 END
 
+IDR_MYPOP_MENU MENU 
+BEGIN
+    POPUP "ÎÄ×ÖÑÕÉ«"
+    BEGIN
+        MENUITEM "ºì",                           ID_32782
+        MENUITEM "»Æ",                           ID_32783
+        MENUITEM "À¶",                           ID_32784
+    END
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //

@@ -51,6 +51,7 @@ public:
 	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
 	afx_msg void OnOpShow();
 	afx_msg void OnUpdateOpShow(CCmdUI *pCmdUI);
+	afx_msg void OnRButtonUp(UINT nFlags, CPoint point);
 };
 
 #ifndef _DEBUG  // MyNotepadView.cpp 中的调试版本

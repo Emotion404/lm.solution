@@ -17,14 +17,16 @@ IMPLEMENT_DYNCREATE(CMainFrame, CFrameWnd)
 
 BEGIN_MESSAGE_MAP(CMainFrame, CFrameWnd)
 	ON_WM_CREATE()
+	ON_WM_TIMER()
 END_MESSAGE_MAP()
 
 static UINT indicators[] =
 {
 	ID_SEPARATOR,           // 状态行指示器
-	ID_INDICATOR_CAPS,
-	ID_INDICATOR_NUM,
-	ID_INDICATOR_SCRL,
+	ID_INDICATOR_CAPS,  // 显示 Caps Lock 键状态
+	ID_INDICATOR_NUM,  // 显示 Num Lock 键状态
+	ID_INDICATOR_SCRL,   // 显示 Scroll Lock 键状态
+	ID_INDICATOR_CLOCK, // 用于显示时间
 };
 
 // CMainFrame 构造/析构
@@ -73,6 +75,8 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 		->GetSubMenu(0)
 		->SetMenuItemBitmaps(1,MF_BYPOSITION,&m_bitmap,&m_bitmap);
 
+	SetTimer(1,1000,NULL);  // 创建定时器
+
 	return 0;
 }
 
@@ -102,3 +106,16 @@ void CMainFrame::Dump(CDumpContext& dc) const
 
 
 // CMainFrame 消息处理程序
+
+void CMainFrame::OnTimer(UINT_PTR nIDEvent)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+
+	CTime t;
+	t=CTime::GetCurrentTime();  // 获取系统当前时间
+	CString s;
+	s=t.Format(_T("%H:%M:%S"));  // 格式化字符串
+	m_wndStatusBar.SetPaneText(3,s);  // 在事件窗格上显示时间
+
+	CFrameWnd::OnTimer(nIDEvent);
+}

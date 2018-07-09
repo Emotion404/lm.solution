@@ -4,6 +4,7 @@
 //
 #define IDD_ABOUTBOX                    100
 #define IDP_OLE_INIT_FAILED             100
+#define ID_INDICATOR_CLOCK              101
 #define IDR_MAINFRAME                   128
 #define IDR_MyNotepadTYPE               130
 #define IDB_BITMAP1                     310
@@ -20,7 +21,6 @@
 #define ID_32782                        32782
 #define ID_32783                        32783
 #define ID_32784                        32784
-#define ID_BUTTON32785                  32785
 
 // Next default values for new objects
 // 

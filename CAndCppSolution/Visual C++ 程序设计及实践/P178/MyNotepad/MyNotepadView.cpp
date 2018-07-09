@@ -23,11 +23,12 @@ BEGIN_MESSAGE_MAP(CMyNotepadView, CView)
 	ON_COMMAND(ID_FILE_PRINT_DIRECT, &CView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &CView::OnFilePrintPreview)
 
-	ON_WM_LBUTTONDOWN()
+//	ON_WM_LBUTTONDOWN()
 	ON_WM_LBUTTONUP()
 	ON_COMMAND(ID_OP_SHOW, &CMyNotepadView::OnOpShow)
 	ON_UPDATE_COMMAND_UI(ID_OP_SHOW, &CMyNotepadView::OnUpdateOpShow)
 	ON_WM_RBUTTONUP()
+		ON_WM_LBUTTONDOWN()
 END_MESSAGE_MAP()
 
 // CMyNotepadView 构造/析构
@@ -114,6 +115,8 @@ void CMyNotepadView::OnLButtonDown(UINT nFlags, CPoint point)
 	// 直线的起点
 	m_ptOrigin=point;
 
+	SetCaretPos(point);  // 设置插入符显示的位置
+
 	//
 	CView::OnLButtonDown(nFlags, point);
 }
@@ -189,3 +192,18 @@ void CMyNotepadView::OnRButtonUp(UINT nFlags, CPoint point)
 
 	CView::OnRButtonUp(nFlags, point);
 }
+
+void CMyNotepadView::OnInitialUpdate()
+{
+	CView::OnInitialUpdate();
+
+
+
+	// TODO: 在此添加专用代码和/或调用基类
+
+	CreateSolidCaret(5,20);  // 创建宽5个像素高20个像素的插入符
+	ShowCaret();  // 显示插入符
+
+}
+
+

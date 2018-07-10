@@ -14,6 +14,8 @@ protected: // 仅从序列化创建
 
 // 属性
 public:
+	CString m_strText;  // 窗体上输入的字符
+	CPoint m_ptCaretPos;  // 记录插入符的位置
 
 // 操作
 public:

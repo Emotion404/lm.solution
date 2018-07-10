@@ -29,6 +29,7 @@ BEGIN_MESSAGE_MAP(CMyNotepadView, CView)
 	ON_UPDATE_COMMAND_UI(ID_OP_SHOW, &CMyNotepadView::OnUpdateOpShow)
 	ON_WM_RBUTTONUP()
 		ON_WM_LBUTTONDOWN()
+		ON_WM_CHAR()
 END_MESSAGE_MAP()
 
 // CMyNotepadView 构造/析构
@@ -61,6 +62,12 @@ void CMyNotepadView::OnDraw(CDC* /*pDC*/)
 	ASSERT_VALID(pDoc);
 	if (!pDoc)
 		return;
+
+	// 根据字符长度,判断是否有字符需要显示
+	if(GetDocument()->m_strText.GetLength()>0)
+	{
+		showText();
+	}
 
 	// TODO: 在此处为本机数据添加绘制代码
 }
@@ -116,6 +123,11 @@ void CMyNotepadView::OnLButtonDown(UINT nFlags, CPoint point)
 	m_ptOrigin=point;
 
 	SetCaretPos(point);  // 设置插入符显示的位置
+
+	// 记录插入符的初始位置
+	GetDocument()->m_ptCaretPos.SetPoint(point.x,point.y);
+	GetDocument()->m_strText.Empty();  // 清空字符串
+
 
 	//
 	CView::OnLButtonDown(nFlags, point);
@@ -207,3 +219,31 @@ void CMyNotepadView::OnInitialUpdate()
 }
 
 
+
+void CMyNotepadView::OnChar(UINT nChar, UINT nRepCnt, UINT nFlags)
+{
+	// TODO: 在此添加消息处理程序代码和/或调用默认值
+
+	// 存储用户输入的字符
+	CString str((TCHAR)nChar);
+	GetDocument()->m_strText+=str;
+	showText();
+
+	CView::OnChar(nChar, nRepCnt, nFlags);
+}
+
+void CMyNotepadView::showText()
+{
+
+
+	CClientDC dc(this);  // 定义 DC
+	CSize sz=dc.GetTextExtent(GetDocument()->m_strText); // 获得字符串的宽度
+	CPoint pt;
+	pt.SetPoint(GetDocument()->m_ptCaretPos.x+sz.cx,GetDocument()->m_ptCaretPos.y);
+	SetCaretPos(pt);  // 显示插入符
+	// 显示字符
+	dc.TextOut(
+		GetDocument()->m_ptCaretPos.x,
+		GetDocument()->m_ptCaretPos.y,
+		GetDocument()->m_strText);
+}

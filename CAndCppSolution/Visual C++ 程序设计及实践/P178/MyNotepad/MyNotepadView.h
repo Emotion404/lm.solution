@@ -41,7 +41,7 @@ protected:
 
 private:
 	CPoint m_ptOrigin;  // 用来记录直线起点
-
+	void showText();
 
 // 生成的消息映射函数
 protected:
@@ -54,6 +54,7 @@ public:
 	afx_msg void OnRButtonUp(UINT nFlags, CPoint point);
 	virtual void OnInitialUpdate();
 	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+	afx_msg void OnChar(UINT nChar, UINT nRepCnt, UINT nFlags);
 };
 
 #ifndef _DEBUG  // MyNotepadView.cpp 中的调试版本

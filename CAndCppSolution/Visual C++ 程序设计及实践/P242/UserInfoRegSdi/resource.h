@@ -9,16 +9,17 @@
 #define IDD_REG                         310
 #define IDR_HTML_REGDLG                 311
 #define ID_ED_NAME                      1000
-#define ID_EDIT2                        1001
 #define ID_ED_PHONE                     1001
 #define ID_ED_EMAIL                     1002
+#define ID_APP_REG                      32771
+#define ID_32772                        32772
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        311
-#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_COMMAND_VALUE         32773
 #define _APS_NEXT_CONTROL_VALUE         1001
 #define _APS_NEXT_SYMED_VALUE           312
 #endif

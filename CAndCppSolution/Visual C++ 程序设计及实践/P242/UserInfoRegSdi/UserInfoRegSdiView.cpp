@@ -7,6 +7,7 @@
 
 #include "UserInfoRegSdiDoc.h"
 #include "UserInfoRegSdiView.h"
+#include "RegDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -22,6 +23,7 @@ BEGIN_MESSAGE_MAP(CUserInfoRegSdiView, CView)
 	ON_COMMAND(ID_FILE_PRINT, &CView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_DIRECT, &CView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, &CView::OnFilePrintPreview)
+	ON_COMMAND(ID_APP_REG, &CUserInfoRegSdiView::OnAppReg)
 END_MESSAGE_MAP()
 
 // CUserInfoRegSdiView 构造/析构
@@ -98,3 +100,13 @@ CUserInfoRegSdiDoc* CUserInfoRegSdiView::GetDocument() const // 非调试版本是内联
 
 
 // CUserInfoRegSdiView 消息处理程序
+
+
+void CUserInfoRegSdiView::OnAppReg()
+{
+	// TODO: 在此添加命令处理程序代码
+
+	CRegDlg dlg;   // 实例化对话框
+	dlg.DoModal();  // 创建和显示模态对话框 
+ 
+}

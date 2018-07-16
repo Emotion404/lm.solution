@@ -52,9 +52,12 @@ Spring and More ...
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/5892096.html" target="_blank">新建 ASP.NET Core MVC 项目 -- Hello World!</a><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/5895558.html" target="_blank">新建 ASP.NET Core Web API 项目 -- RESTFul 风格 Hello World!</a><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/5900147.html" target="_blank">000.Introduction to ASP.NET Core--【Asp.net core 介绍】</a><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/5912293.html" target="_blank">001.Getting Started -- 【入门指南】</a><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/7121118.html" target="_blank">【原创】 Docker 中 运行 ASP.NET Core 站点</a><br/>
     
 　　<b>.NET:</b><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/5904129.html" target="_blank">【原创-算法-实现】异步HTTP请求操作</a><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/5925181.html" target="_blank">Singleton(单例模式)的一种实现 -- 基于【惰性】适用于【大对象】的一种生产实践</a><br/>
     
 　　<b>其它:</b><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/3543624.html" target="_blank">PowerDesigner16 基本使用教程</a><br/>

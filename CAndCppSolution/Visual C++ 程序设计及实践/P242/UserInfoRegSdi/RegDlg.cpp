@@ -54,3 +54,30 @@ HRESULT CRegDlg::OnButtonCancel(IHTMLElement* /*pElement*/)
 	OnCancel();
 	return S_OK;
 }
+
+void CRegDlg::OnOK()
+{
+	// TODO: 在此添加专用代码和/或调用基类
+
+	CDHtmlDialog::OnOK();
+
+	DestroyWindow();  // 销毁对话框
+}
+
+void CRegDlg::OnCancel()
+{
+	// TODO: 在此添加专用代码和/或调用基类
+
+	CDHtmlDialog::OnCancel();
+
+	DestroyWindow();  // 销毁对话框 
+}
+
+void CRegDlg::PostNcDestroy()
+{
+	// TODO: 在此添加专用代码和/或调用基类
+
+	CDHtmlDialog::PostNcDestroy();
+
+	delete this;  // 删除对话框所占的动态内存 
+}

@@ -106,7 +106,10 @@ void CUserInfoRegSdiView::OnAppReg()
 {
 	// TODO: 在此添加命令处理程序代码
 
-	CRegDlg dlg;   // 实例化对话框
-	dlg.DoModal();  // 创建和显示模态对话框 
+	//CRegDlg dlg;   // 实例化对话框
+	//dlg.DoModal();  // 创建和显示模态对话框 
  
+	CRegDlg* pDlg=new CRegDlg();  // 动态构造对话框对象
+	pDlg->Create(IDD_REG,this);   // 创建非模态对话框
+	pDlg->ShowWindow(SW_SHOW);  // 显示非模态对话框 
 }

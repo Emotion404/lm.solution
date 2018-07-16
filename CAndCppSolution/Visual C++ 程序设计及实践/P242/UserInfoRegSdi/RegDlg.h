@@ -26,4 +26,7 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 	DECLARE_DHTML_EVENT_MAP()
+	virtual void OnOK();
+	virtual void OnCancel();
+	virtual void PostNcDestroy();
 };

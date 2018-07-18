@@ -26,13 +26,22 @@ CRegDlg::~CRegDlg()
 void CRegDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDHtmlDialog::DoDataExchange(pDX);
+
+	//
 	DDX_Text(pDX, IDC_ED_USERNAME, m_edUserName);
 	DDX_Text(pDX, IDC_ED_PHONE, m_edPhone);
 	DDX_Text(pDX, IDC_ED_EMAIL, m_edEmail);
+
+	//
+	DDV_MaxChars(pDX, m_edPhone, 13);
 }
 
 BOOL CRegDlg::OnInitDialog()
 {
+	m_edUserName=_T("姚东风");
+	m_edEmail=_T("yaodongfeng@163.com");
+	m_edPhone=_T("13088888888");
+
 	CDHtmlDialog::OnInitDialog();
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
@@ -67,7 +76,7 @@ void CRegDlg::OnOK()
 
 	CDHtmlDialog::OnOK();
 
-	DestroyWindow();  // 销毁对话框
+	//DestroyWindow();  // 销毁对话框
 }
 
 void CRegDlg::OnCancel()
@@ -76,7 +85,7 @@ void CRegDlg::OnCancel()
 
 	CDHtmlDialog::OnCancel();
 
-	DestroyWindow();  // 销毁对话框 
+	//DestroyWindow();  // 销毁对话框 
 }
 
 void CRegDlg::PostNcDestroy()
@@ -85,5 +94,5 @@ void CRegDlg::PostNcDestroy()
 
 	CDHtmlDialog::PostNcDestroy();
 
-	delete this;  // 删除对话框所占的动态内存 
+	//delete this;  // 删除对话框所占的动态内存 
 }

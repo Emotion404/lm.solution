@@ -109,7 +109,15 @@ void CUserInfoRegSdiView::OnAppReg()
 	//CRegDlg dlg;   // 实例化对话框
 	//dlg.DoModal();  // 创建和显示模态对话框 
  
-	CRegDlg* pDlg=new CRegDlg();  // 动态构造对话框对象
-	pDlg->Create(IDD_REG,this);   // 创建非模态对话框
-	pDlg->ShowWindow(SW_SHOW);  // 显示非模态对话框 
+	//CRegDlg* pDlg=new CRegDlg();  // 动态构造对话框对象
+	//pDlg->Create(IDD_REG,this);   // 创建非模态对话框
+	//pDlg->ShowWindow(SW_SHOW);  // 显示非模态对话框 
+
+	CRegDlg dlg;
+	if(dlg.DoModal()==IDOK)
+	{
+		CString str;
+		str.Format(_T("用户姓名:%s,电子邮件:%s,联系电话:%s"),dlg.m_edUserName,dlg.m_edEmail,dlg.m_edPhone);
+		AfxMessageBox(str);
+	}
 }

@@ -47,6 +47,7 @@ BOOL CRegDlg::OnInitDialog()
 }
 
 BEGIN_MESSAGE_MAP(CRegDlg, CDHtmlDialog)
+	ON_BN_CLICKED(IDC_BTN_CHECK, &CRegDlg::OnBnClickedBtnCheck)
 END_MESSAGE_MAP()
 
 BEGIN_DHTML_EVENT_MAP(CRegDlg)
@@ -95,4 +96,12 @@ void CRegDlg::PostNcDestroy()
 	CDHtmlDialog::PostNcDestroy();
 
 	//delete this;  // 删除对话框所占的动态内存 
+}
+
+void CRegDlg::OnBnClickedBtnCheck()
+{
+	// TODO: 在此添加控件通知处理程序代码
+
+	AfxMessageBox(_T("用户名不重复,可以放心注册"));
+
 }

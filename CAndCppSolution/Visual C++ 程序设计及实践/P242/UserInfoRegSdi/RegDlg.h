@@ -33,4 +33,5 @@ public:
 	CString m_edUserName;
 	CString m_edPhone;
 	CString m_edEmail;
+	afx_msg void OnBnClickedBtnCheck();
 };

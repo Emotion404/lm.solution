@@ -29,4 +29,8 @@ protected:
 	virtual void OnOK();
 	virtual void OnCancel();
 	virtual void PostNcDestroy();
+public:
+	CString m_edUserName;
+	CString m_edPhone;
+	CString m_edEmail;
 };

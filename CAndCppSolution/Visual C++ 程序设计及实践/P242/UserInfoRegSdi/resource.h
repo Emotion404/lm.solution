@@ -8,9 +8,10 @@
 #define IDR_UserInfoRegSdiTYPE          130
 #define IDD_REG                         310
 #define IDR_HTML_REGDLG                 311
-#define ID_ED_NAME                      1000
+#define IDC_ED_USERNAME                 1000
 #define ID_ED_PHONE                     1001
-#define ID_ED_EMAIL                     1002
+#define IDC_ED_PHONE                    1001
+#define IDC_ED_EMAIL                    1002
 #define ID_APP_REG                      32771
 #define ID_32772                        32772
 

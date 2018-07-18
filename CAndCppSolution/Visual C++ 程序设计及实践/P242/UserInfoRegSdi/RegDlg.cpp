@@ -12,6 +12,9 @@ IMPLEMENT_DYNCREATE(CRegDlg, CDHtmlDialog)
 
 CRegDlg::CRegDlg(CWnd* pParent /*=NULL*/)
 	: CDHtmlDialog(CRegDlg::IDD, CRegDlg::IDH, pParent)
+	, m_edUserName(_T(""))
+	, m_edPhone(_T(""))
+	, m_edEmail(_T(""))
 {
 
 }
@@ -23,6 +26,9 @@ CRegDlg::~CRegDlg()
 void CRegDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDHtmlDialog::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_ED_USERNAME, m_edUserName);
+	DDX_Text(pDX, IDC_ED_PHONE, m_edPhone);
+	DDX_Text(pDX, IDC_ED_EMAIL, m_edEmail);
 }
 
 BOOL CRegDlg::OnInitDialog()

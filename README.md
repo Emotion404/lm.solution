@@ -45,6 +45,8 @@ Spring and More ...
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/9091076.html" target="_blank">基于 Maven 的多模块 Java ( Spring ) 项目构建</a><br/>
 　　<b>Git:</b><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/9158098.html" target="_blank">Git - git clone - 将远端仓库克隆拷贝到本地</a><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/9348386.html" target="_blank">Git - git tag - 查看当前分支 tag 版本&说明</a><br/>
+    
 　　<b>C/C++:</b><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/9175230.html" target="_blank">C/C++ -- 插入排序算法</a><br/>
 　　<b>.NET Core:</b><br/>

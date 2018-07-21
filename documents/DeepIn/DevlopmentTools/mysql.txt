@@ -6,8 +6,10 @@ https://blog.csdn.net/liuestcjun/article/details/57527117
 
 
 MySQL DB:
-jdbc.username=root
-jdbc.password=liumeng
+jdbc.username=root  --  本机废弃
+jdbc.password=liumeng  --  本机废弃
+username root password 1010
+
 
 
 操作：

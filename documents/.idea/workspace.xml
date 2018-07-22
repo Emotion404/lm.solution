@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bf77-06c4-4949-ad39-d04c2626039d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../mybatissolution/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatissolution/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatissolution/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatissolution/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatissolution/mybatissolution.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatissolution/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/mybatissolution/db-create-mybatis.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/mybatissolution/mysql-table-country.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepIn/DevlopmentTools/mysql.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DeepIn/DevlopmentTools/mysql.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/boot/mysql-table-employee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/bootsolution/mysql-table-employee.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/boot/mysql-table-person.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/bootsolution/mysql-table-person.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/boot/mysql-table-sys_role.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/bootsolution/mysql-table-sys_role.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/boot/mysql-table-sys_user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/bootsolution/mysql-table-sys_user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/boot/mysql-table-sys_user_roles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/bootsolution/mysql-table-sys_user_roles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Excel/spring-test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Excel/spring-test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Json/jsontest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Json/jsontest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Json/jsontest2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Json/jsontest2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.jar.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/Libs/.m2/repository/org/apache/tomcat/maven/tomcat8-maven-plugin/3.0-r1756463/tomcat8-maven-plugin-3.0-r1756463.pom.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/mysqlTable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/mysqlTable.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/solution/console.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/solution/console.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/solution/solution/webservice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/springsolution/solution/webservice.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,51 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="系统管理命令.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepIn/Command/系统管理命令.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qt-creator.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/qt-creator.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="git.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/git.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/redis.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" column="78" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rabbitmq.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/rabbitmq.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="快捷键.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/快捷键.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,34 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DB.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DB.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="projects.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/projects.txt">
+      <file leaf-file-name="db-create-mybatis.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Projects/mybatissolution/db-create-mybatis.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysqlTable.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Projects/solution/mysqlTable.txt">
+      <file leaf-file-name="mysql-table-country.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Projects/mybatissolution/mysql-table-country.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mysql.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -147,6 +101,8 @@
         <option value="$PROJECT_DIR$/DeepIn/Command/系统管理命令.txt" />
         <option value="$PROJECT_DIR$/DeepIn/DevlopmentTools/qt-creator.txt" />
         <option value="$PROJECT_DIR$/DeepIn/DevlopmentTools/mysql.txt" />
+        <option value="$PROJECT_DIR$/Projects/mybatissolution/db-create-mybatis.txt" />
+        <option value="$PROJECT_DIR$/Projects/mybatissolution/mysql-table-country.txt" />
       </list>
     </option>
   </component>
@@ -197,7 +153,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -209,35 +164,24 @@
             <path>
               <item name="documents" type="b2602c69:ProjectViewProjectNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepIn" type="462c0819:PsiDirectoryNode" />
-              <item name="DevlopmentTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="documents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="documents" type="b2602c69:ProjectViewProjectNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatissolution" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="documents" type="b2602c69:ProjectViewProjectNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="RefBooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,11 +334,12 @@
       <workItem from="1532140781722" duration="366000" />
       <workItem from="1532141378060" duration="1066000" />
       <workItem from="1532179592371" duration="1854000" />
+      <workItem from="1532267505267" duration="2086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84476000" />
+    <option name="totallyTimeSpent" value="86562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
@@ -413,7 +358,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3047696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26596606" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -437,14 +382,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/快捷键.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-person.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/bootsolution/mysql-table-person.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
@@ -472,14 +410,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/solution/mysqlTable.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/springsolution/mysqlTable.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-employee.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/bootsolution/mysql-table-employee.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
@@ -524,14 +462,14 @@
     <entry file="file://$PROJECT_DIR$/Ubuntu/ubuntu-vm.txt" />
     <entry file="file://$PROJECT_DIR$/Ubuntu/Ubuntu_1080p.txt" />
     <entry file="file://$PROJECT_DIR$/Linux/Ubuntu/Ubuntu-sogou input.txt" />
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-employee.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/bootsolution/mysql-table-employee.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-person.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/bootsolution/mysql-table-person.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
@@ -585,15 +523,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/ReadMe.txt" />
     <entry file="file://$PROJECT_DIR$/Spring/SpringCloud/SpringCloud_模块与功能概要.txt" />
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_user.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/bootsolution/mysql-table-sys_user.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_role.txt" />
-    <entry file="file://$PROJECT_DIR$/Projects/boot/mysql-table-sys_user_roles.txt" />
+    <entry file="file://$PROJECT_DIR$/Projects/bootsolution/mysql-table-sys_role.txt" />
+    <entry file="file://$PROJECT_DIR$/Projects/bootsolution/mysql-table-sys_user_roles.txt" />
     <entry file="file://$PROJECT_DIR$/Maven/本地仓.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -652,8 +590,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/rabbitmq.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
+        <state relative-caret-position="95">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/projects.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/springsolution/mysqlTable.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mysql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -664,27 +623,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DB.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/projects.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/mybatissolution/db-create-mybatis.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/solution/mysqlTable.txt">
+    <entry file="file://$PROJECT_DIR$/Projects/mybatissolution/mysql-table-country.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepIn/DevlopmentTools/mysql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,20 @@
+
+use mybatis;
+
+-- 注意 表名,字段名 全是反引号
+create table `country` (
+	`id` int not null auto_increment,
+    `countryname` varchar(255) null,
+    `countrycode` varchar(255) null,
+    primary key(`id`)
+);
+
+insert country(`countryname`,`countrycode`)
+values('中国','CN'),
+		('美国','US'),
+        ('俄罗斯','RU'),
+        ('英国','GB'),
+        ('法国','FR');
+
+select * from country;
+

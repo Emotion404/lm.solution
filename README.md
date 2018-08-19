@@ -56,6 +56,8 @@ Spring and More ...
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/5900147.html" target="_blank">000.Introduction to ASP.NET Core--【Asp.net core 介绍】</a><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/5912293.html" target="_blank">001.Getting Started -- 【入门指南】</a><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/7121118.html" target="_blank">【原创】 Docker 中 运行 ASP.NET Core 站点</a><br/>
+　　	<a href="https://www.cnblogs.com/Meng-NET/p/7146465.html" target="_blank">002.Create a web API with ASP.NET Core MVC and Visual Studio for Windows -- 【在windows上用vs与asp.net core mvc 创建一个 web api 程序】</a><br/>
+    <a href="https://www.cnblogs.com/Meng-NET/p/7151271.html" target="_blank">003.ASP.NET Core tutorials--【Asp.net core 教程】</a><br/>
     
 　　<b>.NET:</b><br/>
 　　	<a href="https://www.cnblogs.com/Meng-NET/p/5904129.html" target="_blank">【原创-算法-实现】异步HTTP请求操作</a><br/>

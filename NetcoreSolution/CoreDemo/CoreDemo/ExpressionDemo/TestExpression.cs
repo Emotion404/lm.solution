@@ -25,5 +25,10 @@ namespace CoreDemo.ExpressionDemo
         {
             new Loop().TestFor();
         }
+
+        public void TestMemberAccess()
+        {
+            new MemberExpre().TestMemberAccess();
+        }
     }
 }

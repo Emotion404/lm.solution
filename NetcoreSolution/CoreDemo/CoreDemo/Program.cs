@@ -15,7 +15,8 @@ namespace CoreDemo
             //test.TestHello();
             //test.TestListMakeIndex();
             //test.TestException();
-            test.TestLoop();
+            //test.TestLoop();
+            test.TestMemberAccess();
 
 
             /*

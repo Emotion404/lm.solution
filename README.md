@@ -5,8 +5,16 @@ Spring and More ...
 
 <b>一、说明</b>
 
-　　1.本项目未按java项目传统命名方式命名项目名，包名，如：org.xxxx.xxxx  等等，原因是个人的开源项目不属于任何组织。
-
+　　1.lm.solution -- 各种开发经验汇总,以及各知识点例子汇总,
+      包括 .Net Core / Docker / Linux / Java / Spring / Redis / RabbitMQ / MySQL ... 等等 。
+　　2.EasyDAL.Exchange -- 专注 MySQL Client 端的一个 .Net Standard 2.0 (.Net Core) 轻型 ORM 框架 (演进中~~) :
+      a.借鉴 Entity Framework Core / Dapper / Ctrip DAL / MyBatis 等框架优点,不依赖任何第三方 DLL .
+      b.具有 EF Core (.Net Core) 的代码输入特点:友好,人性化,对象化输入.
+      c.具有 Dapper (.Net Standard) 的轻量 API 与 极致性能.
+      d.具有 Ctrip DAL (.Net Framework) 的工作流程完备性,与分布式纵横扩展性.
+      e.具有 MyBatis (Java 8) 的设计模式 与 应用多重缓存 配置.
+      f.充分考虑 个人/小型/中型/大型 开发的需求特点.
+      g.Nuget 地址: EasyDAL.Exchange
 　　2.<b>如果对你有帮助，或者你喜欢，别忘了给个星(Star)</b>，同时欢迎 Fork 我的项目并提出自己的代码想法~
 
 <b>二、项目努力目标</b>
@@ -15,7 +23,7 @@ Spring and More ...
 
 　　2.完备的 Method 封装，即拷即用！
 
-　　3.完备的 Spring MVC/Boot/Cloud 框架，开箱即用！
+　　3.完备的 ORM 框架，开箱即用！
 
 　　4.让老猿省时，菜鸟不费力！
 

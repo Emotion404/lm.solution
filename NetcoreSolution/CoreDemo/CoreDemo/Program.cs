@@ -2,6 +2,8 @@
 using CoreDemo.EmitDemo;
 using CoreDemo.ExpressionDemo;
 using System;
+using CoreDemo.AdoNet;
+using CoreDemo.Linq;
 
 namespace CoreDemo
 {
@@ -14,8 +16,25 @@ namespace CoreDemo
              */
             {
                 var test = new TestEmit();
-                test.HelloWorld();
+                //test.HelloWorld();
             }
+
+            /*
+             * Linq
+             */
+            {
+                var test = new TestLinq();
+                //test.P34TestRelactionMethod();
+            }
+
+            /*
+             * Ado.Net
+             */
+            {
+                var test = new TestAdoNet();
+                //test.TestPoll();   //  无法运行
+            }
+
 
             /*
              * ExpressionDemo

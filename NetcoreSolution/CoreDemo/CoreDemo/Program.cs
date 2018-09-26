@@ -4,6 +4,7 @@ using CoreDemo.ExpressionDemo;
 using System;
 using CoreDemo.AdoNet;
 using CoreDemo.Linq;
+using CoreDemo.Weixin;
 
 namespace CoreDemo
 {
@@ -57,6 +58,10 @@ namespace CoreDemo
                 //var columnName = test.GetPropertyAttribute();
                 //var tuple = test.TestHelper();
             }
+
+
+
+            new AccessTokenTest().AccessTokenCon();
 
         }
     }

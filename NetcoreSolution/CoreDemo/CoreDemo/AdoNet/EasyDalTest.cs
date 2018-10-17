@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Text;
-using CoreDemo.AttributesDemo;
-using EasyDAL.Exchange;
+﻿using System.Data;
 
 namespace CoreDemo.AdoNet
 {
@@ -14,6 +9,7 @@ namespace CoreDemo.AdoNet
 
         public async void Test01()
         {
+           
 
             //await Conn
             //    .Selecter<DbEntity>()

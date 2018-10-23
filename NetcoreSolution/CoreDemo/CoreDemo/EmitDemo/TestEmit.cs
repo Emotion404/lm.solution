@@ -10,5 +10,10 @@ namespace CoreDemo.EmitDemo
         {
             new BuildAssembly().HelloWorld();
         }
+
+        public void ReflactionWork10000()
+        {
+            new Reflection().work1_10000();
+        }
     }
 }

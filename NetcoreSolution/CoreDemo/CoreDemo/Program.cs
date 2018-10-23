@@ -18,6 +18,7 @@ namespace CoreDemo
             {
                 var test = new TestEmit();
                 //test.HelloWorld();
+                test.ReflactionWork10000();
             }
 
             /*
@@ -41,7 +42,7 @@ namespace CoreDemo
              * ExpressionDemo
              */
             {
-                //var test = new TestExpression();
+                var test = new TestExpression();
                 //test.TestHello();
                 //test.TestListMakeIndex();
                 //test.TestException();
@@ -53,15 +54,17 @@ namespace CoreDemo
              * AttributesDemo
              */
             {
-                //var test = new TestAttribute();
+                var test = new TestAttribute();
                 //var className = test.GetClassAttribute();
                 //var columnName = test.GetPropertyAttribute();
                 //var tuple = test.TestHelper();
             }
 
 
-
-            new AccessTokenTest().AccessTokenCon();
+            /*
+             * WeiXin
+             */
+            // new AccessTokenTest().AccessTokenCon();
 
         }
     }

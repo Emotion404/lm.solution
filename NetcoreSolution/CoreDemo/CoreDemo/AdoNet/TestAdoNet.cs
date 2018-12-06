@@ -10,5 +10,10 @@ namespace CoreDemo.AdoNet
         {
             (new PollAsync().PollTest()).GetAwaiter().GetResult();
         }
+
+        public void testFirstOrDefault()
+        {
+            (new EasyDalTest().Test01()).GetAwaiter().GetResult();
+        }
     }
 }

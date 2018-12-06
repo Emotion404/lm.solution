@@ -18,7 +18,7 @@ namespace CoreDemo
             {
                 var test = new TestEmit();
                 //test.HelloWorld();
-                test.ReflactionWork10000();
+                //test.ReflactionWork10000();
             }
 
             /*
@@ -35,6 +35,7 @@ namespace CoreDemo
             {
                 var test = new TestAdoNet();
                 //test.TestPoll();   //  无法运行
+                test.testFirstOrDefault();
             }
 
 

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:local="clr-namespace:NetCore;assembly=NetCore"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NetCore.CallHistoryPage"
+             Title="Call History">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android, UWP" Value="20"></On>
+        </OnPlatform>
+    </ContentPage.Padding>
+    <StackLayout>
+        <ListView ItemsSource="{x:Static local:App.PhoneNumbers}"></ListView>
+    </StackLayout>
+</ContentPage>

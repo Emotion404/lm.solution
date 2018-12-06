@@ -4,12 +4,18 @@
              xmlns:local="clr-namespace:NetCore"
              x:Class="NetCore.MainPage">
 
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android, UWP" Value="20"/>
+        </OnPlatform>
+    </ContentPage.Padding>
+
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-        <Button Text="Click Me" Clicked="Button_Clicked"></Button>
+        <Label Text="Enter a Phoneword:"></Label>
+        <Entry x:Name="phoneNumberText" Text="1-855-XAMARIN"></Entry>
+        <Button Text="Translate" Clicked="OnTranslate"></Button>
+        <Button x:Name="callButton" Text="Call" IsEnabled="false" Clicked="OnCall"></Button>
+        <Button x:Name="callHistoryButton" Text="Call History" IsEnabled="False" Clicked="OnCallHistory"></Button>
     </StackLayout>
 
 </ContentPage>

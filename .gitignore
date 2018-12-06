@@ -1,162 +1,16 @@
-
-/springsolution/solution/common/target/
-/springsolution/solution/console/target/
-/springsolution/solution/mapper/target/
-/springsolution/solution/pojo/target/
-/springsolution/solution/service/target/
-/springsolution/solution/web/target/
-/springsolution/solution/webapi/target/
-/bootsolution/target/
-/springsolution/solution/webservice/target/
-/CAndCppSolution/Visual C++ 程序设计及实践/P369/P369/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P363/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P363/P363/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P370/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P373/P373/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P373/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P371/P371/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P369/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P371/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P370/P370/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P376/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P376/P376/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P382/P382/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P382/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P387/P387/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P387/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P398/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P398/P398/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P410/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P410/P398/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P414/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P414/P398/Debug
-*.ncb
-/CAndCppSolution/C++ 入门经典 第6版/P003/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P003/P003/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P003/x64/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P003/P003/x64/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P012/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P012/P012/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P017/P017/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P017/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P021/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P021/P021/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P022/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P022/P022/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P024/P024/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P024/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P025/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P025/P025/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P029/P029/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P029/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P032/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P032/P032/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P036/P036/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P036/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P037/P037/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P037/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P043/P043/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P043/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P045/P045/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P045/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P046/P046/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P046/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P048/P048/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P048/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P049/P049/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P049/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P120/P120/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P120/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P126/P126/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P126/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P052/P052/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P052/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P134/P134/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P134/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P140/P140/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P140/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P056/P056/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P056/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P057/P057/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P057/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P058/P058/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P058/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P059/P059/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P059/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P168/P168/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P168/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P178/MyNotepad/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P178/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P060/P060/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P060/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P061/P061/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P061/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P063/P063/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P063/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P067/P067/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P067/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P070/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P070/P070/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P072/P072/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P072/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P073/P073/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P073/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P074/P074/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P074/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P081/P081/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P081/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P084/P084/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P084/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P090/.vs
-/CAndCppSolution/C++ 入门经典 第6版/P090/P090/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P090/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P091/.vs
-/CAndCppSolution/C++ 入门经典 第6版/P091/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P091/P091/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P098/P098/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P098/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P098/.vs
-/CAndCppSolution/C++ 入门经典 第6版/P102/P102/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P102/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P102/.vs
-/CAndCppSolution/C++ 入门经典 第6版/P103/P103/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P103/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P103/.vs
-/CAndCppSolution/C++ 入门经典 第6版/P106/P106/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P106/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P106/.vs
-/CAndCppSolution/C++ 入门经典 第6版/P108/.vs
-/CAndCppSolution/C++ 入门经典 第6版/P108/P108/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P108/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P111/.vs
-/CAndCppSolution/C++ 入门经典 第6版/P111/Debug
-/CAndCppSolution/C++ 入门经典 第6版/P111/P111/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P242/UserInfoRegSdi/Debug
-/CAndCppSolution/Visual C++ 程序设计及实践/P242/Debug
+﻿/NetcoreSolution/CoreDemo/.vs/
 /NetcoreSolution/CoreDemo/CoreDemo/bin/
 /NetcoreSolution/CoreDemo/CoreDemo/obj/
-/NetcoreSolution/CoreDemo/.vs/
-/WebApp/.vs/
-/WebApp/WebApp/obj/
-/WebApp/WebApp/bin/
+/NetcoreSolution/CoreDemo/CoreDemo/obj/
+/NetcoreSolution/CoreDemo/WebAppDemo/bin/
+/NetcoreSolution/CoreDemo/WebAppDemo/obj/
 /NetcoreSolution/WebApp/.vs/
 /NetcoreSolution/WebApp/WebApp/bin/
 /NetcoreSolution/WebApp/WebApp/obj/
-/NetcoreSolution/CoreDemo/WebAppDemo/bin/Debug/netcoreapp2.1
-/NetcoreSolution/CoreDemo/WebAppDemo/obj
-/XamarinDemo/AppDemo/App/App.UWP/obj/
-/XamarinDemo/AppDemo/App/App.iOS/obj/
-/XamarinDemo/AppDemo/.vs/
-/XamarinDemo/AppDemo/App/App/obj/
-/XamarinDemo/AppDemo/.vs/
-/XamarinDemo/AppDemo/App/App/bin/
-/XamarinDemo/AppDemo/App/App.Android/bin/
-/XamarinDemo/AppDemo/App/App.Android/obj/
-/XamarinDemo/AppDemo/App/App.iOS/bin/
-/XamarinDemo/NetCore/.vs/NetCore/v15
+/XamarinDemo/NetCore/.vs/
 /XamarinDemo/NetCore/NetCore/NetCore/bin/
 /XamarinDemo/NetCore/NetCore/NetCore/obj/
 /XamarinDemo/NetCore/NetCore/NetCore.Android/bin/
 /XamarinDemo/NetCore/NetCore/NetCore.Android/obj/
-/XamarinDemo/NetCore/NetCore/NetCore.iOS/obj/
 /XamarinDemo/NetCore/NetCore/NetCore.iOS/bin/
+/XamarinDemo/NetCore/NetCore/NetCore.iOS/obj/

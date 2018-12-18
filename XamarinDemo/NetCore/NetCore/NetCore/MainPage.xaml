@@ -6,16 +6,19 @@
 
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
-            <On Platform="Android, UWP" Value="20"/>
+            <On Platform="Android, UWP" Value="10"/>
         </OnPlatform>
     </ContentPage.Padding>
 
     <StackLayout>
-        <Label Text="Enter a Phoneword:"></Label>
+        <!--<Label Text="Enter a Phoneword:"></Label>
         <Entry x:Name="phoneNumberText" Text="1-855-XAMARIN"></Entry>
         <Button Text="Translate" Clicked="OnTranslate"></Button>
         <Button x:Name="callButton" Text="Call" IsEnabled="false" Clicked="OnCall"></Button>
         <Button x:Name="callHistoryButton" Text="Call History" IsEnabled="False" Clicked="OnCallHistory"></Button>
+        <Button x:Name="helloBtn" Text="Navigate!" HorizontalOptions="Center" VerticalOptions="Center" Clicked="OnHelloBtn"></Button>
+        <Button Text="多控件" Clicked="OnMultiBtn"></Button>-->
+        <Button Text="Grid" Clicked="OnGrid"></Button>
     </StackLayout>
 
 </ContentPage>

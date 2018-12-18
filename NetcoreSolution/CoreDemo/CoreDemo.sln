@@ -5,7 +5,11 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreDemo", "CoreDemo\CoreDemo.csproj", "{8BEE1D11-375D-4154-9B71-D5622510DAF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppDemo", "WebAppDemo\WebAppDemo.csproj", "{649EF156-5F3A-46D3-8ADB-EB3A7EE0173F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppDemo", "WebAppDemo\WebAppDemo.csproj", "{649EF156-5F3A-46D3-8ADB-EB3A7EE0173F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsqlCode", "TsqlCode\TsqlCode.csproj", "{FAF84609-4D02-4F22-A5BA-14D85D0F1DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsqlCodeWeb", "TsqlCodeWeb\TsqlCodeWeb.csproj", "{AA75A511-D7CE-458F-BE73-915AE2D59C97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{649EF156-5F3A-46D3-8ADB-EB3A7EE0173F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{649EF156-5F3A-46D3-8ADB-EB3A7EE0173F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{649EF156-5F3A-46D3-8ADB-EB3A7EE0173F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF84609-4D02-4F22-A5BA-14D85D0F1DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF84609-4D02-4F22-A5BA-14D85D0F1DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF84609-4D02-4F22-A5BA-14D85D0F1DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF84609-4D02-4F22-A5BA-14D85D0F1DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA75A511-D7CE-458F-BE73-915AE2D59C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA75A511-D7CE-458F-BE73-915AE2D59C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA75A511-D7CE-458F-BE73-915AE2D59C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA75A511-D7CE-458F-BE73-915AE2D59C97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,7 +17,7 @@ namespace CoreDemo.AdoNet
             var Conn = new MySqlConnection("Server=localhost; Database=MyDAL_TestDB; Uid=SkyUser; Pwd=Sky@4321;SslMode=none;").OpenDebug();
 
             var agent = await Conn
-                .Selecter<Agent>()
+                .Queryer<Agent>()
                 .Where(it => it.Id == Guid.Parse("000c1569-a6f7-4140-89a7-0165443b5a4b"))
                 .FirstOrDefaultAsync();
 

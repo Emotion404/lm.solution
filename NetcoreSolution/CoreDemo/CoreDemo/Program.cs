@@ -5,6 +5,7 @@ using System;
 using CoreDemo.AdoNet;
 using CoreDemo.Linq;
 using CoreDemo.Weixin;
+using CoreDemo.Struct;
 
 namespace CoreDemo
 {
@@ -35,7 +36,7 @@ namespace CoreDemo
             {
                 var test = new TestAdoNet();
                 //test.TestPoll();   //  无法运行
-                test.testFirstOrDefault();
+                //test.testFirstOrDefault();
             }
 
 
@@ -67,6 +68,17 @@ namespace CoreDemo
              */
             // new AccessTokenTest().AccessTokenCon();
 
+
+            /*
+             * Struct  
+             */
+            {
+                var test = new RefField();
+                test.Test();
+
+            }
+
+            Console.ReadLine();
         }
     }
 }
